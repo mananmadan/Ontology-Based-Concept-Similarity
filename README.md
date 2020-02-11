@@ -11,7 +11,7 @@ The ontology graph (knowledge graph ) can be made using
 
 1. hyponyms
 2. synonyms
-3  named individuals
+3.  named individuals
 
 and then we have to define different matching strategies which can be used:
 
