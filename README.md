@@ -13,7 +13,20 @@ The ontology graph (knowledge graph ) can be made using
 2. synonyms
 3.  named individuals
 
+Can be done using :
+1> nltk
+
 and then we have to define different matching strategies which can be used:
 
 1. direct matching strategy
 2. other customised matching strategy
+
+
+Search a way for find all of the three things that are required for creating ontology(current task)
+
+tools that can be used :
+
+1> nltk and wordnet
+2> wikidata
+ 
+
