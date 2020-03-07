@@ -1,32 +1,17 @@
-The main aim of this project is to form a knowledge graph from a given set of
-materials to identify concept similarity between different words from that 
-set of materials
+The main aim of this project is to form a knowledge graph from a given text corpus.
 
-According to the done research it can be done in the following way
+We want to achieve this task for the paper we are writing.
 
-Our first step should be to make an ontology from the given materials --> and then decide upon it's matching strategies
+knowledge graph can be build in two ways
 
-The ontology graph (knowledge graph ) can be made using 
-3 things of each word:
+1. We can use already available tools like wikidata which consists of huge data for the knowledge graphs
 
-1. hyponyms
-2. synonyms
-3.  named individuals
+2. We can build our own tools
 
-Can be done using :
-1> nltk
+The second method might take time but it is more helpful as it will be able to form knowledge graph using the data we provide.
+whereas with wikidata we will have to consider single instances of words in our text and hence then form knowledge graphs which is not helpful.
 
-and then we have to define different matching strategies which can be used:
-
-1. direct matching strategy
-2. other customised matching strategy
+Process of creating the tool:
 
 
-Search a way for find all of the three things that are required for creating ontology(current task)
-
-tools that can be used :
-
-1> nltk and wordnet
-2> wikidata
- 
-
+1.  
