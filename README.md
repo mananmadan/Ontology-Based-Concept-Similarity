@@ -28,3 +28,6 @@ Various tools we will be using in nlp :
   1. Sentence Segementation---->The first step in building a knowledge graph is to split the text document or article into sentences(we will identify subject and object in each sentence)
   2. entities extractions --> the nouns and proper nouns wolud be our entities , this task can be accomplished using POS tagging but it the entity spans across multiple words --> then we have to
   go through the dependency tree of the sentence.
+
+3. Once the knowledge graph is made then we have to find concept similarity using the the dijsktra algorithms(as used earlier)
+   1. it may be noted that genrally the concept similarity is found out by converting the text into a vector and then finding out the distance between these vectors by different methods.
