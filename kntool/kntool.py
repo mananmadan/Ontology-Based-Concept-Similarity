@@ -12,6 +12,28 @@ from spacy.tokens import Span
 import networkx as nx
 import matplotlib.pyplot as plt
 from tqdm import tqdm
+def get_relation(sent):
+
+  doc = nlp(sent)
+
+  # Matcher class object
+  matcher = Matcher(nlp.vocab)
+
+  #define the pattern
+  pattern = [{'DEP':'ROOT'},
+            {'DEP':'prep','OP':"?"},
+            {'DEP':'agent','OP':"?"},
+            {'POS':'ADJ','OP':"?"}]
+
+  matcher.add("matching_1", None, pattern)
+
+  matches = matcher(doc)
+  k = len(matches) - 1
+
+  span = doc[matches[k][1]:matches[k][2]]
+
+  return(span.text)
+
 def get_entities(sent):
   ## chunk 1
   ent1 = ""
@@ -71,10 +93,11 @@ for i in sentences:
  print(count)
  count= count+1
  print(i)
-string = "Manan studies in college"
-unicode_string = unicode(string,"utf-8")
-doc = nlp(unicode_string)
-print("data")
-print(get_entities(unicode_string))
-for tok in doc:
-  print(tok.text, "...", tok.dep_)
+ string = i
+ unicode_string = unicode(string,"utf-8")
+ doc = nlp(unicode_string)
+ #print("data")
+ print(get_entities(unicode_string))
+ print(get_relation(unicode_string))
+#for denpendency structure #for tok in doc:
+#  print(tok.text, "...", tok.dep_)

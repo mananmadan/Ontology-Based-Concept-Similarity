@@ -1,1 +1,1 @@
-In statistics and machine learning. Ensemble methods use multiple learning algorithms to obtain better predictdive performance than could be obtained from any of the constituent learning algorithms alone. Unlike a statistical ensemble in statistical mechanics, which is usually infinite, a machine learning ensemble consists of only a concrete finite set of alternative models, but typically allows for much more flexible structure to exist among those alternatives.
+Manan studies in college . college is in Delhi . 
