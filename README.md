@@ -31,3 +31,7 @@ Various tools we will be using in nlp :
 
 3. Once the knowledge graph is made then we have to find concept similarity using the the dijsktra algorithms(as used earlier)
    1. it may be noted that genrally the concept similarity is found out by converting the text into a vector and then finding out the distance between these vectors by different methods.
+
+--------------------------------------------------------------------First version of the knowledge tool is completed -------------------------------------------------
+Main file - kntool.py
+data of which the knowledge graph has to be built is - data.txt
