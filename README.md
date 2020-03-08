@@ -35,3 +35,5 @@ Various tools we will be using in nlp :
 --------------------------------------------------------------------First version of the knowledge tool is completed -------------------------------------------------
 Main file - kntool.py
 data of which the knowledge graph has to be built is - data.txt
+------------------------------------------------------------------- First test also conducted ----------------------------------------------------------------------
+in folder - kntool-test1
