@@ -89,6 +89,8 @@ opentext = open("data.txt")
 readtext = opentext.read()
 sentences = sent_tokenize(readtext)
 count = 0
+entities = []
+relations = []
 for i in sentences:
  print(count)
  count= count+1
@@ -98,6 +100,23 @@ for i in sentences:
  doc = nlp(unicode_string)
  #print("data")
  print(get_entities(unicode_string))
+ entities.append(get_entities(unicode_string))
  print(get_relation(unicode_string))
+ relations.append(get_relation(unicode_string))
 #for denpendency structure #for tok in doc:
 #  print(tok.text, "...", tok.dep_)
+print("printing list------")
+print(entities)
+print(relations)
+source = [i[0] for i in entities]
+target = [i[1] for i in entities]
+print(source)
+print(target)
+kg_df = pd.DataFrame({'source':source, 'target':target, 'edge':relations})
+print("printing pandas data frame--------")
+print(kg_df)
+G=nx.from_pandas_edgelist(kg_df, "source", "target",edge_attr=True, create_using=nx.MultiDiGraph())
+plt.figure(figsize=(12,12))
+pos = nx.spring_layout(G)
+nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
+plt.show()
