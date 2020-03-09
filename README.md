@@ -37,3 +37,9 @@ Main file - kntool.py
 data of which the knowledge graph has to be built is - data.txt
 ------------------------------------------------------------------- First test also conducted ----------------------------------------------------------------------
 in folder - kntool-test1
+-----------------------------------------Problems------------------------------------------------------------------------------------------------------------
+1. Right now the entity extraction is not working fine for long sentences
+2. Rule based approach may also be not working fine --> status will be clear after entity extraction is done .
+https://cse.iitk.ac.in/users/cs365/2015/_submissions/smanocha/report.pdf
+https://towardsdatascience.com/named-entity-recognition-with-nltk-and-spacy-8c4a7d88e7da
+https://kgtutorial.github.io/
