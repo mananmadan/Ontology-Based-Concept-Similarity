@@ -6,4 +6,4 @@ unicode_string = unicode(string,"utf-8")
 doc = nlp(unicode_string)
 
 for tok in doc:
-  print(tok.text, "...", tok.dep_)
+  print(tok.text, "...", tok.pos_)
