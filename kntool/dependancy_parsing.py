@@ -12,7 +12,9 @@ from spacy.tokens import Span
 import networkx as nx
 import matplotlib.pyplot as plt
 from tqdm import tqdm
-text = "Tableu was aquired by salesforce"
+text = "Burning of fossil fuels, agriculture related activities, mining operations, exhaust from industries and factories, and household cleaning products entail air pollution"
 unicode_text = unicode(text,"utf-8")
 doc = nlp(unicode_text)
-displacy.serve(doc, style='dep')
+for tok in doc:
+    print(tok.text,"---",tok.dep_)
+#displacy.serve(doc, style='dep')
