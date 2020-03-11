@@ -1,7 +1,7 @@
 import spacy
 
 nlp = spacy.load('en_core_web_sm')
-string = "The 22-year-old recently won ATP Challenger tournament."
+string = "Burning of fossil fuels, agriculture related activities, mining operations, exhaust from industries and factories, and household cleaning products entail air pollution."
 unicode_string = unicode(string,"utf-8")
 doc = nlp(unicode_string)
 
