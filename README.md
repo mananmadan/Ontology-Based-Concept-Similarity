@@ -43,3 +43,7 @@ in folder - kntool-test1
 https://cse.iitk.ac.in/users/cs365/2015/_submissions/smanocha/report.pdf
 https://towardsdatascience.com/named-entity-recognition-with-nltk-and-spacy-8c4a7d88e7da
 https://kgtutorial.github.io/
+
+
+
+tutorial to read on chunking and entity extraction : https://medium.com/swlh/python-nlp-tutorial-information-extraction-and-knowledge-graphs-43a2a4c4556c
