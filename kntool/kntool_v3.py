@@ -54,3 +54,23 @@ for f in stringlist:
  index = index + 1
  listoflist.append(chunklist)
 print(listoflist)
+#make a source list and make a target list
+#first n-1 in a list are source and last n-1 are in the target list
+#add them to pandas data frame
+#form the graph
+source = []
+target = []
+for i in listoflist:
+ temp_source = []
+ temp_target = []
+ for j in i:
+   temp_source.append(j)
+   temp_target.append(j)
+ temp_source.pop(len(temp_source)-1)
+ temp_target.pop(0)
+ for x in temp_source:
+     source.append(x)
+ for y in temp_target:
+     target.append(y)
+print(source)
+print(target)
