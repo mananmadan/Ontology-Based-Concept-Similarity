@@ -22,10 +22,10 @@ for i in tokenized_sentence:
   try:
     words = nltk.word_tokenize(i)
     tagged = nltk.pos_tag(words)
-    chunkGram = r"""Chunk: {<JJ.?>*<NN.?>}"""
+    chunkGram = r"""Chunk: {<JJ.?>*<NN.?>*<NN..?>*}"""
     chunkParser = nltk.RegexpParser(chunkGram)
     chunked = chunkParser.parse(tagged)
-    print(chunked)
+    chunked.draw()
     stringlist.append(chunked.pformat().encode('ascii','ignore'))
   except Exception as e:
       print(str(e))
@@ -52,4 +52,5 @@ for f in stringlist:
  # print(temp)
   chunklist.append(temp)
  index = index + 1
- print(chunklist)
+ listoflist.append(chunklist)
+print(listoflist)
