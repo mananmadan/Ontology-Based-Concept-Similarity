@@ -25,7 +25,7 @@ for i in tokenized_sentence:
     chunkGram = r"""Chunk: {<JJ.?>*<NN.?>*<NN..?>*}"""
     chunkParser = nltk.RegexpParser(chunkGram)
     chunked = chunkParser.parse(tagged)
-    chunked.draw()
+    print(chunked)
     stringlist.append(chunked.pformat().encode('ascii','ignore'))
   except Exception as e:
       print(str(e))
@@ -46,7 +46,7 @@ for f in stringlist:
 #print(x)
   j=1
   temp =""
-  while(stringlist[index][x+5+j]!='/'):
+  while(stringlist[index][x+5+j]!=')'):
    temp = temp + stringlist[index][x+5+j]
    j = j+1
  # print(temp)
