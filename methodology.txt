@@ -1,0 +1,9 @@
+For creating the knowledge graph the following procedure was adopted:
+1. First the given data was broken into sentences using the PunktSentenceTokenizer in the nltk library.
+2. Each word of every sentence is then tagged (Part of speech tagging) using the pos_tag feature in nltk library.
+3. Then a rule of as to how to select the entities was made (adjective , followed by noun ) was made to select the entities in each sentence of the data.
+4. Given the rule a RegexpParser was made to parse the entire Sentence and chunk the words that were following the rules together using the nltk library.
+5. After getting the chunked data the chunks were extracted using regex and basic string algorithms.
+6. Then graphs algorithms are used to connect the chunks extracted to each other.
+7. After this , the nodes are fed into a pandas data frame and networkx library is used to create a graphs
+8. After the graph is created matplotlib is used to show the created graph.
