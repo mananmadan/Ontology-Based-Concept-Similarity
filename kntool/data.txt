@@ -2,4 +2,4 @@ Supervised learning algorithms perform the task of searching through a hypothesi
 
 Evaluating the prediction of an ensemble typically requires more computation than evaluating the prediction of a single model, so ensembles may be thought of as a way to compensate for poor learning algorithms by performing a lot of extra computation. Fast algorithms such as decision trees are commonly used in ensemble methods (for example, random forests), although slower algorithms can benefit from ensemble techniques as well.
 
-By analogy, ensemble have been used also in unsupervised learning scenarios, for example in consensus clustering or in anomaly detection.
+By analogy, ensemble techniques have been used also in unsupervised learning scenarios, for example in consensus clustering or in anomaly detection.
