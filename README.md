@@ -47,3 +47,4 @@ https://kgtutorial.github.io/
 
 
 tutorial to read on chunking and entity extraction : https://medium.com/swlh/python-nlp-tutorial-information-extraction-and-knowledge-graphs-43a2a4c4556c
+while reading , we have to do lemmatizing , stemming and string matching to ensure we get every ensemble
