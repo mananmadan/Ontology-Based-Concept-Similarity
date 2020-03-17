@@ -66,8 +66,9 @@ for i in listoflist:
  for j in i:
    temp_source.append(j)
    temp_target.append(j)
- temp_source.pop(len(temp_source)-1)
- temp_target.pop(0)
+ if len(temp_source)!=0 and len(temp_target)!=0:
+  temp_source.pop(len(temp_source)-1)
+  temp_target.pop(0)
  for x in temp_source:
      source.append(x)
  for y in temp_target:
