@@ -77,13 +77,20 @@ for i in listoflist:
      source.append(x)
  for y in temp_target:
      target.append(y)
-print(source)
-print(target)
+print(source)#already formed the source list
+print(target)#target list formed
 kg_df = pd.DataFrame({'source':source, 'target':target})
 print("printing pandas data frame--------")
 print(kg_df)
 G=nx.from_pandas_edgelist(kg_df, "source", "target")
-print(G)
+print("Performing CLP calculations")
+for i in source :
+  temp_sum = 0
+  for j in target:
+   temp_sum = temp_sum + nx.shortest_path_length(G,i,j)  
+  print(i+"--->"+str(temp_sum))
+
+
 plt.figure(figsize=(12,12))
 pos = nx.spring_layout(G)
 nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
