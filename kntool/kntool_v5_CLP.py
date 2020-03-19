@@ -83,19 +83,27 @@ for i in listoflist:
      source.append(x)
  for y in temp_target:
      target.append(y)
+final_source = []
+final_target = []
+for i in source:
+  final_source.append('('+ i +')')
+  
+for i in target:
+  final_target.append('('+ i + ')')
+  
 print(source)
-print(target)
-kg_df = pd.DataFrame({'source':source, 'target':target})
+print(target)  
+kg_df = pd.DataFrame({'source':final_source, 'target':final_target})
 print("printing pandas data frame--------")
 print(kg_df)
 G=nx.from_pandas_edgelist(kg_df, "source", "target")
 
 somelist = [[0,""]]
 done = []
-for i in source :
+for i in final_source :
   temp_sum = 0
   conn_nodes = 0
-  for j in target:
+  for j in final_target:
    try:
     temp_sum = temp_sum + nx.shortest_path_length(G,i,j)    
     if nx.shortest_path_length(G,i,j) == 1 :
@@ -103,8 +111,8 @@ for i in source :
    except:
     temp_sum = temp_sum + 0
   if i not in done :
-   somelist.append((conn_nodes,i))
-   done.append(i)
+     somelist.append((conn_nodes,i))
+     done.append((i))
 somelist.sort()
 print("sort()")
 for i in somelist:
