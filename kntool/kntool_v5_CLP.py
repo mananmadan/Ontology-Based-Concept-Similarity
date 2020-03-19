@@ -91,16 +91,20 @@ print(kg_df)
 G=nx.from_pandas_edgelist(kg_df, "source", "target")
 
 somelist = [[0,""]]
+done = []
 for i in source :
   temp_sum = 0
   conn_nodes = 0
   for j in target:
    try:
-    temp_sum = temp_sum + nx.shortest_path_length(G,i,j)
-    conn_nodes = conn_nodes + 1
+    temp_sum = temp_sum + nx.shortest_path_length(G,i,j)    
+    if nx.shortest_path_length(G,i,j) == 1 :
+     conn_nodes = conn_nodes + 1#directly connected nodes
    except:
     temp_sum = temp_sum + 0
-  somelist.append((temp_sum/conn_nodes,i))
+  if i not in done :
+   somelist.append((conn_nodes,i))
+   done.append(i)
 somelist.sort()
 print("sort()")
 for i in somelist:
