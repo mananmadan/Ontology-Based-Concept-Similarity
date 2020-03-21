@@ -6,19 +6,12 @@ Created on Wed Mar 18 20:12:38 2020
 @author: manan
 """
 import nltk
-import spacy
+#import spacy
 import re
 import pandas as pd
-#import bs4
-#import requests
-#from spacy import displacy
-#from nltk.tokenize import sent_tokenize
-#nlp = spacy.load('en_core_web_sm')
-#from spacy.matcher import Matcher
-from spacy.tokens import Span
+
 import networkx as nx
 import matplotlib.pyplot as plt
-from tqdm import tqdm
 from nltk.tokenize import PunktSentenceTokenizer
 pst = PunktSentenceTokenizer()
 openfile = open("data.txt")
