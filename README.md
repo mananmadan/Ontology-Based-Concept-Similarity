@@ -11,4 +11,5 @@ bash run_tool.sh
 3. Also make sure you have all the dependencies installed
 
 **To read about how we extracted core concepts from the knowledge graph read CoreLearningPoints.docx file**
+### Methodology
 **To read about how we made the knowledge graph go to methodology.txt file**
