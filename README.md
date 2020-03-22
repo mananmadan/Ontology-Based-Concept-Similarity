@@ -21,7 +21,6 @@ bash run_tool.sh
 4. After you run this code , you will see a window of the Knowledge Graph
 
 
-**To read about how we extracted core concepts from the knowledge graph read CoreLearningPoints.docx file**
 ### Examples
 **Data1:**
 1. London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.
@@ -33,5 +32,9 @@ bash run_tool.sh
 
 **Ouput2**
 ![output2](https://github.com/mananmadan/Ontology-Based-Concept-Similarity/blob/master/kntool/output_US.png)
+
 ### Methodology
 **To read about how we made the knowledge graph go to methodology.txt file**
+
+### Extracting Important Concepts
+**To read about how we extracted core concepts from the knowledge graph read CoreLearningPoints.docx file**
