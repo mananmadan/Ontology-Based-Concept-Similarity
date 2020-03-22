@@ -12,19 +12,24 @@ cd Ontology-Based-Concept-Similarity
 cd ktnool
 gedit data.txt
 ```
-3. Make sure you have all the dependencies installed
+3. If you dont want to install each requirement seperately as mentioned in step3 below, you can run:
+```
+bash full_install.sh
+```
+4. Make sure you have all the dependencies installed
 ```
 pip install nltk
 pip install pandas
 pip install matplotlib
 pip install networkx
 ```
-4. To run the code , go the the folder kntool and run :
+
+5. To run the code , go the the folder kntool and run :
 
 ```
 bash run_tool.sh
 ```
-5. After you run this code , you will see a window of the Knowledge Graph
+6. After you run this code , you will see a window of the Knowledge Graph
 
 
 ### Examples
