@@ -3,12 +3,20 @@
 
 ## Quick Start
 1. To run the code on your data , enter the data into data.txt file in kntool
-2. To pun the code , go the the folder kntool and run :
+3. Make sure you have all the dependencies installed
+```
+pip install nltk
+pip install pandas
+pip install matplotlib
+pip install networkx
+```
+3. To run the code , go the the folder kntool and run :
 
 ```
 bash run_tool.sh
 ```
-3. Also make sure you have all the dependencies installed
+4. After you run this code , you will see a window of the knowledge Graph
+
 
 **To read about how we extracted core concepts from the knowledge graph read CoreLearningPoints.docx file**
 ### Methodology
