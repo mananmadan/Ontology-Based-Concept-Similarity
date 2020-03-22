@@ -12,7 +12,7 @@ cd Ontology-Based-Concept-Similarity
 cd ktnool
 gedit data.txt
 ```
-3. If you dont want to install each requirement seperately as mentioned in step3 below, you can run:
+3. If you dont want to install each requirement seperately as mentioned in step4 below, you can run:
 ```
 bash full_install.sh
 ```
