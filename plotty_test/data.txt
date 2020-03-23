@@ -1,0 +1,57 @@
+Ensemble Learning
+Procedures employed to train multiple learning machine and combine their outputs (treat as committee of decision makes)
+Principle – Decision of the committee with individuals predictions combined approximately should have better accuracy, on average than any individual committee member.
+Members-
+Real valued no.
+Class labels
+Posterior probabilities
+Rankings
+Clusterings
+Underlying Principle recognition that in real world situations,
+Aims- Manage Strengths and weaknesses
+Model Selection
+Use cross validation
+Choose direuse models
+Outcomes are usually averaged out
+Keep in mind the final goal reduce risk
+Study stability of your data sample
+Data Quantity
+If plenty data, spilt the data into several parts , train each classifier on separate subset
+If the dataset is not big , use different sample of data to train the classifiers
+Divide and Conquer
+Boundary separates the data may be complex for certain problem
+Divide the dataspace into small pieces and easier to learn partitions where each classifier learns only one of the simpler partitions.
+Data Fusion
+Combination of data from different sources
+Can lead to improved accuracy
+Confidence Estimation
+If majority of classifiers agree: ensemble having high confidence in its decision
+Half make one decision and half make different :ensemble having low confidence
+Ensemble having high confidence does no mean that decision is good
+Properly trained ensemble decision is usually correct if confidence is high
+Ensemble Learning Algorithms
+Bagging/Bootstrap Aggregating
+Oldest and simplest diversity is obtained by using bootstrapped replicas
+Boosting
+Creates replicas by resampling the data. Resampling is strategically geared to provide the most informative training data for each consecutive classifier .
+Each Iteration:
+3 weak classifiers
+1)trained with random subset
+2)trained on the most informative subset half of training data correctly classified the other half misclassified
+3) trained with instances in which other two disagree
+Boosting is designed for binary class problems
+AdaBoost (Adaptive Boosting)
+Instances drawn into the subset dataset from an iteratively updated sample distribution of the training data
+Classifiers are combined through weighted majority voting where voting weights are based on classifiers training errors.
+Random Forests
+Another version of bagging
+Decision trees trained with a bagging mechanism
+They handle both regression and multiclass classification
+Relatively fast to train / predict
+Depends only on one or two parameters
+DECORATE(Diverse Ensemble Creating Of Oppositional Relabelling Of Artificial Training Examples)
+Specially constructed artificial examples used to create diverse ensemble
+Combining Ensemble Members:
+Majority voting
+Weighted Majority Voting
+Borda Count
