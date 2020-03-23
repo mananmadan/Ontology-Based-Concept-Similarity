@@ -1,17 +1,17 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 18 20:12:38 2020
-
-@author: manan
-"""
 import nltk
-#import spacy
+import spacy
 import re
 import pandas as pd
-
+#import bs4
+#import requests
+#from spacy import displacy
+#from nltk.tokenize import sent_tokenize
+#nlp = spacy.load('en_core_web_sm')
+#from spacy.matcher import Matcher
+from spacy.tokens import Span
 import networkx as nx
 import matplotlib.pyplot as plt
+from tqdm import tqdm
 from nltk.tokenize import PunktSentenceTokenizer
 pst = PunktSentenceTokenizer()
 openfile = open("data.txt")
@@ -25,7 +25,7 @@ for i in tokenized_sentence:
   try:
     words = nltk.word_tokenize(i)
     tagged = nltk.pos_tag(words)
-    chunkGram = r"""Chunk: {<JJ.?>*<NN.?>+<NN..?>*}"""
+    chunkGram = r"""Chunk: {<JJ.?>*<NN.?>{0,1}<NN..?>{0,1}}"""
     chunkParser = nltk.RegexpParser(chunkGram)
     chunked = chunkParser.parse(tagged)
     print(chunked)
@@ -76,44 +76,61 @@ for i in listoflist:
      source.append(x)
  for y in temp_target:
      target.append(y)
-final_source = []
-final_target = []
-for i in source:
-  final_source.append('('+ i +')')
-  
-for i in target:
-  final_target.append('('+ i + ')')
-  
 print(source)
-print(target)  
-kg_df = pd.DataFrame({'source':final_source, 'target':final_target})
+print(target)
+kg_df = pd.DataFrame({'source':source, 'target':target})
 print("printing pandas data frame--------")
 print(kg_df)
 G=nx.from_pandas_edgelist(kg_df, "source", "target")
 
+temp_list=list(nx.articulation_points(G))
+
 somelist = [[0,""]]
-done = []
-for i in final_source :
+for i in source :
   temp_sum = 0
   conn_nodes = 0
-  for j in final_target:
+  for j in target:
    try:
-    temp_sum = temp_sum + nx.shortest_path_length(G,i,j)    
-    if nx.shortest_path_length(G,i,j) == 1 :
-     conn_nodes = conn_nodes + 1#directly connected nodes
+    temp_sum = temp_sum + nx.shortest_path_length(G,i,j)
+    if(nx.shortest_path_length(G,i,j)==1):
+      conn_nodes = conn_nodes + 1
    except:
     temp_sum = temp_sum + 0
-  if i not in done :
-     somelist.append((temp_sum/conn_nodes,i))
-     done.append((i))
+  somelist.append((temp_sum/conn_nodes,i))
 somelist.sort()
-print("sort()")
+print("sort()") #For Testting
+flag=0 #For Testting
+#print(len(somelist))
+answer_list=[]
 for i in somelist:
-    print(i)
+    #if(i[1] in temp_list):
+        if(i[1].find("NN")!=-1):
+            answer_list.append(i)
+            flag+=1
+#answer_list=list(dict(answer_list))
+
+res = [] 
+[res.append(x) for x in answer_list if x not in res] 
+for x in res:
+    print(x)
+
+#print(flag) #For Testting
+#print(len(res)) #For Testting
+answer_list=[]
+res=[]
+
+print("reverse_sort()") #For Testting
 somelist.sort(reverse = True)
-print("reverse_sort()")
 for i in somelist:
-    print(i)    
+    #if(i[1] in temp_list):
+        if(i[1].find("NN")!=-1):
+            answer_list.append(i)
+#res = [] 
+[res.append(x) for x in answer_list if x not in res] 
+for x in res:
+    print(x)
+
+
 plt.figure(figsize=(12,12))
 pos = nx.spring_layout(G)
 nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
