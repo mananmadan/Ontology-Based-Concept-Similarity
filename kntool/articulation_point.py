@@ -103,7 +103,7 @@ flag=0 #For Testting
 #print(len(somelist))
 answer_list=[]
 for i in somelist:
-    #if(i[1] in temp_list):
+    if(i[1] in temp_list):
         if(i[1].find("NN")!=-1):
             answer_list.append(i)
             flag+=1
@@ -122,7 +122,7 @@ res=[]
 print("reverse_sort()") #For Testting
 somelist.sort(reverse = True)
 for i in somelist:
-    #if(i[1] in temp_list):
+    if(i[1] in temp_list):
         if(i[1].find("NN")!=-1):
             answer_list.append(i)
 #res = [] 
