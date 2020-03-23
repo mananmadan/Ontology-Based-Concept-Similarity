@@ -25,7 +25,7 @@ for i in tokenized_sentence:
   try:
     words = nltk.word_tokenize(i)
     tagged = nltk.pos_tag(words)
-    chunkGram = r"""Chunk: {<JJ.?>*<NN.?>+<NN..?>*}"""
+    chunkGram = r"""Chunk: {<JJ.?>*<NN.?>{0,1}<NN..?>{0,1}}"""
     chunkParser = nltk.RegexpParser(chunkGram)
     chunked = chunkParser.parse(tagged)
     print(chunked)
