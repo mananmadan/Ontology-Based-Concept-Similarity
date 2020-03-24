@@ -24,7 +24,7 @@ for i in tokenized_sentence:
   try:
     words = nltk.word_tokenize(i)
     tagged = nltk.pos_tag(words)
-    chunkGram = r"""Chunk: {<JJ.?>{0,2}<NN.?>{0,2}<NN..?>{0,2}}"""
+    chunkGram = r"""Chunk: {<JJ.?>{0,2}<VBG>{0,1}<NN.?>{1,2}<VBG>{0,1}<NN..?>{0,2}<VBG>{0,1}}"""
     chunkParser = nltk.RegexpParser(chunkGram)
     chunked = chunkParser.parse(tagged)
     print(chunked)
@@ -79,12 +79,12 @@ final_source = []
 final_target = []
 for i in source:
   final_source.append('('+ i +')')
-  
+
 for i in target:
   final_target.append('('+ i + ')')
-  
+
 print(source)
-print(target)  
+print(target)
 kg_df = pd.DataFrame({'source':final_source, 'target':final_target})
 print("printing pandas data frame--------")
 print(kg_df)
@@ -98,7 +98,7 @@ for i in final_source :
   temp_count = 0
   for j in final_target:
    try:
-    temp_sum = temp_sum + nx.shortest_path_length(G,i,j)    
+    temp_sum = temp_sum + nx.shortest_path_length(G,i,j)
     if nx.shortest_path_length(G,i,j) == 1 :
      conn_nodes = conn_nodes + 1#directly connected nodes
     for temp in final_source :
@@ -107,23 +107,22 @@ for i in final_source :
    except:
     temp_sum = temp_sum + 0
   if i not in done :
-     somelist.append((0*(conn_nodes)+1*(temp_count)+0*(len(i)),i))
+     somelist.append((2*(conn_nodes)+0*(temp_count)+1*(len(i)),i))
      done.append((i))
-somelist.sort()
-print("sort()")
-for i in somelist:
-    print(i)
 somelist.sort(reverse = True)
-print("reverse_sort()")
+output = []
+temp_somlist_count = 0
 for i in somelist:
-    print(i)    
+ if temp_somlist_count==10:
+     break
+ else :
+    output.insert(temp_somlist_count,i)
+    temp_somlist_count = temp_somlist_count+1
+
+#print(output)
+for i in output:
+ print(i[1])
 plt.figure(figsize=(12,12))
-random = []
-count =0
-for i in final_source:
- count=count+1 
- if count%2==0 :
-   random.append(i)
 pos = nx.spring_layout(G)
 nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
-#plt.show()
+plt.show()

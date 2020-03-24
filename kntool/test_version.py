@@ -116,9 +116,9 @@ final_k1=0
 final_k2=0
 final_k3=0
 #doing data analysis:
-for k1 in range(0,40):
-    for k2 in range(0,40):
-        for k3 in range(0,40):
+for k1 in range(0,4):
+    for k2 in range(0,4):
+        for k3 in range(0,4):
                 somelist = [[0,""]]
                 done = []
                 for i in final_source :
@@ -161,7 +161,7 @@ for k1 in range(0,40):
                 print(output)
 
                 #find if matching is possible:
-                expected_output = ["artificial intelligence","computer","human intelligence","computer program","human being","expert system","specific domain","natural language","computer vision","real life scene"]
+                expected_output = ["committee of decision","ensemble learning","machine learning model","help of source","high confidence","different decision ensemble","training data","updated sample distribution","weighted majority voting","artificial training example"]
                 final_count = 0
                 for i in output:
                     for j in expected_output:
@@ -173,7 +173,8 @@ for k1 in range(0,40):
                                #print("finding in")
                                #print(i[1])
                                final_count = final_count+1
-
+                 
+                print(str(final_count)+str(":")+str(k1)+str(":")+str(k2)+str(":")+str(k3))
                 if final_count>max:
                  max = final_count
                  print("improved:")
