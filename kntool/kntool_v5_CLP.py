@@ -107,7 +107,7 @@ for i in final_source :
    except:
     temp_sum = temp_sum + 0
   if i not in done :
-     somelist.append((2*(conn_nodes)+4*(temp_count)+1*(len(i)),i))
+     somelist.append((0*(conn_nodes)+1*(temp_count)+0*(len(i)),i))
      done.append((i))
 somelist.sort()
 print("sort()")
