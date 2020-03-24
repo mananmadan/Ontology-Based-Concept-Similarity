@@ -112,7 +112,7 @@ somelist.sort(reverse = True)
 output = []
 temp_somlist_count = 0
 for i in somelist:
- if temp_somlist_count==10:
+ if temp_somlist_count==15:
      break
  else :
     output.insert(temp_somlist_count,i)
