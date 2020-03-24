@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Mar 18 20:12:38 2020
-
 @author: manan
 """
 import nltk

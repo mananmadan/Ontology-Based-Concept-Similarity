@@ -1,114 +1,28 @@
-Ensemble  learning
-refers to the process employed to train multiple learning machines and combine their outputs, treating them as committee of decision makers
+Intelligence   Artificial Intelligence   Goals/Objective of Ai   Conventional and Intelligent Computing   Advantages and Disadvantages Of Ai   Application of Ai 
+The ability of a human being to acquire knowledge and apply it, means the capability of thinking and reasoning. According to the Henri Bergson: ❖ intelligence is the facility of making artificial objects.     The attribute and ability of a person through which a problem can be solved accurately.
+There are different definition of Ai:     A man made device that reflect one or more characteristics of human being is called Artificial Intelligence. Artificial Intelligence is a subfield of Computer science devoted to making computer software and Hardware that imitates the human minds.
+It is a set of methods and techniques to develop such a computer system that shows intelligent behavior. Artificial Intelligence is a special branch of computer science or set of techniques and approaches to solve those problems that normally requires human intelligence.
+Artificial Intelligence is the art of creating machines that perform functions that require intelligence when performed by people. Artificial intelligence is attempt to create computer programs that do intelligent things.
+Human solve problem through intelligence or common sense. 1. Suppose two person A and B both are playing chess.   A Chess B “A” tries his best to play such a move of class so that he can defeat “B” and similarly “B” also tries to do so. Now if we replace “B” with such computer that can play chess.
+A Chess Computer if that computer has a software which work like an expert player that software will posses the artificial intelligence.
+2. if a computer has a software that can converts data written in English into some other language like French etc. this prove that, that software passes Ai. English S/w having Ai French
+The main goals of Ai are:   To make computer smarter by creating s/w that will allow a computer to mimic/adopt some of the function of the human brain in selected application; that is to provide us a more powerful tool to assist us in our work. 
+Simply the goal of Artificial intelligence is to develop such a program by which computer can take decision itself like human beings.       To investigate the nature of a human intelligence. To model process underlying intelligence. To provide useful programs.
+There are some advantages of Ai:     User will be able to Communicate with Computers in their own language. English or any other language rather than having to use the cryptic commands and syntax of operating system languages and application programs. With artificial intelligence an untrained user can approach the machine and achieve useful work.
+ Artificial intelligence as used in expert system have the potential to make problem solving and decision making a specific domain faster and easier. It can be more useful by solving a wider range of problems.   Less errors and defect.   Can complete task faster than a human can likely.
+ Artificial Intelligence application usually requires very powerful computers with fast CPU and lots of memory. Most Ai Research and many AI applications are implemented on mainframes and mini Computers. Such as digital equipment's corporations (DEC) AX series. Typical system sell from $150000 to nearly a half million of dollars.
+Another disadvantages of is the difficulty of Ai S/w and development of Ai program incredibly complex. High cost, because it require a wide range of H/w and S/w. 
+Conventional Computers:   The Computer by which we can develop computer programs using conventional languages like C, C++, Cobol etc. are called conventional computers and the software which is used for that purpose is called conventional software. 
+Intelligent Computer:           Those computer which are used for processing the Artificial intelligence software using Artificial intelligence languages like Lisp(List processing). PRLOG(programming in Logic) etc. are called intelligent computers. These are used for: Language Translate System Robotic System Air Travel speech Processing Expert System.
+ In conventional software we tell the computer; how to solve the problems, whereas in Artificial intelligent we tell the computer what the problem is but not how to solve it. Conventional Computer programs are based on an algorithm; a clearly defined step by step procedure for solving a problem. It may be a mathematical formula or a clearly defined sequential procedure that will lead to a solution.
+in conventional Computing; we normally solve quantitative problems; which used algorithm. In Ai computing; we solve qualitative problem which is not solvable by algorithm. One of the facility provided by conventional software system is “Doing repetitive and laborious jobs”. e.g; An organization requires to store the records of 1000 employees. So for this situation conventional computer system provided loop statements which provide much facility and a lot of time.
+The major application area of Ai are:   Natural Language processing   Robotics   Expert System   Computer Vision
+In artificial intelligence, an expert system is a computer system that emulates the decisionmaking ability of a human expert. Artificial intelligence programs that act as intelligent advisor or consultants. The purpose of an expert system is not to replace the experts, but simply to make their knowledge and experience more widely available. 
+Components of Expert system: Knowledge Base:   Contains all the facts, ideas relationship and interactions of a specific domain. Inference Engine:   The inference engine analyze the knowledge and draw conclusion from it. User Interface:   The user interface software permits new knowledge to be entered into knowledge base and implements communication with the user.
+ Natural language refers to our native(mother) tongue; weather it be English or other language. NLP programs use Ai technique to permit a computer to understand natural language. Natural language understanding program can also be used for language translation, such a program might read the Pashto language, understand it and produce an accurate English translation.
 
-The principles that the decision of the committee with individual predictions combined appropriately should have better overall accuracy  , on average than any individual committee mentor
-
-The members of ensemble might be predicting
-real valued numbers
-class labels
-posterior probabilities
-rankings
-clustering  etc.
-
-an ensemble consists of a set of models and a method to combine them
-
-the underlying principle of ensemble learning is a recognition that in real world situations, every machine learning model has limitations and will make errors
-
-The aim of ensemble learning is to manage their strengths and weakness, leading to the  best possible decision being taken overall
-
-
-
-
-
-
-model selection(which type of classifier lobe used )
-1. always we cross valuation
-2. for ensemble learning, one should choose direuse models
-3. the outcomes of each model are usually averaged
-4.model selection should be done while keeping in mind the final goat reduce risk
-5.study the stability of your data sample data quantity
-
-if we have plenty of data , we may split the data into two parts (train validity  test)
-train each classifier on a separate subsets
-
-if the dataset is not big in size use different bootstrap samples of data to train different classifiers
-
-(here each bootstrap sample is the random sample of the data drawn with replacements and treated as if it was independently drawn from the underlying distributions )
-
-
-
-divide and conquer
-
-the decision boundary that separates the data may be too complex for certain problems
-
-here, using  ensemble learning, the classification
-system follows a divide and conquer approach.
-
-divide the data space into smaller and easier to learn partitions  where each classifier learns only one of the simpler partitions
-
-data fusions
-suitable combinations of data from different source is called data fusion
-data/information fusion can lead to improved accuracy (with the help of sources that may provide complementary information )
-
-confidence estimations
-if the majority of classifiers agree with their decision ensemble having high confidence in its decision
-half make one decision and half make different decision ensemble having low confidence
-
-
-
-it may be noted that ensemble having high confidence does not mean that decision is correct
-
-however, properly trained ensemble decision is usually correct if confidence is high
-
-ensemble learning algorithms
-1. bagging/bootstrap aggregating
-oldest and simplest
-diversity is obtained by using bootstrap replicas
-
-2. boosting
-similar to bagging , boosting creates replicas by re sampling the data
-however, in boosting  , re sampling is strategically geared to provide the most informative
-training data for each consecutive classifier
-
-each iteration- 3 weak classifiers
-1. classifiers c1 trained with random subset
-2. c2: trained on the most informative subset ( half of training data correctly classified by c1, and the other half miss classified )
-3. c3: trained with instances on which c1 and c2 disagree
-
-
-
-boosting is designed for binary class problems
-
-adaptive boost (adaptive boosting)
-instances are drawn into the subset database from an iteratively updated sample distributions
-of the training data
-
-the classifiers are combined through weighted majority voting where voting weights are based on classifiers
-training errors
-
-
-random forests
-another version of bagging
-ensemble of decision trees trained with a bagging mechanism
-(each tree depends on a collection of random variables)
-
-they naturally handle both regression and multicast classification
-
-are relatively fast to train /predict
-depends only on one or two tuning parameters
-
-
-
-
-
-
-DECORATE (diverse ensemble creation of Opposition relabeling of artificial training examples )
-
-based on specially constructed artificial examples
-
-used to create diverse ensembles
-
-Combining ensemble members
-1. majority voting
-2. weighted majority voting
-3. broad count
+Artificial intelligent software also can be created to allow a computer to respond to voice input; that is to recognize speech. The output of the voice recognizer can be used to drive a NLP so that a computer can be operated by voice. 
+Computer vision Is the use of a computer to analyze and evaluate visual information. Ai techniques allows the computer to examine a picture or real life scene to identify particular objects, patterns. Computer vision is a field that includes methods for acquiring, processing, analyzing, and understanding images in order to produce information.
+For a computer to perform Ai operation on visual inputs; the picture or real life scene must first be converted into digital signals compatible with the computer. Memory Video camera Analog to Digital convertor (ADC) Binary version of scene Saifullah_khyber@yahoo.com Ai “vision program” (Search pattern matching) A video camera is pointed at the picture or the scene and video signal generated. A high speed analog to digital converter changes the analog video signal into binary that are stored in the computer memory. 
+Robotic is that field of engineering devoted to duplicating the physical capability of human beings. Just as Ai attempt to duplicate human thought; robots attempt to emulate physical activity. Robots are just dump machine; but because they are usually computer controlled. They may be given intelligence with Ai ; which can make it more powerful and flexible.
+ The physical robot is a manipulator arm that can be used to pick up and place parts in manufacturing operation; weld, paint etc. This means it must use a sensors to detect the position of its arm and other conditions in its surroundings.
