@@ -1,0 +1,5 @@
+Problem faced ==> no good concept extraction 
+Solution ==> we know that concept extraction depends upon 3 factor , all we have to do is optimise their propotionality constants to get the expected output.
+
+For Paper :
+What we might do is optimize values for teachers note and then find out the terms from student notes. ==> might work , but its a hack !
