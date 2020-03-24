@@ -5,10 +5,8 @@ Created on Wed Mar 18 20:12:38 2020
 @author: manan
 """
 import nltk
-#import spacy
 import re
 import pandas as pd
-
 import networkx as nx
 import matplotlib.pyplot as plt
 from nltk.tokenize import PunktSentenceTokenizer
@@ -18,6 +16,7 @@ data = openfile.read()
 data=data.decode('utf-8')
 
 print (data)
+
 tokenized_sentence = pst.tokenize(data)
 stringlist = []
 for i in tokenized_sentence:
