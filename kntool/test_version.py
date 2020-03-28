@@ -115,10 +115,11 @@ max = 0
 final_k1=0
 final_k2=0
 final_k3=0
+match_value=0
 #doing data analysis:
-for k1 in range(0,4):
-    for k2 in range(0,4):
-        for k3 in range(0,4):
+for k1 in range(0,3):
+    for k2 in range(0,3):
+        for k3 in range(0,3):
                 somelist = [[0,""]]
                 done = []
                 for i in final_source :
@@ -179,10 +180,12 @@ for k1 in range(0,4):
                  max = final_count
                  print("improved:")
                  print(str(max)+str(":")+str(k1)+str(":")+str(k2)+str(":")+str(k3))
+                 match_value = max
                  final_k1 = k1
                  final_k2 = k2
                  final_k3 = k3
 print("final_values")
+print(match_value)
 print(final_k1)
 print(final_k2)
 print(final_k3)

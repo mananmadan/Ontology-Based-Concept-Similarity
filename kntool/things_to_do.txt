@@ -1,0 +1,17 @@
+relation extraction from text is possible?
+Concept realation maybe using wikipedia?
+Wiki graph somehow useful?
+Search each concept, parse its content and then decide which is above or which is below?
+
+
+Major Problem could be , content parsing might disturb or end the levels formed
+eg topic a ---> topic b
+   topic a ---> topic c
+   but if the relation between c is not discovered then b==c but originally topic b ---> topic c.
+
+Can we do it without wikipedia or any text corpora??
+I dont think it is possible as it is imppossible to get the knowlege of what is above which.
+
+relations???
+1> superclass , subparts ==> wikipedia.
+2> NLP ... == 1/0

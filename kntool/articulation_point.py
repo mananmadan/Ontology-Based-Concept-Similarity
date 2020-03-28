@@ -16,7 +16,7 @@ from nltk.tokenize import PunktSentenceTokenizer
 pst = PunktSentenceTokenizer()
 openfile = open("data.txt")
 data = openfile.read()
-data=data.decode('utf-8')
+data=data.decode('UTF-8','ignore')
 
 print (data)
 tokenized_sentence = pst.tokenize(data)

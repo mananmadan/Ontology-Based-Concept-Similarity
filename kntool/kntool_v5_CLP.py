@@ -27,6 +27,7 @@ for i in tokenized_sentence:
     chunkParser = nltk.RegexpParser(chunkGram)
     chunked = chunkParser.parse(tagged)
     print(chunked)
+    #chunked.draw()
     stringlist.append(chunked.pformat().encode('ascii','ignore'))
   except Exception as e:
       print(str(e))
@@ -117,8 +118,24 @@ for i in somelist:
  else :
     output.insert(temp_somlist_count,i)
     temp_somlist_count = temp_somlist_count+1
-
-#print(output)
+print("printing list")
+unique = []
+for i in final_target :
+ if i not in unique:
+  unique.append(i)
+for j in final_target:
+ if j not in unique:
+   unique.append(j)
+for i in unique:
+ print(i)
+print("B")
+for i in unique:
+  temp_count = 0 
+  for j in final_source:
+     if nx.shortest_path_length(G,i,j) == 1:
+        temp_count = temp_count + 1
+  print(temp_count)      
+print("output")
 for i in output:
  print(i[1])
 plt.figure(figsize=(12,12))

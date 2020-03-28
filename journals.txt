@@ -1,0 +1,25 @@
+## Journals in which the paper can be published:
+1. ACM transaction on computing education(1.3)
+2. Computer application in engg. education(1.4)
+3. Computer and Education(5.6)
+4. IEEE transaction on education(2.27)
+5. International journal of engg. education(0.66)
+6. Internation journal of technology and design education(1.3)
+7. Journal of engineering education(1.5)
+8. Journal of science education and technology(1.78)
+9. Active Learning in higher education (2.29)
+
+## Ontolgy in which papers:
+
+# Paper1 : https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.92.4964&rep=rep1&type=pdf
+1. This paper basically desighns the concept map just like us , but has better relationships between
+the concepts:
+Namely the relations defined are only of certain types:
+
+1. Is a Property of 
+2. Is Associated with 
+3. Is composed of
+
+--> mainly subclass , superclass .
+
+

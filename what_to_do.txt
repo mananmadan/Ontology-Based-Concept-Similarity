@@ -1,0 +1,11 @@
+1. use wikipedia for relation extraction 
+
+first task is to desighn a tool to compute the distance between two nodes,
+what we did in first paper was using similar words , now do we have to use the same (most probably not)
+--> we will use content to find the distance or some other thing.
+## we will be using wikidata for this task
+2. Graph levelling . 
+
+Easy graph algorithms , can be easilty implemented..
+
+
