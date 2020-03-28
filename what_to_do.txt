@@ -9,3 +9,54 @@ what we did in first paper was using similar words , now do we have to use the s
 Easy graph algorithms , can be easilty implemented..
 
 
+Methodology trying to use:
+
+1. Try what is possible with SPARQL:
+
+
+2. Maybe do id searching using python webdriver:
+
+
+3. And then do instances searching using SPARQL.
+
+### what we are going to do is first find the page on wikipedia and then find wikidata item from it 
+
+### we also have to make the rules of what relationships are extracted .
+
+1 1..to go up on the graph 
+
+#use relationship on part of (Statement)P361;
+
+2 2.. to go down on the graph 
+
+#what items are part of a node
+
+
+up ===> what nodes are is the given item part of (maybe possible ==> to be checked)
+
+down ===> what nodes are the part of the given item (possible and can be done )
+
+
+is a subclass of P279:
+is a part of P361:
+
+##code to go up the graph:
+SELECT ?item ?itemLabel
+WHERE
+{
+  wd:Q21198 wdt:P361 ?item.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+
+here can also do P279 ; #P361 returns error:
+
+##code to go down the grpah :
+
+SELECT ?item ?itemLabel
+WHERE
+{
+  ?item  wdt:P361 wd:Q21198 
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+
+##can also define other relationships as well if wanted to put in the graph.
