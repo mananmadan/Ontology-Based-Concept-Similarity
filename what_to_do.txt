@@ -63,3 +63,9 @@ WHERE
 
 ##python wrapper for query launguage:
 https://people.wikimedia.org/~bearloga/notes/wdqs-python.html
+
+##see what relation to use:
+1. instance of 
+2. part of 
+3. subclass of 
+

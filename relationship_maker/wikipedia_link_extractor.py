@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import wikipedia
 
-search_string = "Ensemble Learning"
+search_string = "Data"
 #print(type(wikipedia.search(search_string)))
 print("Searching for .........")
 query = wikipedia.search(search_string)[0]
@@ -25,6 +25,7 @@ for link in soup.find_all("a"):
         wikidata.append(url)
 
 #print(type(wikidata[0]))
+
 count = 0
 wikidata_id  = ""
 for i in wikidata[0]:
