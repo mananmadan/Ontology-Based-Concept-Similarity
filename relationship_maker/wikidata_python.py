@@ -13,7 +13,7 @@ sparql.setQuery("""
 SELECT ?item ?itemLabel
 WHERE
 {
-    ?item wdt:P361 wd:Q245652 .
+    ?item wdt:P69 wd:Q160302 .
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
 }
 """)
@@ -22,5 +22,5 @@ sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 
 results_df = pd.io.json.json_normalize(results['results']['bindings'])
-#print(results_df)
-print(results_df[['item.value', 'itemLabel.value']].head())
+print(results_df)
+#print(results_df[['item.value', 'itemLabel.value']].head())
