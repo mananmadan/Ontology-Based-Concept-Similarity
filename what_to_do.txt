@@ -67,5 +67,7 @@ https://people.wikimedia.org/~bearloga/notes/wdqs-python.html
 ##see what relation to use:
 1. instance of 
 2. part of 
-3. subclass of 
+3. subclass of
+
+##graph builder: https://angryloki.github.io/wikidata-graph-builder/?property=P361&item=Q245652&iterations=25&mode=both 
 
