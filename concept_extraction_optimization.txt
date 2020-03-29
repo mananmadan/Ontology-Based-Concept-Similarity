@@ -1,0 +1,23 @@
+##What a neural net uses to optimize its cost function:
+
+Given the factors on which the output of the neural network or hence the cost function depends are the dimensions.
+Now given the different values of dimension at each point of time cost function is calculated , now to find the local minima in the graph of the values plotted by varying these dimensions, we use gradient descent.
+
+##What did we do:
+Now we know that the output of our program is dependent on three initial conditions ( no_of_connected_nodes,length of the given topic, its frequency in the graph.
+
+Now what we did was to multiply 3 factors : k1,k2,k3 to each of the value and using the value we calculate our ans.
+
+Now on varying each of the values we will get different answers of the cost function --> that basically calculates the difference between the output coming from the students and the expected output.
+
+Now consider a 3-d graph that plots the k1,k2,k3 constants and cost function.
+
+Now in order to get the most optimum result , what we have to do is find the global minima of this graph ==> but since our sample space of the graph is very small , we can just go through the entire graph
+and the find the min value , which is what we did.
+
+Clearly a 3-d graphs can be iterated in O(n^3) time.
+
+Putting these values in our program gets the closest results to the expected output.
+
+We plan to run this algorithm on the teachers notes and obtain the value and use the obtained value to extract output from the students graph as well.
+
