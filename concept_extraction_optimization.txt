@@ -1,9 +1,9 @@
-##What a neural net uses to optimize its cost function:
+##  2.What a neural net uses to optimize its cost function???
 
 Given the factors on which the output of the neural network or hence the cost function depends are the dimensions.
 Now given the different values of dimension at each point of time cost function is calculated , now to find the local minima in the graph of the values plotted by varying these dimensions, we use gradient descent.
 
-##What did we do:
+##  1. What did we do???
 Now we know that the output of our program is dependent on three initial conditions ( no_of_connected_nodes,length of the given topic, its frequency in the graph.
 
 Now what we did was to multiply 3 factors : k1,k2,k3 to each of the value and using the value we calculate our ans.
