@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import wikipedia
 
-search_string = "principles"
+search_string = "Ensemble Learning"
 #print(type(wikipedia.search(search_string)))
 print("Searching for .........")
 query = wikipedia.search(search_string)[0]

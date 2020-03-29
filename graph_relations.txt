@@ -1,0 +1,21 @@
+#build wikigraph at each node of our present graph
+
+#common ancestor between each node
+1.DFS on each node , string matching , o(1) map searching 
+
+Time complexity : no of nodes in real graph  * nodes in each graph in wikigraph * 10
+ 300*70(upper limit)*10
+= 210000
+2-3 seconds
+
+
+## use :
+
+pre processing -- labelled through pos tag(Aditya)
+
+1. python wiki graph for each node (internet)(Manan):
+
+2. compution python (Aditya)
+
+
+
