@@ -1,0 +1,789 @@
+artificial intelligence
+ensemble learning
+supervised learning
+Vapnik–Chervonenkis theory
+reinforcement learning
+semi-supervised learning
+unsupervised learning
+inductive transfer
+online machine learning
+Thompson sampling
+lasso
+embedding
+machine learning
+connectionism
+cognitive architecture
+MAUT
+image recognition
+KBpedia
+word embedding
+information theory
+knowledge base
+management information system
+evolutionary algorithm
+Reason maintenance
+metaclass
+natural language processing
+cognitive science
+expert system
+artificial neural network
+decision support system
+computational intelligence
+evolutionary computation
+emergency medical hologram
+knowledge engineering
+heuristic
+artificial general intelligence
+Distributed artificial intelligence
+knowledge representation and reasoning
+self-management
+Applications of artificial intelligence
+symbolic artificial intelligence
+Q16655792
+artificial intelligence in fiction
+Explainable AI
+federated learning
+Artificial intelligence in Wikimedia projects
+-1
+ensemble learning
+random forest
+Bootstrap aggregating
+gradient boosting
+-1
+random forest
+random survival forest
+-1
+Bootstrap aggregating
+-1
+gradient boosting
+-1
+supervised learning
+support vector machine
+inductive programming
+-1
+support vector machine
+-1
+inductive programming
+Inductive logic programming
+-1
+Vapnik–Chervonenkis theory
+-1
+reinforcement learning
+deep reinforcement learning
+-1
+deep reinforcement learning
+-1
+semi-supervised learning
+active learning
+label propagation algorithm
+-1
+active learning
+-1
+label propagation algorithm
+-1
+unsupervised learning
+independent component analysis
+archetypal analysis
+-1
+independent component analysis
+-1
+archetypal analysis
+-1
+inductive transfer
+-1
+online machine learning
+-1
+Thompson sampling
+-1
+lasso
+-1
+embedding
+word embedding
+sentence embedding
+fastText
+graph embedding
+knowledge graph embedding
+-1
+word embedding
+Word2vec
+GloVe
+-1
+sentence embedding
+-1
+fastText
+-1
+graph embedding
+knowledge graph embedding
+-1
+knowledge graph embedding
+-1
+machine learning
+ensemble learning
+supervised learning
+Vapnik–Chervonenkis theory
+reinforcement learning
+semi-supervised learning
+unsupervised learning
+inductive transfer
+online machine learning
+Thompson sampling
+lasso
+embedding
+support vector machine
+feature
+Explanation-based learning
+artificial neural network
+deep learning
+pattern recognition
+hierarchical temporal memory
+chemometrics
+statistical classification
+multi-task learning
+nonlinear dimensionality reduction
+offline learning
+statistical relational learning
+decision tree learning
+feature learning
+quantum machine learning
+adversarial machine learning
+machine learning Framework
+multiple kernel learning
+multimodal learning
+machine learning in bioinformatics
+sequence-to-sequence learning
+automated machine learning
+image-to-image translation
+federated learning
+interactive machine learning
+end-to-end learning
+self-supervised learning
+-1
+feature
+compatibility
+-1
+Explanation-based learning
+-1
+artificial neural network
+ADALINE
+hierarchical temporal memory
+autoencoder
+Hopfield network
+recurrent neural network
+Radial basis function network
+modular neural network
+Kohonen neural network
+Bcpnn
+compositional pattern-producing network
+connectionist expert system
+feedforward neural network
+recursive neural network
+generative adversarial network
+neural Turing machine
+Gated recurrent unit
+Recurrent Entity Networks
+memory-augmented neural network
+deep neural network
+graph convolutional network
+3D-convolutional neural networks
+BERT
+RoBERTa
+T5
+-1
+deep learning
+deep reinforcement learning
+-1
+pattern recognition
+feature
+-1
+hierarchical temporal memory
+-1
+chemometrics
+Quantitative Structure–Activity Relationship
+proteochemometrics
+-1
+statistical classification
+document classification
+Multiclass classification
+binary classification
+-1
+multi-task learning
+-1
+nonlinear dimensionality reduction
+Isomap
+-1
+offline learning
+-1
+statistical relational learning
+-1
+decision tree learning
+-1
+feature learning
+Sparse dictionary learning
+-1
+quantum machine learning
+-1
+adversarial machine learning
+-1
+machine learning Framework
+-1
+multiple kernel learning
+-1
+multimodal learning
+-1
+machine learning in bioinformatics
+-1
+sequence-to-sequence learning
+-1
+automated machine learning
+-1
+image-to-image translation
+-1
+federated learning
+-1
+interactive machine learning
+-1
+end-to-end learning
+-1
+self-supervised learning
+-1
+connectionism
+-1
+cognitive architecture
+-1
+MAUT
+-1
+image recognition
+-1
+KBpedia
+-1
+information theory
+redundancy
+equivocation
+Communication
+Information gain in decision trees
+-1
+redundancy
+-1
+equivocation
+-1
+Communication
+-1
+Information gain in decision trees
+-1
+knowledge base
+ontic
+Abox
+DiShIn
+Tbox
+class
+metaclass
+formal ontology concept
+knowledge graph
+Open Data Web
+ontology
+model organism database
+question-answering dataset
+-1
+ontic
+-1
+Abox
+-1
+DiShIn
+-1
+Tbox
+-1
+class
+Nothotalisia
+breeding line
+Rubeus Hagrid
+Irma Pince
+Horace Slughorn
+Cuthbert Binns
+Wilhelmina Grubbly-Plank
+Argus Filch
+Poppy Pomfrey
+Firenze
+Charity Burbage
+Septima Vector
+Galatea Merrythought
+Hogwart Houses' ghosts
+freight bicycle
+Protein subfamily
+mineral series
+protein family
+file format
+streaming channel
+taxon
+dark energy
+type of sport
+breed
+word class
+conservation status
+period
+class (set theory)
+Hogwarts staff
+mode of transport
+mineral variety
+brand
+variation of basketball
+genre
+first principle
+type of snow
+lavra
+national treasure
+mathematical singularity
+type of biotope
+complexity class
+standard candle
+class of instruments
+type of wood
+aircraft class
+mineral group
+ton class
+syntaxon
+type of farm house
+airspace class
+Q2673285
+drug class
+fundamental limit
+constellation family
+emic unit
+layer
+National Register of Historic Places property type
+protein superfamily
+standard ruler
+wine color
+soil type
+Q11227878
+Q11877134
+Q12016758
+humus form
+legal form
+Q12057149
+mineral class
+aircraft family
+engine family
+weapon family
+class used in Universal Decimal Classification
+dog variety
+watercraft type
+train category
+software category
+type of organisation
+astronomical object type
+bridge by structural type
+absence
+vessel class
+cryptographic attack type
+type of food or dish
+type
+living organism class
+content rating category
+Q23656771
+category in the Köppen climate classification system
+nuclear reactor generation
+type of library
+file format family
+software version type
+class of ambassadors
+type of an organization
+joke cycle
+tank family
+class of award
+type of publication
+cartridge family
+tournament
+tractor series
+combine harvester series
+art form
+Q56649562
+video streaming service
+nothotaxon
+military unit class
+family-specific aircraft model class
+cation class
+gene family
+content descriptor
+group
+group or class of molecular entities
+battery chemistry
+album type
+group or class of proteins
+currently empty class
+-1
+metaclass
+Wikidata metaclass
+chemical component
+vehicle family
+variable-order metaclass
+-1
+formal ontology concept
+-1
+knowledge graph
+semantic network
+-1
+Open Data Web
+-1
+ontology
+ontic
+Abox
+DiShIn
+Tbox
+class
+metaclass
+formal ontology concept
+interwiki link
+Wikidata item
+claim
+Wikidata property
+Wikibase data model element
+concept of no-value in Wikibase
+concept of unknown value in Wikibase
+ourData Map item
+ourData Map data model element
+ourData Map property
+ourData Map statement model
+formal ontology
+Meta-modeling
+upper ontology
+process ontology
+soft ontology
+weak ontology
+Wikidata Data Model
+domain ontology
+task ontology
+application ontology
+OWL ontology
+ourData Map data model
+OBO Foundry ontology
+-1
+model organism database
+-1
+question-answering dataset
+-1
+management information system
+data warehouse
+-1
+data warehouse
+data mart
+extract, transform, load
+Fact table
+report generator
+data warehousing product
+Dimension table
+spatial data warehouse
+data lake
+-1
+evolutionary algorithm
+genetic algorithm
+Evolutionary Algorithm for Landmark Detection
+-1
+genetic algorithm
+genetic algorithm scheduling
+-1
+Evolutionary Algorithm for Landmark Detection
+-1
+Reason maintenance
+-1
+natural language processing
+word embedding
+speech recognition
+natural language understanding
+part-of-speech tagging
+Morphological analysis
+text segmentation
+tokenization
+text simplification
+computer-based question classification
+biomedical natural language processing
+-1
+speech recognition
+-1
+natural language understanding
+natural language inference
+-1
+part-of-speech tagging
+-1
+Morphological analysis
+-1
+text segmentation
+sentence boundary disambiguation
+decompounding
+-1
+tokenization
+-1
+text simplification
+-1
+computer-based question classification
+-1
+biomedical natural language processing
+-1
+cognitive science
+artificial intelligence
+information theory
+cognitive architecture
+cognitive neuroscience
+cognitive science of religion
+cognitive anthropology
+Cognitive hearing science
+embodied cognitive science
+cognitive geography
+artificial intelligence
+-1
+cognitive neuroscience
+developmental cognitive neuroscience
+-1
+cognitive science of religion
+-1
+cognitive anthropology
+-1
+Cognitive hearing science
+-1
+embodied cognitive science
+-1
+cognitive geography
+-1
+expert system
+knowledge base
+diagnostic expert system
+rule-based expert system
+frame-based expert system
+metaexpert system
+monitoring expert system
+planning expert system
+-1
+diagnostic expert system
+-1
+rule-based expert system
+-1
+frame-based expert system
+-1
+metaexpert system
+-1
+monitoring expert system
+-1
+planning expert system
+-1
+decision support system
+management information system
+Group decision support systems
+Automated Decision support system
+Diagnosis
+Clinical decision support system
+Intelligent decision support systems
+Marketing decision support system
+Spatial decision support system
+-1
+Group decision support systems
+-1
+Automated Decision support system
+-1
+Diagnosis
+-1
+Clinical decision support system
+-1
+Intelligent decision support systems
+-1
+Marketing decision support system
+-1
+Spatial decision support system
+-1
+computational intelligence
+-1
+evolutionary computation
+evolutionary algorithm
+-1
+emergency medical hologram
+-1
+knowledge engineering
+-1
+heuristic
+Metaheuristic
+informed search algorithm
+-1
+Metaheuristic
+boosting
+-1
+informed search algorithm
+-1
+artificial general intelligence
+-1
+Distributed artificial intelligence
+-1
+knowledge representation and reasoning
+Reason maintenance
+metaclass
+KBpedia
+-1
+self-management
+-1
+Applications of artificial intelligence
+-1
+symbolic artificial intelligence
+-1
+Q16655792
+-1
+artificial intelligence in fiction
+-1
+Explainable AI
+-1
+Artificial intelligence in Wikimedia projects
+-1
+linguistics
+artificial intelligence
+-1
+philology
+linguistics
+-1
+humanities
+philology
+-1
+Geisteswissenschaft
+philology
+-1
+psychology
+artificial intelligence
+neuroscience
+-1
+social science
+psychology
+anthropology
+anthropology
+neuroscience
+-1
+science
+social science
+anthropology
+philosophy
+exact science
+work
+-1
+anthropology
+artificial intelligence
+-1
+philosophy of mind
+artificial intelligence
+-1
+psychology terminology
+philosophy of mind
+-1
+scientific terminology
+psychology terminology
+philosophy of mind
+-1
+philosophy
+philosophy of mind
+-1
+neuroscience
+artificial intelligence
+-1
+robotics
+neuroscience
+-1
+mechatronics
+robotics
+neuroscience
+-1
+biology
+neuroscience
+-1
+natural science
+biology
+neuroscience
+-1
+medicine
+neuroscience
+neuroscience
+-1
+health science
+medicine
+neuroscience
+-1
+information technology
+neuroscience
+-1
+technology
+information technology
+neuroscience
+-1
+Information and Communications Technology
+information technology
+neuroscience
+-1
+service
+information technology
+neuroscience
+-1
+computer science
+neuroscience
+artificial intelligence
+algorithmics
+algorithm
+artificial intelligence
+-1
+formal science
+computer science
+neuroscience
+artificial intelligence
+algorithm
+algorithm
+-1
+algorithm
+artificial intelligence
+-1
+algorithmics
+algorithm
+-1
+theory of computation
+algorithmics
+-1
+theoretical computer science
+algorithmics
+-1
+mathematics
+algorithmics
+algorithm
+-1
+fundamental science
+algorithmics
+-1
+exact science
+algorithm
+-1
+work
+algorithm
+-1
+collection
+work
+-1
+artificial physical object
+work
+-1
+group
+work
+-1
+academic discipline
+work
+-1
+culture
+work
+-1
+pattern of behaviour
+work
+-1
+human behaviour
+work
+-1
+product
+work
+-1
+artificial entity
+work
+artificial intelligence
+-1
+procedure
+algorithm
+-1
+technique
+procedure
+-1

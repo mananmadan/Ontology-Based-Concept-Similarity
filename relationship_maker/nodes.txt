@@ -1,0 +1,2 @@
+Artificial/NNP intelligence/NN 
+Machine/NNP learning/NN
