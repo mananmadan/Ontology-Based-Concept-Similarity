@@ -12,6 +12,7 @@
 ## Ontolgy in which papers:
 
 # Paper1 : https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.92.4964&rep=rep1&type=pdf
+(ACM Journal of Education Resources in Computing)
 1. This paper basically desighns the concept map just like us , but has better relationships between
 the concepts:
 Namely the relations defined are only of certain types:
@@ -22,4 +23,30 @@ Namely the relations defined are only of certain types:
 
 --> mainly subclass , superclass .
 
+Basically , they have desighned a model of how any concept can be visualized in terms of graph.This is called a T model.
+So they classify all the information into different T models connected to each other.
+Since it is is a defined model it enables them to do automated reasoning.
+Also they are able to process many logical arguments.
+
+
+##Paper2 :https://link.springer.com/chapter/10.1007/978-3-642-32600-4_13
+(International Conference on Database and Expert Systems Application)
+Their methodolgy
+1. 1st they use a power point reader to extract the notes in power point slides.
+2. They then do concept extraction after getting the text from the power point slides.
+  >Pre-processing : removing stop words , removing white spaces
+  >Tagging : POS Tagging and Lemmatizing
+  >They take out the nouns and the compound nouns from the processed text and use the term frequency in the document to rank the concepts
+  
+3. They then perform the n gram count and then indentify the location of the concepts.
+4.(Special Step) Since in powerpoint one highlights certain text according to their importance level, thus they use a probability model to say ,
+what terms have good weights.
+
+Concept Hierarchy Extraction : Here they differ from us by huge margin, whereas we use a wikidata corpus to decide hierarchy, they have used the
+power point presentation to do variuos types of analysis from the powerpoint slides.
+
+#My analysis : Both the papers devide the task of ontology extraction into concept extraction anf then Concept hierarchy formation.
+#We have done it also like that although methods of both differ from our method.
+
+I will also give a read to this paper which uses ontology using Deep Learning:https://link.springer.com/chapter/10.1007/978-3-030-35445-9_50
 
