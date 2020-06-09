@@ -1,0 +1,191 @@
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between syntax and problem solving is: syntax -> thematic relation -> agent -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between syntax and idea is: syntax -> thematic relation -> agent -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between syntax and Disadvantaged is: syntax -> thematic relation -> agent -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between syntax and binary tree is: syntax -> thematic relation -> agent -> person -> 
+relation between syntax and corporation is: syntax -> thematic relation -> agent -> legal person -> juridical person -> corporation -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between syntax and data is: syntax -> thematic relation -> agent -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between syntax and man is: syntax -> thematic relation -> agent -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between syntax and thought is: syntax -> thematic relation -> agent -> person -> 
+relation between syntax and person is: syntax -> thematic relation -> agent -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between syntax and fact is: syntax -> thematic relation -> agent -> person -> 
+relation between knowledge and syntax is: knowledge -> humanities -> philology -> syntax -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and chess is: knowledge -> humanities -> philology -> linguistics -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and expert system is: knowledge -> humanities -> philology -> linguistics -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and problem solving is: knowledge -> humanities -> philology -> syntax -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and idea is: knowledge -> humanities -> philology -> syntax -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and video is: knowledge -> specialty -> academic discipline -> depiction -> image -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and Disadvantaged is: knowledge -> humanities -> philology -> syntax -> 
+relation between knowledge and binary tree is: knowledge -> humanities -> auxiliary science of history -> tree -> polytree -> arborescence -> binary tree -> 
+relation between knowledge and logic is: knowledge -> specialty -> academic discipline -> logic -> 
+relation between knowledge and artificial intelligence is: knowledge -> humanities -> philology -> linguistics -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and knowledge base is: knowledge -> humanities -> philology -> linguistics -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and goal is: knowledge -> humanities -> philology -> linguistics -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and corporation is: knowledge -> humanities -> philology -> syntax -> 
+relation between knowledge and image is: knowledge -> specialty -> academic discipline -> depiction -> image -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and data is: knowledge -> humanities -> philology -> syntax -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and man is: knowledge -> specialty -> academic discipline -> logic -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and thought is: knowledge -> humanities -> philology -> syntax -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and person is: knowledge -> humanities -> philology -> syntax -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge and fact is: knowledge -> humanities -> philology -> syntax -> 
+relation between chess and goal is: chess -> chess theory -> quality -> criterion -> goal -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between expert system and chess is: expert system -> knowledge base -> 
+relation between expert system and knowledge base is: expert system -> knowledge base -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between expert system and goal is: expert system -> knowledge base -> 
+relation between intelligence and human intelligence is: intelligence -> human intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between idea and binary tree is: idea -> thought -> 
+relation between idea and thought is: idea -> thought -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer and inference engine is: computer -> software -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer and chess is: computer -> software -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer and expert system is: computer -> software -> 
+relation between computer and C is: computer -> programming language -> C -> 
+relation between computer and software is: computer -> software -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer and computer program is: computer -> software -> 
+relation between computer and mainframe computer is: computer -> server computer -> mainframe computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer and artificial intelligence is: computer -> software -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer and knowledge base is: computer -> software -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer and goal is: computer -> software -> 
+relation between computer and C++ is: computer -> programming language -> C++ -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer and algorithm is: computer -> software -> 
+relation between interaction and chess is: interaction -> strategic game -> sequential game -> chess -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between interaction and goal is: interaction -> strategic game -> sequential game -> chess -> 
+relation between logic and man is: logic -> mathematical logic -> structure -> organism -> adult -> man -> 
+relation between software and inference engine is: software -> program -> inference engine -> 
+relation between software and chess is: software -> class -> type of sport -> individual sport -> chess -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between software and expert system is: software -> computer program -> 
+relation between software and computer program is: software -> computer program -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between software and artificial intelligence is: software -> program -> procedure -> algorithm -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between software and knowledge base is: software -> computer program -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between software and goal is: software -> class -> type of sport -> individual sport -> chess -> 
+relation between software and algorithm is: software -> program -> procedure -> algorithm -> 
+relation between computer program and chess is: computer program -> software component -> class -> type of sport -> individual sport -> chess -> 
+relation between computer program and expert system is: computer program -> expert system -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer program and artificial intelligence is: computer program -> procedure -> algorithm -> 
+relation between computer program and knowledge base is: computer program -> knowledge base -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer program and goal is: computer program -> software component -> class -> type of sport -> individual sport -> chess -> 
+relation between computer program and algorithm is: computer program -> procedure -> algorithm -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between artificial intelligence and chess is: artificial intelligence -> expert system -> 
+relation between artificial intelligence and expert system is: artificial intelligence -> expert system -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between artificial intelligence and knowledge base is: artificial intelligence -> expert system -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between artificial intelligence and goal is: artificial intelligence -> expert system -> 
+relation between knowledge base and chess is: knowledge base -> class -> type of sport -> individual sport -> chess -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between knowledge base and goal is: knowledge base -> class -> type of sport -> individual sport -> chess -> 
+relation between image and video is: image -> moving image -> video -> 
+relation between image and binary tree is: image -> symbol -> charge -> tree -> polytree -> arborescence -> binary tree -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and inference engine is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and chess is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and expert system is: machine -> electronic machine -> computer -> 
+relation between machine and computer is: machine -> electronic machine -> computer -> 
+relation between machine and robot is: machine -> robot -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and C is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and software is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and computer program is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and mainframe computer is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and artificial intelligence is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and knowledge base is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and goal is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and C++ is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between machine and algorithm is: machine -> electronic machine -> computer -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer science and chess is: computer science -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer science and expert system is: computer science -> artificial intelligence -> 
+relation between computer science and binary tree is: computer science -> data structure -> tree data structure -> binary tree -> 
+relation between computer science and artificial intelligence is: computer science -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer science and knowledge base is: computer science -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between computer science and goal is: computer science -> artificial intelligence -> 
+relation between computer science and algorithm is: computer science -> algorithm -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between data and problem solving is: data -> metadata -> subject -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between data and idea is: data -> metadata -> subject -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between data and Disadvantaged is: data -> metadata -> subject -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between data and binary tree is: data -> metadata -> subject -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between data and man is: data -> metadata -> subject -> person -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between data and thought is: data -> metadata -> subject -> person -> 
+relation between data and person is: data -> metadata -> subject -> person -> 
+relation between data and fact is: data -> fact -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between algorithm and chess is: algorithm -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between algorithm and expert system is: algorithm -> artificial intelligence -> 
+relation between algorithm and artificial intelligence is: algorithm -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between algorithm and knowledge base is: algorithm -> artificial intelligence -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between algorithm and goal is: algorithm -> artificial intelligence -> 
+relation between thought and idea is: thought -> idea -> 
+relation between thought and binary tree is: thought -> generalization -> symbol -> charge -> tree -> polytree -> arborescence -> binary tree -> 
+relation between person and problem solving is: person -> interlocutor -> communication source -> writing -> scientific terminology -> problem solving -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between person and idea is: person -> interlocutor -> communication source -> writing -> scientific terminology -> thought -> 
+relation between person and Disadvantaged is: person -> human -> Disadvantaged -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between person and binary tree is: person -> interlocutor -> communication source -> writing -> scientific terminology -> thought -> 
+relation between person and data is: person -> host -> database -> data base -> data -> 
+relation between person and man is: person -> human -> male human -> man -> 
+relation between person and thought is: person -> interlocutor -> communication source -> writing -> scientific terminology -> thought -> 
+$$$$$$$$$$$$$$$$$$$$$$$4
+relation between person and fact is: person -> host -> database -> data base -> data -> 
+relation between organization and corporation is: organization -> company -> corporation -> 

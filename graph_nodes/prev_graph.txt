@@ -1,0 +1,1341 @@
+deductive reasoning
+-1
+qualitative research
+qualitative property
+thematic analysis
+-1
+geoinformatics
+-1
+visual culture
+-1
+Esperanto alphabet
+B
+C
+A
+-1
+mainframe computer
+IEFBR14
+-1
+feature detection
+-1
+cognitive neuroscience
+-1
+Step
+-1
+mother!
+-1
+chess variant
+-1
+DEC Alpha
+-1
+Tongue muscles
+hyoglossus
+genioglossus
+styloglossus
+chondroglossus
+-1
+@
+-1
+Science of Logic
+-1
+logical form
+-1
+neuro-linguistic programming
+Q2307244
+Q2984926
+-1
+styloglossus
+-1
+organizational unit
+-1
+human intelligence
+-1
+bottleneck
+-1
+video format
+-1
+expert system
+knowledge base
+-1
+domain-specific language
+-1
+logical possibility
+-1
+chess strategy
+blockade
+-1
+screen buffer
+-1
+organizations subject to surveillance under the Subversive Activities Prevention Act
+-1
+video
+B-MAC
+LANC
+video format
+Electronic Field Production
+-1
+machine learning
+ensemble learning
+supervised learning
+Vapnik–Chervonenkis theory
+reinforcement learning
+semi-supervised learning
+unsupervised learning
+inductive transfer
+online machine learning
+Thompson sampling
+lasso
+embedding
+-1
+Trolley problem
+-1
+software development methodology
+-1
+intelligent dance music
+-1
+MAUT
+-1
+PEPA
+-1
+false alarm
+-1
+consequent
+-1
+Disadvantaged
+-1
+bump mapping
+-1
+commander of the guard force
+-1
+Some Broken Hearts Never Mend
+-1
+binary tree
+-1
+organizational subdivision
+-1
+Q1681417
+-1
+taste buds
+-1
+pharmacoinformatics
+-1
+numeric keypad
+Num lock
+0 key
+1 key
+2 key
+3 key
+4 key
+5 key
+6 key
+7 key
+8 key
+9 key
+decimal point key
+plus key
+minus key
+multiply key
+divide key
+enter key
+-1
+English
+-1
+theory of computation
+algorithmics
+-1
+knowledge
+-1
+sign bit
+-1
+computational neuroscience
+-1
+PSAM
+-1
+upper arm
+biceps brachii
+-1
+Logging truck
+manipulator
+-1
+knowledge-based system
+inference engine
+knowledge base
+-1
+family
+man
+-1
+computer program
+user interface
+subroutine
+Zugmodus
+invariant
+programming idiom
+statement
+instruction
+aspect
+language construct
+procedure
+function
+argument
+branch
+software add-on
+-1
+Input
+-1
+Inferno
+Q9086151324
+-1
+Q10317846
+-1
+genioglossus
+-1
+neurobiology
+Neural Darwinism
+Neuroscience of sleep
+-1
+Central Unit
+-1
+Latin alphabet
+A
+-1
+Petri net
+-1
+inductive reasoning
+-1
+guard troop
+company leader of the guard force (Kompanieführer)
+commander of the guard force
+SS non-commissioned officers of the guard force
+-1
+flag
+-1
+Adaptronik
+-1
+maximum transmission unit
+-1
+Maximum Receive Unit
+-1
+Q2147431324
+vi
+-1
+software component
+-1
+soul
+Abditum mentis
+-1
+PUC
+-1
+Africa Alphabet
+B
+C
+A
+-1
+cognitive architecture
+-1
+analog-to-digital converter
+-1
+theoretical computer science
+numeric function
+computational complexity theory
+automata theory
+state space
+Aggregate Method
+atomic
+minimum cut
+PEPA
+algorithmics
+Ehrenfeucht conjecture
+-1
+speech recognition
+-1
+Latin script
+B
+C
+Â
+Ă
+-1
+software development process
+software configuration management
+software development methodology
+software verification and validation
+-1
+predicate logic
+Q1908975
+-1
+graph theory
+Seven Bridges of Königsberg
+Kuratowski's theorem
+network theory
+maximum flow problem
+level ancestor problem
+Hajós conjecture
+graph algorithm
+-1
+modifier key
+-1
+email address
+@
+-1
+redundancy
+-1
+goal
+-1
+modular programming
+-1
+machine
+clutch
+Achshalter
+mechanism
+controller
+mechanical joint
+-1
+Binit
+-1
+computer vision
+-1
+biceps brachii
+long head of the biceps brachii
+short head of the biceps brachii
+-1
+Colour of Love
+-1
+A
+Begging (song)
+-1
+Lisp
+defun
+Fexpr
+-1
+ray tracing
+-1
+office
+-1
+ISAC
+-1
+DPNR
+-1
+Open Data Web
+-1
+software as a service
+-1
+bioinformatics
+PSAM
+-1
+endgame
+-1
+data
+-1
+subsurface scattering
+-1
+man
+-1
+modus ponens
+-1
+Q8465354
+-1
+Collective operation
+-1
+camp commandant staff
+-1
+robot
+manipulator
+-1
+Service desk
+-1
+customer relationship management
+Key account manager
+-1
+blockade
+-1
+hierarchy
+Dienststellung
+-1
+clock rate
+-1
+KBpedia
+-1
+software feature
+-1
+double colon
+colon
+-1
+free upper limb
+arm
+-1
+SECD machine
+-1
+Q3016108
+-1
+input-output device
+-1
+computer case
+computer case screw
+drive bay
+-1
+George H. W. Bush
+-1
+user interface design
+-1
+data base
+data
+-1
+video camera
+Jog
+-1
+Alebo
+-1
+Purely functional
+-1
+B-MAC
+-1
+mode
+-1
+Procedure (disambiguation)
+-1
+Thompson sampling
+-1
+Locations of Half-Life
+-1
+idea
+-1
+drive bay
+backplane
+-1
+base case
+-1
+IT service management
+Service desk
+-1
+quantum logic
+-1
+instructions per second
+-1
+event
+-1
+category
+-1
+quality
+-1
+International Phonetic Alphabet
+Ă
+-1
+Kizuna AI
+-1
+volume rendering
+-1
+modeling, virtual environments and simulation
+-1
+Jog
+-1
+computer hardware
+graphic tablet
+-1
+cause
+-1
+Class
+-1
+communications protocol
+maximum transmission unit
+flag
+Maximum Receive Unit
+acknowledgement
+-1
+Abbruchbedingung
+-1
+3D Documentation
+-1
+Record
+-1
+factual reference document
+factual information
+-1
+image recognition
+-1
+eDRAM
+-1
+interaction
+coupling object
+-1
+3D texture
+-1
+natural-language user interface
+speech recognition
+Anaphora resolution
+Elliptical sentence resolution
+extra-grammatical utterance
+nominal compound problem
+"and" used to denote disjunction
+Quantifier scoping
+Modifier attachment
+speech recognition
+-1
+Intel HD Audio connector
+-1
+consequence
+-1
+Kuratowski's theorem
+-1
+Â
+A
+-1
+software configuration management
+-1
+Pashto
+Q231727
+-1
+Pan-Nigerian alphabet
+B
+-1
+host adapter
+-1
+integrated memory controller
+-1
+chondroglossus
+-1
+LANC
+-1
+repetitive strain injury
+-1
+phonetics
+Akuem
+voice
+haplology
+phonetic rule
+Xeada
+phonetic shift
+-1
+3D projection
+-1
+Q9366856
+Google
+-1
+Dano-Norwegian alphabet
+A
+-1
+motherboard
+chipset
+CPU socket
+voltage regulator module
+USART
+Intel HD Audio connector
+-1
+compromise
+Colour of Love
+Tender Heart
+-1
+identity
+-1
+Maltese alphabet
+B
+-1
+analysis of algorithms
+-1
+B
+-1
+business informatics
+customer relationship management
+Internet economy
+business process management
+-1
+Save the Overtime
+-1
+Tourette syndrome
+-1
+CPU cache
+-1
+thematic relation
+-1
+ЦВК
+-1
+database
+data base
+-1
+connectionism
+-1
+Begging (song)
+-1
+description logic
+-1
+debugging
+tracing
+-1
+middlegame
+-1
+Ehrenfeucht conjecture
+-1
+Field
+-1
+graphic tablet
+-1
+List of Value
+-1
+neurochemistry
+brain chemistry
+-1
+speller
+-1
+graph algorithm
+-1
+knowledge base
+knowledge graph
+Open Data Web
+-1
+Development
+-1
+run-time type information
+dynamic_cast
+-1
+mechanism
+-1
+propositional logic
+-1
+Structures in C++
+-1
+chess
+chess variant
+initiative
+chess strategy
+Q1681417
+chess theory
+-1
+Particular
+-1
+software verification and validation
+-1
+Applications of artificial intelligence
+-1
+C++
+dynamic_cast
+run-time type information
+double colon
+C++ concept
+C++ reserved word
+Structures in C++
+-1
+Electronic Field Production
+-1
+Vietnamese alphabet
+B
+C
+Â
+Ă
+A
+-1
+Vision
+Some Broken Hearts Never Mend
+American Dream
+Save the Overtime
+-1
+Google
+Q9366856
+-1
+A Quiet Place: Part II
+-1
+Q1908975
+-1
+Scene
+-1
+General Alphabet of Cameroon Languages
+A
+-1
+Q21708200856
+OpenAI
+-1
+Fexpr
+-1
+syntax
+thematic relation
+government
+-1
+Italian alphabet
+B
+C
+A
+-1
+CPU design
+microarchitecture
+instruction system
+CPU bit width
+-1
+causality
+consequent
+consequence
+cause
+-1
+business process management
+PDCA
+-1
+IEFBR14
+-1
+treasury
+-1
+social computing
+-1
+classical logic
+Law of excluded middle
+modus ponens
+-1
+Q9086151324
+Inferno
+-1
+index structure
+-1
+knowledge graph
+-1
+Generic function
+-1
+computer engineering
+-1
+French alphabet
+B
+C
+A
+-1
+applied computer science
+geoinformatics
+-1
+intelligence
+-1
+module
+-1
+Q2307244
+-1
+fact database
+factual information
+-1
+computer
+computer keyboard
+computer hardware
+computer case
+motherboard
+central processing unit
+software
+programming language
+bus
+Central Unit
+host adapter
+clock rate
+controller
+input-output device
+system console
+computer memory
+-1
+cloning
+-1
+system administration
+-1
+Q2984926
+-1
+arm
+forearm
+upper arm
+-1
+Ability
+-1
+Breton alphabet
+B
+A
+-1
+qualitative property
+-1
+Subfield
+-1
+routine
+-1
+catalytic converter
+DPNR
+-1
+computer keyboard
+numeric keypad
+tab key
+Pause/Break
+modifier key
+space bar
+computer key
+character key
+-1
+C
+-1
+central processing unit
+eDRAM
+CPU cache
+heat spreader
+memory controller
+CPU design
+integrated memory controller
+-1
+Settings
+-1
+computer-aided design
+3D Documentation
+-1
+opposition
+-1
+interface
+-1
+mechanical joint
+-1
+logic
+predicate logic
+Principle of explosion
+causality
+propositional logic
+modal logic
+fuzzy logic
+classical logic
+premise
+Science of Logic
+description logic
+deductive reasoning
+inductive reasoning
+philosophical logic
+category of being
+quantum logic
+appeal to motive
+Q3016108
+opposition
+logical form
+Q8465354
+Q10317846
+formalized language
+Alebo
+-1
+Slovak alphabet
+B
+C
+A
+-1
+voltage regulator module
+-1
+electronic music
+intelligent dance music
+-1
+premise
+-1
+Decision
+-1
+Law of excluded middle
+-1
+initiative
+-1
+Lot
+-1
+Seven Bridges of Königsberg
+-1
+Method
+-1
+computer algebra
+-1
+Romanian alphabet
+B
+C
+Â
+Ă
+A
+-1
+neuropsychology
+psychoneuroendocrinology
+psychoneuroimmunology
+-1
+forearm
+-1
+Yahoo
+Merold
+-1
+Difficulty
+-1
+modal logic
+logical possibility
+-1
+username
+@
+-1
+Dan in Real Life
+-1
+Benin National Alphabet
+B
+C
+A
+-1
+Q2036672
+-1
+controller
+-1
+Administrationsprogramm (Administration program)
+-1
+company leader of the guard force (Kompanieführer)
+-1
+fuzzy logic
+-1
+Finnish alphabet
+B
+C
+A
+-1
+equivocation
+-1
+Process
+-1
+appeal to motive
+-1
+Communication
+-1
+property
+-1
+chess opening
+-1
+procedure
+-1
+vi
+Q2147431324
+-1
+Principle of explosion
+-1
+hardware
+-1
+level ancestor problem
+-1
+ray casting
+-1
+computer graphics
+3D projection
+visualization
+ray tracing
+subsurface scattering
+bump mapping
+ray casting
+volume rendering
+-1
+video game terminology
+-1
+formalized language
+-1
+defun
+-1
+hyoglossus
+-1
+genetic programming
+PORS
+-1
+upper extremity
+free upper limb
+-1
+thematic analysis
+-1
+Ă
+A
+-1
+Capability
+-1
+German orthography
+German alphabet
+-1
+computer memory
+screen buffer
+-1
+Order
+-1
+memory controller
+-1
+polymorphism
+-1
+acknowledgement
+-1
+information theory
+redundancy
+equivocation
+Communication
+-1
+thought
+idea
+-1
+person
+soul
+identity
+-1
+computer programming
+fork
+genetic programming
+debugging
+event
+Generic function
+modular programming
+Module pattern
+procedure
+function
+routine
+-1
+corporation
+-1
+SS non-commissioned officers of the guard force
+-1
+organization
+hierarchy
+organizational unit
+department
+technostructure
+organizational subdivision
+treasury
+office
+organizations subject to surveillance under the Subversive Activities Prevention Act
+chapter
+camp commandant staff
+guard troop
+-1
+Merold
+Yahoo
+-1
+Achshalter
+-1
+Tender Heart
+-1
+quantitative easing
+-1
+neuroinformatics
+activation space
+-1
+inference engine
+-1
+MOVE
+-1
+psychology terminology
+thought
+problem solving
+-1
+atomic
+-1
+C++ reserved word
+-1
+dynamic_cast
+-1
+Manufacturing operations
+-1
+visualization
+-1
+Icelandic alphabet
+B
+A
+-1
+computational sociology
+-1
+coupling object
+-1
+lingual papilla
+-1
+Pause/Break
+-1
+ISO basic Latin alphabet
+A
+-1
+computer science
+algorithm
+artificial intelligence
+interface
+simulation
+instructions per second
+computer programming
+business informatics
+bioinformatics
+information theory
+graph theory
+computer graphics
+data structure
+computer-aided design
+neuroscience
+3D texture
+Abbruchbedingung
+analysis of algorithms
+Adaptronik
+Administrationsprogramm (Administration program)
+computer engineering
+applied computer science
+mask
+social computing
+Petri net
+theory of computation
+visual culture
+computational sociology
+feature detection
+index structure
+Internet economy
+IT service management
+pose
+neuroinformatics
+Q2036672
+ISAC
+property
+computer algebra
+theoretical computer science
+polymorphism
+Purely functional
+sign bit
+Binit
+archetype
+ЦВК
+cloning
+Collective operation
+JBOB
+pharmacoinformatics
+List of Value
+PUC
+Q12568130
+system administration
+modeling, virtual environments and simulation
+bottleneck
+-1
+data structure
+-1
+Fender Wide Range
+-1
+USART
+-1
+government
+-1
+heat spreader
+-1
+factual information
+fact
+-1
+computer case screw
+-1
+algorithmics
+algorithm
+numerical analysis
+mathematical optimization
+algorithm design
+algorithmic accountability
+algorithmic transparency
+-1
+traffic
+vehicle
+-1
+Programa
+-1
+JBOB
+-1
+Position
+-1
+Anwar Saifullah Khan
+-1
+technostructure
+-1
+clutch
+-1
+for loop
+-1
+C++ concept
+-1
+Abditum mentis
+-1
+Aggregate Method
+-1
+archetype
+-1
+Czech alphabet
+B
+C
+A
+-1
+manipulator
+-1
+maximum flow problem
+-1
+programming language
+assignment statement
+operator
+property
+-1
+German alphabet
+A
+-1
+pose
+-1
+CPU socket
+-1
+host
+database
+-1
+category of being
+category
+-1
+Hajós conjecture
+-1
+chapter
+-1
+list of programming languages for artificial intelligence
+-1
+simulation
+-1
+Software analysis pattern
+-1
+OpenAI
+Q21708200856
+-1
+tongue
+Tongue muscles
+taste buds
+lingual papilla
+-1
+software
+computer program
+Software analysis pattern
+software extension
+natural-language user interface
+software feature
+mode
+module
+Settings
+software component
+speller
+class
+video game terminology
+-1
+Sequential analysis
+-1
+automata theory
+deterministic automaton
+-1
+facility
+-1
+philosophical logic
+-1
+problem solving
+compromise
+-1
+operator
+-1
+assignment statement
+-1
+network theory
+-1
+English as a second language
+-1
+class
+-1
+African reference alphabet
+B
+C
+A
+-1
+User
+-1
+Device
+-1
+artificial intelligence
+machine learning
+connectionism
+cognitive architecture
+Thompson sampling
+MAUT
+image recognition
+KBpedia
+-1
+function
+-1
+state space
+state of system
+-1
+system console
+-1
+bus
+-1
+vehicle
+catalytic converter
+-1
+Turkish alphabet
+B
+C
+A
+-1
+ADC
+-1
+Q231727
+-1
+Polish alphabet
+B
+C
+A
+-1
+space bar
+-1
+chipset
+southbridge
+northbridge
+memory controller
+-1
+sexual characteristics
+-1
+numeric function
+-1
+software extension
+-1
+American Dream
+-1
+PVLV
+-1
+Module pattern
+-1
+Q12568130
+-1
+image
+-1
+linguistics
+syntax
+-1
+branch
+-1
+department
+-1
+fork
+-1
+Dienststellung
+-1
+colon
+-1
+minimum cut
+-1
+character key
+-1
+computer key
+-1
+computational complexity theory
+complexity class
+-1
+neuroscience
+neuropsychology
+phonetics
+neurochemistry
+cognitive neuroscience
+neuroinformatics
+neurobiology
+PVLV
+computational neuroscience
+-1
+chess theory
+chess opening
+middlegame
+endgame
+quality
+-1
+English alphabet
+B
+C
+A
+-1
+algorithm
+base case
+branch
+-1
+cloud computing
+software as a service
+-1
+tab key
+-1
+mask
+-1
+fact
+-1
+Analog
+-1
+Internet economy
+-1
