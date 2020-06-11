@@ -51,9 +51,9 @@ def id_extractor(search_string):
             new_string = new_string + '_'
         else:
             new_string = new_string + i
-    #print("New string")
+    #print("new string")
     print("****************************************************************************")
-    print("Searching for {}".format(new_string))
+    print("searching for {}".format(new_string))
 
     res = requests.get("https://en.wikipedia.org/wiki/"+new_string)
     soup = bs(res.text, "html.parser")
@@ -86,7 +86,7 @@ def result_gen_children(prop,id):
     WHERE
     {
         ?item wdt:P361? wd:Q245652 .
-        SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+        SERVICE wikibase:label { bd:SERVICEparam wikibase:language "en" }
     }
     """
     q=re.sub(r"Q245652",id,q)
@@ -106,7 +106,7 @@ def result_gen_parent(prop,id):
     WHERE
     {
         wd:Q245652 wdt:P361? ?item   .
-        SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+        SERVICE wikibase:label { bd:SERVICEparam wikibase:language "en" }
     }
     """
     q=re.sub(r"Q245652",id,q)
@@ -170,7 +170,7 @@ def save_list(filename,given_list):
         fout.write("\n")
 
 
-def save_graph(filename):
+def save_Graph(filename):
     open(filename, 'w').close()
     fout=open(filename,"w")
     for x in Graph:
