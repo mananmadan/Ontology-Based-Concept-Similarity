@@ -14,7 +14,11 @@ from numpy import array
 labels = {}
 appeared = {}
 cncpt_ls  = []
+<<<<<<< HEAD
 Graph={}
+=======
+graph={}
+>>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
 levels=3
 #limit=""
 list_of_nodes=[]
@@ -29,7 +33,7 @@ def get_nodes():
     for x in t:
         #print(x)
         x=x.encode("utf-8")
-        x=re.sub(r"/[A-Z][A-Z][A-Z]*","",x)
+        x=re.sub(r"/[a-z][a-z][a-z]*","",x)
         x=re.sub(r"/"," ",x)
         x=re.sub(r"\n","",x)
         list_of_nodes.append(x)
@@ -51,9 +55,9 @@ def id_extractor(search_string):
             new_string = new_string + '_'
         else:
             new_string = new_string + i
-    #print("New string")
+    #print("new string")
     print("****************************************************************************")
-    print("Searching for {}".format(new_string))
+    print("searching for {}".format(new_string))
 
     res = requests.get("https://en.wikipedia.org/wiki/"+new_string)
     soup = bs(res.text, "html.parser")
@@ -68,51 +72,51 @@ def id_extractor(search_string):
     count = 0
     wikidata_id  = ""
     for i in wikidata[0]:
-        if i == 'Q' or i == '1' or i == '2' or i =='0' or i =='3' or i == '4' or i == '5' or i == '6' or i == '7' or i == '8' or i == '9':
+        if i == 'q' or i == '1' or i == '2' or i =='0' or i =='3' or i == '4' or i == '5' or i == '6' or i == '7' or i == '8' or i == '9':
             wikidata_id = wikidata_id + i
     res = requests.get(wikidata[0])
     soup = bs(res.text, "html.parser")
     #print(soup)
     node=""
-    for hit in soup.findAll(attrs={'class' : 'wikibase-title-label'}):
+    for hit in soup.findall(attrs={'class' : 'wikibase-title-label'}):
         node= hit.text
     return wikidata_id.encode("utf-8"),node.encode("utf-8")
 
 
 def result_gen_children(prop,id):
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+    sparql = sparqlwrapper("https://query.wikidata.org/sparql")
     q="""
-    SELECT ?item ?itemLabel
-    WHERE
+    select ?item ?itemlabel
+    where
     {
-        ?item wdt:P361? wd:Q245652 .
-        SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+        ?item wdt:p361? wd:q245652 .
+        service wikibase:label { bd:serviceparam wikibase:language "en" }
     }
     """
-    q=re.sub(r"Q245652",id,q)
-    #q=re.sub(r"P361",prop,q)
+    q=re.sub(r"q245652",id,q)
+    #q=re.sub(r"p361",prop,q)
 
-    sparql.setQuery(q)
+    sparql.setquery(q)
 
-    sparql.setReturnFormat(JSON)
+    sparql.setreturnformat(json)
     results = sparql.query().convert()
     return results
 
 
 def result_gen_parent(prop,id):
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+    sparql = sparqlwrapper("https://query.wikidata.org/sparql")
     q="""
-    SELECT ?item ?itemLabel
-    WHERE
+    select ?item ?itemlabel
+    where
     {
-        wd:Q245652 wdt:P361? ?item   .
-        SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+        wd:q245652 wdt:p361? ?item   .
+        service wikibase:label { bd:serviceparam wikibase:language "en" }
     }
     """
-    q=re.sub(r"Q245652",id,q)
-    sparql.setQuery(q)
+    q=re.sub(r"q245652",id,q)
+    sparql.setquery(q)
 
-    sparql.setReturnFormat(JSON)
+    sparql.setreturnformat(json)
     results = sparql.query().convert()
     return results
 
@@ -121,46 +125,46 @@ def chilldren(node,id,level):
     if level==levels:
         return
 
-    results = result_gen_children("P361",id)
+    results = result_gen_children("p361",id)
     results_df = pd.io.json.json_normalize(results['results']['bindings'])
 
-    if node not in Graph.keys():
-        Graph[node]=[]
+    if node not in graph.keys():
+        graph[node]=[]
     if not results_df.empty:
-        for x,y in zip(results_df["item.value"] , results_df["itemLabel.value"] ) :
+        for x,y in zip(results_df["item.value"] , results_df["itemlabel.value"] ) :
             x=x.encode("utf-8")
             y=y.encode("utf-8")
             print(y)
             x=re.sub(r"http://www.wikidata.org/entity/","",x)
-            if y not in Graph[node]:
+            if y not in graph[node]:
                 if y!=node:
-                    Graph[node].append(y)
-            if y not in Graph:
+                    graph[node].append(y)
+            if y not in graph:
                 chilldren(y,x,level+1)
 
 def parent(node,id,level):
     if level==levels:
         return
 
-    results = result_gen_parent("P361",id)
+    results = result_gen_parent("p361",id)
     results_df = pd.io.json.json_normalize(results['results']['bindings'])
 
-    if node not in Graph.keys():
-        Graph[node]=[]
+    if node not in graph.keys():
+        graph[node]=[]
     if not results_df.empty:
-        for x,y in zip(results_df["item.value"] , results_df["itemLabel.value"] ) :
+        for x,y in zip(results_df["item.value"] , results_df["itemlabel.value"] ) :
             x=x.encode("utf-8")
             y=y.encode("utf-8")
             x=re.sub(r"http://www.wikidata.org/entity/","",x)
             print(y)
-            if y not in Graph:
-                Graph[y]=[]
+            if y not in graph:
+                graph[y]=[]
                 if y!=node:
-                    Graph[y].append(node)
+                    graph[y].append(node)
                 parent(y,x,level+1)
             else:
                 if y!=node:
-                    Graph[y].append(node)
+                    graph[y].append(node)
 
 def save_list(filename,given_list):
     open(filename, 'w').close()
@@ -173,11 +177,11 @@ def save_list(filename,given_list):
 def save_graph(filename):
     open(filename, 'w').close()
     fout=open(filename,"w")
-    for x in Graph:
+    for x in graph:
         #x=x.encode("utf-8")
         fout.write(x)
         fout.write("\n")
-        for y in Graph[x]:
+        for y in graph[x]:
             #y=y.encode("utf-8")
             fout.write(y)
             fout.write("\n")
@@ -185,7 +189,11 @@ def save_graph(filename):
     fout.close()
 
 
+<<<<<<< HEAD
 def load_Graph():
+=======
+def load_graph():
+>>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
     fin=open("gr2.txt","r")
     lines=fin.readlines()
     is_key=true
@@ -194,25 +202,38 @@ def load_Graph():
         if is_key:
             key=x
             is_key=false
+<<<<<<< HEAD
             Graph[key]=[]
+=======
+            graph[key]=[]
+>>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
         else:
             if(x=="-1"):
                 is_key=true
             else:
-                Graph[key].append(x)
+                graph[key].append(x)
 
 #not tested yet
+<<<<<<< HEAD
 def reduce_Graph():
+=======
+def reduce_graph():
+>>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
     flag=true
     while flag:
         print("$")
         to_delete=[]
         flag=false
+<<<<<<< HEAD
         for x in Graph:
+=======
+        for x in graph:
+>>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
             if x not in list_of_nodes:
-                if len(Graph[x])==0:
+                if len(graph[x])==0:
                     to_delete.append(x)
         for x in to_delete:
+<<<<<<< HEAD
             Graph.pop(x)
             for y in Graph:
                 if x in Graph[y]:
@@ -224,14 +245,32 @@ def Graph_gen():
     load_Graph()
     for node in list_of_nodes:
         save_Graph("prev_gr2.txt")
+=======
+            graph.pop(x)
+            for y in graph:
+                if x in graph[y]:
+                    graph[y].remove(x)
+                    flag=true
+
+
+def graph_gen():
+    load_graph()
+    for node in list_of_nodes:
+        save_graph("prev_gr2.txt")
+>>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
         id,node=id_extractor(node)
         if id!="-1":
             renamed_nodes.append(node)
-            if node not in Graph:
+            if node not in graph:
                 chilldren(node,id,0)
                 parent(node,id,0)
+<<<<<<< HEAD
                 #print(Graph)
                 save_Graph("gr2.txt")
+=======
+                #print(graph)
+                save_graph("gr2.txt")
+>>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
 
 def label_w(i,H):
     templist = []
@@ -252,6 +291,7 @@ def add_concept(main_concept):
         cncpt_ls.append(x)
         print(x)   
     
+<<<<<<< HEAD
 
 get_nodes()
 list_of_nodes=list(dict.fromkeys(list_of_nodes))
@@ -261,27 +301,49 @@ load_Graph() ## comment out if generating new Graph..
 for x in Graph:
     Graph[x]=list(dict.labels[i] = templistromkeys(Graph[x]))
 ##reduce_Graph()## leaf nodes remove
+=======
+'''
+get_nodes()
+list_of_nodes=list(dict.fromkeys(list_of_nodes))
+renamed_nodes=list(dict.fromkeys(renamed_nodes))
+load_graph() ## comment out if generating new graph..
+##graph_gen() ## comment out if loading previous graph
+for x in graph:
+    graph[x]=list(dict.f             labels[i] = templistromkeys(graph[x]))
+##reduce_graph()## leaf nodes remove
+>>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
 
 #print("***************")
 #print(g)
 source = []
 target = []
-for x in Graph:
-    for y in Graph[x]:
+for x in graph:
+    for y in graph[x]:
         if x!=y:
             source.append(x)
             target.append(y)
 
 kg_df = pd.dataframe({'source':source, 'target':target})
 #print(kg_df)
+<<<<<<< HEAD
 g=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.diGraph())
+=======
+g=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.digraph())
+>>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
 print(len(G))
 ##for searching convert into directed Graph
 H = G.to_undirected()
+<<<<<<< HEAD
 ## Graph made
 
 mn_cncpt = "Artificial Intelligence"
 subject = "Computer Science"
+=======
+## graph made
+'''
+mn_cncpt = "test"
+subject = " "
+>>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
 H.add_edge("mn_cncpt",subject)
 ##also save grph here 
 
