@@ -14,12 +14,8 @@ from numpy import array
 labels = {}
 appeared = {}
 cncpt_ls  = []
-<<<<<<< HEAD
-Graph={}
-=======
 graph={}
->>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
-levels=3
+levels=2
 #limit=""
 list_of_nodes=[]
 renamed_nodes=['scene', 'inference engine', 'sequential analysis', 'move', 'syntax', 'tourette syndrome', 'fender wide range', 'computer science', 'fact', 'video camera', 'vi', 'knowledge', 'thought', 'applications of artificial intelligence', 'knowledge', 'computer', 'analog-to-digital converter', 'input', 'anwar saifullah khan', 'binary tree', 'subfield', 'repetitive strain injury', 'speech recognition', 'record', 'human intelligence', 'intelligent dance music', 'manufacturing operations', 'capability', 'cloud computing', 'software', 'computer', 'openai', 'method', 'intelligence', 'computer', 'mainframe computer', 'qualitative research', 'george h. w. bush', 'sexual characteristics', 'analog', 'b', 'dan in real life', 'disadvantaged', 'lot', 'decision', 'kizuna ai', 'computer program', 'manipulator', 'computer', 'c', 'ability', 'interaction', 'process', 'difficulty', 'step', 'english', 'domain-specific language', 'yahoo', 'computer', 'tongue', 'artificial intelligence', 'software', 'software development process', 'facility', 'thought', 'logic', 'scene', 'applications of artificial intelligence', 'artificial intelligence', 'corporation', 'for loop', 'secd machine', 'intelligence', 'particular', 'programa', 'user', 'lot', 'false alarm', 'artificial intelligence', "search / searching / searchin'", 'b', 'applications of artificial intelligence', 'adc', 'knowledge base', 'quantitative easing', 'user interface design', 'communications protocol', 'inferno', 'a quiet place: part ii', 'trolley problem', 'pashto', 'idea', 'goal', 'list of programming languages for artificial intelligence', 'knowledge base', 'a', 'english as a second language', 'dec alpha', 'video', 'arm', 'machine', 'field', 'procedure (disambiguation)', 'computer', 'chess', 'programa', 'development', 'image', '@', 'expert system', 'neuro-linguistic programming', 'lisp', 'apple network server', 'computer', 'problem solving', 'robot', 'c++', 'list of programming languages for artificial intelligence', 'position', 'device', 'locations of half-life', 'data', 'class', 'man', 'computer vision', 'artificial intelligence', 'algorithm', 'artificial intelligence', 'artificial intelligence', 'catalytic converter', 'hardware', 'person', 'vision', 'mother!', 'organization', 'order', 'artificial intelligence']
@@ -189,11 +185,7 @@ def save_graph(filename):
     fout.close()
 
 
-<<<<<<< HEAD
-def load_Graph():
-=======
 def load_graph():
->>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
     fin=open("gr2.txt","r")
     lines=fin.readlines()
     is_key=true
@@ -202,11 +194,7 @@ def load_graph():
         if is_key:
             key=x
             is_key=false
-<<<<<<< HEAD
-            Graph[key]=[]
-=======
             graph[key]=[]
->>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
         else:
             if(x=="-1"):
                 is_key=true
@@ -214,38 +202,17 @@ def load_graph():
                 graph[key].append(x)
 
 #not tested yet
-<<<<<<< HEAD
-def reduce_Graph():
-=======
 def reduce_graph():
->>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
     flag=true
     while flag:
         print("$")
         to_delete=[]
         flag=false
-<<<<<<< HEAD
-        for x in Graph:
-=======
         for x in graph:
->>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
             if x not in list_of_nodes:
                 if len(graph[x])==0:
                     to_delete.append(x)
         for x in to_delete:
-<<<<<<< HEAD
-            Graph.pop(x)
-            for y in Graph:
-                if x in Graph[y]:
-                    Graph[y].remove(x)
-                    flag=true
-
-
-def Graph_gen():
-    load_Graph()
-    for node in list_of_nodes:
-        save_Graph("prev_gr2.txt")
-=======
             graph.pop(x)
             for y in graph:
                 if x in graph[y]:
@@ -257,25 +224,19 @@ def graph_gen():
     load_graph()
     for node in list_of_nodes:
         save_graph("prev_gr2.txt")
->>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
         id,node=id_extractor(node)
         if id!="-1":
             renamed_nodes.append(node)
             if node not in graph:
                 chilldren(node,id,0)
                 parent(node,id,0)
-<<<<<<< HEAD
-                #print(Graph)
-                save_Graph("gr2.txt")
-=======
                 #print(graph)
                 save_graph("gr2.txt")
->>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
 
 def label_w(i,H):
     templist = []
     for j in cncpt_ls:
-        ##is there a path between i and j 
+        ##is there a path between i and j
        if nx.has_path(H,i,j):
           templist.append(j)
           print("found match,adding")
@@ -289,19 +250,8 @@ def add_concept(main_concept):
     f = open("cncp.txt","r")
     for x in f :
         cncpt_ls.append(x)
-        print(x)   
-    
-<<<<<<< HEAD
+        print(x)
 
-get_nodes()
-list_of_nodes=list(dict.fromkeys(list_of_nodes))
-renamed_nodes=list(dict.fromkeys(renamed_nodes))
-load_Graph() ## comment out if generating new Graph..
-##Graph_gen() ## comment out if loading previous Graph
-for x in Graph:
-    Graph[x]=list(dict.labels[i] = templistromkeys(Graph[x]))
-##reduce_Graph()## leaf nodes remove
-=======
 '''
 get_nodes()
 list_of_nodes=list(dict.fromkeys(list_of_nodes))
@@ -311,7 +261,6 @@ load_graph() ## comment out if generating new graph..
 for x in graph:
     graph[x]=list(dict.f             labels[i] = templistromkeys(graph[x]))
 ##reduce_graph()## leaf nodes remove
->>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
 
 #print("***************")
 #print(g)
@@ -325,27 +274,16 @@ for x in graph:
 
 kg_df = pd.dataframe({'source':source, 'target':target})
 #print(kg_df)
-<<<<<<< HEAD
-g=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.diGraph())
-=======
 g=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.digraph())
->>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
 print(len(G))
 ##for searching convert into directed Graph
 H = G.to_undirected()
-<<<<<<< HEAD
-## Graph made
-
-mn_cncpt = "Artificial Intelligence"
-subject = "Computer Science"
-=======
 ## graph made
 '''
 mn_cncpt = "test"
 subject = " "
->>>>>>> db4acfb01320785d35de6c79bcb4c7ecc1e396fd
 H.add_edge("mn_cncpt",subject)
-##also save grph here 
+##also save grph here
 
 '''main concept '''
 add_concept(mn_cncpt)

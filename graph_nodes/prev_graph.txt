@@ -6,12 +6,17 @@ thematic analysis
 -1
 geoinformatics
 -1
+Bioelectronics
+-1
 visual culture
 -1
-Esperanto alphabet
-B
-C
-A
+aircraft weather information system
+airborne weather radar
+airborne lightning detector
+-1
+AN/ASQ-91
+-1
+commander of the guard force
 -1
 mainframe computer
 IEFBR14
@@ -19,6 +24,9 @@ IEFBR14
 feature detection
 -1
 cognitive neuroscience
+-1
+technique
+electronics
 -1
 Step
 -1
@@ -54,19 +62,40 @@ bottleneck
 -1
 video format
 -1
+RV-C
+-1
 expert system
 knowledge base
 -1
+die
+-1
 domain-specific language
+-1
+analog electronic circuit
+Analog multiplier
+gyrator
 -1
 logical possibility
 -1
 chess strategy
 blockade
 -1
+Instrument cluster
+Malfunction indicator lamp
+-1
+head-up display
+automotive head-up display
+-1
 screen buffer
 -1
-organizations subject to surveillance under the Subversive Activities Prevention Act
+x86_64
+Intel 64
+AMD64
+-1
+occurrence
+process
+-1
+software component
 -1
 video
 B-MAC
@@ -74,26 +103,15 @@ LANC
 video format
 Electronic Field Production
 -1
-machine learning
-ensemble learning
-supervised learning
-Vapnik–Chervonenkis theory
-reinforcement learning
-semi-supervised learning
-unsupervised learning
-inductive transfer
-online machine learning
-Thompson sampling
-lasso
-embedding
+PUC
 -1
 Trolley problem
--1
-software development methodology
 -1
 intelligent dance music
 -1
 MAUT
+-1
+Collective operation
 -1
 PEPA
 -1
@@ -105,7 +123,10 @@ Disadvantaged
 -1
 bump mapping
 -1
-commander of the guard force
+Esperanto alphabet
+B
+C
+A
 -1
 Some Broken Hearts Never Mend
 -1
@@ -140,29 +161,214 @@ enter key
 -1
 English
 -1
-theory of computation
-algorithmics
+analog-to-digital converter
 -1
-knowledge
+change
+process
+-1
+business process management
+PDCA
 -1
 sign bit
 -1
-computational neuroscience
+Communication
+-1
+digital circuit
+resistor–transistor logic
+diode–transistor logic
+diode logic
+direct-coupled transistor logic
+microarchitecture
+binary adder
+delay-locked loop
+asynchronous circuit
+branch predictor
+programmable logic device
+subtractor
+synchronous circuit
+Binary multiplier
+programmable logic array
 -1
 PSAM
 -1
 upper arm
 biceps brachii
 -1
+semiconductor device
+electrode
+semiconductor
+cathode
+anode
+Schottky diode
+transistor
+CMOS
+DIAC
+thyristor
+TRIAC
+Semiconductor detector
+power semiconductor device
+Photothyristor
+semiconductor diode
+Schottky transistor
+CHMOS
+Magneto-Electric Spin-Orbit
+-1
 Logging truck
 manipulator
 -1
-knowledge-based system
-inference engine
-knowledge base
+action
+activity
+technique
+-1
+theoretical computer science
+numeric function
+computational complexity theory
+automata theory
+state space
+Aggregate Method
+atomic
+minimum cut
+PEPA
+algorithmics
+Ehrenfeucht conjecture
+-1
+aircraft monitoring device
+flight recorder
+glass cockpit
+-1
+avionics
+GPS satellite
+USA-242
+USA-248
+USA-266
+Maneuvering Characteristics Augmentation System
+Global Positioning System
+magnetic anomaly detector
+head-up display
+inertial navigation system
+fly-by-wire
+Flight Management System
+electronic countermeasure
+AN/ALQ-126
+Q2719259
+lightning detection
+AN/AVQ-10 Pave Knife
+AN/AVQ-26 Pave Tack
+aircraft flight control system
+RP-2 Torii
+Kaiser Kroma
+AN/AJB-7
+AN/ASQ-91
+AN/ALQ-109
+AN/ARN-92
+AN/AVQ-11 Pave Sword
+AN/AAD-14
+AN/APR-25
+AN/ASW-25
+AN/ALQ-125
+GOES-342
+reconnaissance pod
+aircraft communications device
+aircraft navigation device
+aircraft monitoring device
+airborne sensor system
+aircraft weather information system
+tactical avionics
+AN/AQA-7 DIFAR
+AN/ARR-75
+Q65131200
 -1
 family
 man
+-1
+integrated circuit
+semiconductor device
+eDRAM
+die
+integrated circuit packaging type
+southbridge
+northbridge
+memory controller
+microcontroller
+operational amplifier
+chipset
+Field-programmable gate array
+application-specific integrated circuit
+Texas Instruments SN76477
+three-dimensional integrated circuit
+MOS Technology 6522
+system on a chip
+semiconductor memory
+SAE800
+list of sound chips
+mixed-signal integrated circuit
+HCMOS
+video display controller
+Super I/O
+4011
+7404
+7402
+7405
+7406
+7408
+7414
+7432
+Q3183982
+Linear integrated circuit
+PHY
+ULSI
+MOS Technology RRIOT
+lockout chip
+Power management integrated circuit
+Supply voltage supervisor
+ULA
+Pin
+74163
+Intel 80130
+Intel 1103
+4000
+4001
+4015
+4073
+4070
+4023
+4013
+4050
+4049
+4024
+4071
+STM32L151UCY6
+SNES PPU
+AY-3-8700
+MPS-7600-001
+MPS-7600-002
+MPS-7600-003
+MPS-7600-004
+AY-3-8510
+AY-3-8512
+AY-3-8600
+MM-57105N (PAL)
+MM-57186
+AY-3-8550
+TMS-1965N
+AY-3-8610
+AY-3-8760
+TMS-1955
+F-4301
+AY-3-8710
+chiplet
+SN76410N
+NTL-600
+К145ИК17
+C010765
+C010073-3
+C011500-11/C011512-05
+3659-1C/C2566
+3659-3
+C010073-01/C2607
+M-588315
+4007
+4081
 -1
 computer program
 user interface
@@ -185,13 +391,19 @@ Input
 Inferno
 Q9086151324
 -1
+SMD
+SMD LED module
+RGB SMD LED
+-1
 Q10317846
 -1
-genioglossus
+IEFBR14
 -1
 neurobiology
 Neural Darwinism
 Neuroscience of sleep
+-1
+GOES-342
 -1
 Central Unit
 -1
@@ -209,44 +421,61 @@ SS non-commissioned officers of the guard force
 -1
 flag
 -1
-Adaptronik
+cognitive architecture
+-1
+Q233037
 -1
 maximum transmission unit
 -1
 Maximum Receive Unit
 -1
+voltage divider
+potentiometer
+capacitive voltage divider
+-1
 Q2147431324
 vi
 -1
-software component
+organizations subject to surveillance under the Subversive Activities Prevention Act
 -1
 soul
 Abditum mentis
 -1
-PUC
+machine learning
+ensemble learning
+supervised learning
+Vapnik–Chervonenkis theory
+reinforcement learning
+semi-supervised learning
+unsupervised learning
+inductive transfer
+online machine learning
+Thompson sampling
+lasso
+embedding
+-1
+Q12568274
 -1
 Africa Alphabet
 B
 C
 A
 -1
-cognitive architecture
--1
-analog-to-digital converter
--1
-theoretical computer science
-numeric function
-computational complexity theory
-automata theory
-state space
-Aggregate Method
-atomic
-minimum cut
-PEPA
+theory of computation
 algorithmics
-Ehrenfeucht conjecture
+-1
+knowledge-based system
+inference engine
+knowledge base
 -1
 speech recognition
+-1
+identification friend or foe
+Oozel
+Bariy-M
+-1
+process
+technique
 -1
 Latin script
 B
@@ -259,28 +488,50 @@ software configuration management
 software development methodology
 software verification and validation
 -1
+LC circuit
+MPX filter
+-1
 predicate logic
 Q1908975
 -1
-graph theory
-Seven Bridges of Königsberg
-Kuratowski's theorem
-network theory
-maximum flow problem
-level ancestor problem
-Hajós conjecture
-graph algorithm
+social computing
 -1
-modifier key
+level ancestor problem
+-1
+audio electronics
+Tape transport
+pinch roller
+Q13635314
+tape recorder
+Wire recording
+cassette deck
+Q2023097
+Q13632568
 -1
 email address
 @
+-1
+arcade system board
+Namco System 11
+Sega Titan Video
+Cave 3rd Generation
+Irem M-107
+Namco Galaga
+Sega System 24
+SNK Triple Z80 Based
+Killer Instinct arcade motherboard
+Atari Vector
+-1
+lambda diode
 -1
 redundancy
 -1
 goal
 -1
 modular programming
+-1
+technology
+technique
 -1
 machine
 clutch
@@ -289,13 +540,16 @@ mechanism
 controller
 mechanical joint
 -1
-Binit
+free upper limb
+arm
 -1
 computer vision
 -1
-biceps brachii
-long head of the biceps brachii
-short head of the biceps brachii
+OpenAI
+Q21708200856
+-1
+interrogator
+identification friend or foe
 -1
 Colour of Love
 -1
@@ -308,15 +562,13 @@ Fexpr
 -1
 ray tracing
 -1
-office
--1
-ISAC
--1
-DPNR
+Abbruchbedingung
 -1
 Open Data Web
 -1
-software as a service
+plasmonics
+-1
+Kuratowski's theorem
 -1
 bioinformatics
 PSAM
@@ -325,44 +577,78 @@ endgame
 -1
 data
 -1
+Q13635314
+-1
 subsurface scattering
 -1
 man
 -1
 modus ponens
 -1
+land grid array
+GPD 554
+LGA 3647
+LGA 2066
+Socket SP3
+Socket TR4
+Socket sTRX4
+LGA 2011-v3
+-1
+AN/APR-25
+-1
 Q8465354
 -1
-Collective operation
+blockade
 -1
 camp commandant staff
 -1
 robot
 manipulator
 -1
+AN/AAD-14
+-1
+applied science
+technology
+technique
+-1
 Service desk
 -1
 customer relationship management
 Key account manager
 -1
-blockade
+office
 -1
 hierarchy
 Dienststellung
 -1
 clock rate
 -1
+multivibrator
+flip-flop
+-1
 KBpedia
+-1
+physical science
+physics
+-1
+aircraft flight control system
+autopilot
+fly-by-wire
+-1
+Maneuvering Characteristics Augmentation System
 -1
 software feature
 -1
 double colon
 colon
 -1
-free upper limb
-arm
+Binit
 -1
-SECD machine
+AN/ALQ-126
+-1
+AN/ALQ-125
+-1
+philosophical logic
 -1
 Q3016108
 -1
@@ -374,6 +660,8 @@ drive bay
 -1
 George H. W. Bush
 -1
+operator
+-1
 user interface design
 -1
 data base
@@ -382,31 +670,53 @@ data
 video camera
 Jog
 -1
+PCell
+-1
 Alebo
 -1
 Purely functional
 -1
 B-MAC
 -1
+integrated circuit packaging type
+-1
 mode
+-1
+marine electronics
+marine autopilot
 -1
 Procedure (disambiguation)
 -1
+SMD LED module
+SMD 5050
+SMD LED 5630
+-1
 Thompson sampling
+-1
+series
+activity
+process
 -1
 Locations of Half-Life
 -1
 idea
 -1
-drive bay
-backplane
+Flight Management System
+Maneuvering Characteristics Augmentation System
+Central calculator 37
 -1
-base case
+Generic function
+-1
+DPNR
 -1
 IT service management
 Service desk
 -1
 quantum logic
+-1
+AN/AVQ-26 Pave Tack
+-1
+backplane system
 -1
 instructions per second
 -1
@@ -416,12 +726,18 @@ category
 -1
 quality
 -1
-International Phonetic Alphabet
-Ă
+computer engineering
 -1
 Kizuna AI
 -1
 volume rendering
+-1
+aircraft communications device
+transponder
+airborne data link
+RSIU-4
+Oozel
+R-800
 -1
 modeling, virtual environments and simulation
 -1
@@ -430,24 +746,60 @@ Jog
 computer hardware
 graphic tablet
 -1
+electronics
+surface-mount technology
+electronic intelligence
+automotive electronics
+standoff
+electronic circuit
+IMD3
+PCell
+SMD
+Q53035390
+digital electronics
+Bioelectronics
+microelectronics
+avionics
+power electronics
+electronic countermeasure
+electronic counter-countermeasure
+infra-red search and track
+marine electronics
+nuclear electronics
+Q12568274
+Q12569694
+Q12572215
+audio electronics
+interrogator
+plasmonics
+system board
+industrial electronics
+-1
 cause
 -1
 Class
 -1
-communications protocol
-maximum transmission unit
-flag
-Maximum Receive Unit
-acknowledgement
+software development methodology
 -1
-Abbruchbedingung
+graph algorithm
 -1
 3D Documentation
 -1
 Record
 -1
+electronic oscillator
+Quartz crystal resonator
+heterodyne
+Barkhausen–Kurz tube
+voltage-controlled oscillator
+crystal oscillator
+ring oscillator
+Q2880093
+-1
 factual reference document
 factual information
+-1
+power electronics
 -1
 image recognition
 -1
@@ -456,7 +808,14 @@ eDRAM
 interaction
 coupling object
 -1
+marine autopilot
+-1
 3D texture
+-1
+computer module
+-1
+reconnaissance pod
+RAPTOR
 -1
 natural-language user interface
 speech recognition
@@ -469,11 +828,13 @@ Quantifier scoping
 Modifier attachment
 speech recognition
 -1
+Q2719259
+-1
 Intel HD Audio connector
 -1
 consequence
 -1
-Kuratowski's theorem
+software as a service
 -1
 Â
 A
@@ -482,6 +843,10 @@ software configuration management
 -1
 Pashto
 Q231727
+-1
+USA-242
+-1
+Q65131200
 -1
 Pan-Nigerian alphabet
 B
@@ -494,6 +859,8 @@ chondroglossus
 -1
 LANC
 -1
+USA-248
+-1
 repetitive strain injury
 -1
 phonetics
@@ -504,6 +871,8 @@ phonetic rule
 Xeada
 phonetic shift
 -1
+phase detector
+-1
 3D projection
 -1
 Q9366856
@@ -512,18 +881,18 @@ Google
 Dano-Norwegian alphabet
 A
 -1
-motherboard
-chipset
-CPU socket
-voltage regulator module
-USART
-Intel HD Audio connector
+applied computer science
+geoinformatics
+-1
+memristor
 -1
 compromise
 Colour of Love
 Tender Heart
 -1
-identity
+memory controller
+-1
+Tape transport
 -1
 Maltese alphabet
 B
@@ -532,12 +901,67 @@ analysis of algorithms
 -1
 B
 -1
+electronic component
+resistance wire
+lead
+cathode
+anode
+semiconductor device
+eDRAM
+die
+integrated circuit packaging type
+semiconductor
+control grid
+electrical contact
+standoff
+electrode
+Q352785
+suppressor grid
+Hot cathode
+tube socket and valve base
+loudspeaker
+resistor
+capacitor
+inductor
+diode
+integrated circuit
+Electronic vacuum devices
+antenna
+sensor
+triode
+earphone
+charge-coupled device
+transducer
+inductive sensor
+analogue switch
+Transient voltage suppressor
+photoelectric sensor
+soldering bridge
+electrical connector
+Q2701784
+band-pass filter
+vacuum tube
+piezoresistive sensor
+Quartz crystal resonator
+passive infrared sensor
+optoelectronic device
+Q11878012
+Q12016809
+Q12042828
+SMD
+Double triode
+passive electronic component
+active electronic component
+electromechanical component
+Memtransistor
+Q58197788
+power electronic component
+light-emitting component
+-1
 business informatics
 customer relationship management
 Internet economy
 business process management
--1
-Save the Overtime
 -1
 Tourette syndrome
 -1
@@ -552,6 +976,8 @@ data base
 -1
 connectionism
 -1
+AN/AJB-7
+-1
 Begging (song)
 -1
 description logic
@@ -559,9 +985,22 @@ description logic
 debugging
 tracing
 -1
+Q12568130
+-1
+electrical connection
+via
+earthing system
+Chip-On-Board
+Elastomeric connector
+earth ground
+-1
+Q1725133
+-1
 middlegame
 -1
-Ehrenfeucht conjecture
+Q2036672
+-1
+AN/AQA-7 DIFAR
 -1
 Field
 -1
@@ -574,8 +1013,6 @@ brain chemistry
 -1
 speller
 -1
-graph algorithm
--1
 knowledge base
 knowledge graph
 Open Data Web
@@ -586,6 +1023,8 @@ run-time type information
 dynamic_cast
 -1
 mechanism
+-1
+fly-by-wire
 -1
 propositional logic
 -1
@@ -598,9 +1037,15 @@ chess strategy
 Q1681417
 chess theory
 -1
+Q21011919
+-1
 Particular
 -1
 software verification and validation
+-1
+shift register
+-1
+BIU
 -1
 Applications of artificial intelligence
 -1
@@ -611,6 +1056,11 @@ double colon
 C++ concept
 C++ reserved word
 Structures in C++
+-1
+ISAC
+-1
+sequential logic
+Execution unit
 -1
 Electronic Field Production
 -1
@@ -626,6 +1076,8 @@ Some Broken Hearts Never Mend
 American Dream
 Save the Overtime
 -1
+AN/ASW-25
+-1
 Google
 Q9366856
 -1
@@ -638,10 +1090,29 @@ Scene
 General Alphabet of Cameroon Languages
 A
 -1
+lightning detection
+airborne lightning detector
+-1
+physics
+applied physics
+-1
 Q21708200856
 OpenAI
 -1
+standoff
+-1
+Global Positioning System
+GPS satellite
+USA-242
+USA-248
+USA-266
+differential GPS
+Magnavox A-RPX-5
+GPS Week Number Rollover
+-1
 Fexpr
+-1
+AN/AVQ-11 Pave Sword
 -1
 syntax
 thematic relation
@@ -662,18 +1133,30 @@ consequent
 consequence
 cause
 -1
-business process management
-PDCA
+knowledge
 -1
-IEFBR14
+infra-red search and track
+AN/AAA-4
+AN/AAD-14
+-1
+genioglossus
 -1
 treasury
 -1
-social computing
+graph theory
+Seven Bridges of Königsberg
+Kuratowski's theorem
+network theory
+maximum flow problem
+level ancestor problem
+Hajós conjecture
+graph algorithm
 -1
 classical logic
 Law of excluded middle
 modus ponens
+-1
+electronic intelligence
 -1
 Q9086151324
 Inferno
@@ -682,19 +1165,59 @@ index structure
 -1
 knowledge graph
 -1
-Generic function
+automotive electronics
+tell-tale
+RV-C
+Instrument cluster
 -1
-computer engineering
+applied physics
+electronics
 -1
-French alphabet
-B
-C
-A
+drive bay
+backplane
 -1
-applied computer science
-geoinformatics
+International Phonetic Alphabet
+Ă
+-1
+communications protocol
+maximum transmission unit
+flag
+Maximum Receive Unit
+acknowledgement
+-1
+activity
+technique
+-1
+system board
+chipset
+CPU socket
+voltage regulator module
+USART
+Intel HD Audio connector
+motherboard
+backplane system
+arcade system board
+-1
+electronic countermeasure
+radar jamming and deception
+AN/ALQ-126
+-1
+motherboard
+chipset
+CPU socket
+voltage regulator module
+USART
+Intel HD Audio connector
 -1
 intelligence
+-1
+tape recorder
+Tape transport
+pinch roller
+cassette deck
+Reel-to-reel audio tape recording and recorders
+video tape recorder
+Hornyphon
 -1
 module
 -1
@@ -740,6 +1263,8 @@ qualitative property
 -1
 Subfield
 -1
+analogue electronics
+-1
 routine
 -1
 catalytic converter
@@ -773,7 +1298,11 @@ opposition
 -1
 interface
 -1
+Q12572215
+-1
 mechanical joint
+-1
+AN/ARR-75
 -1
 logic
 predicate logic
@@ -814,7 +1343,11 @@ premise
 -1
 Decision
 -1
+linearizer
+-1
 Law of excluded middle
+-1
+pinch roller
 -1
 initiative
 -1
@@ -837,10 +1370,12 @@ neuropsychology
 psychoneuroendocrinology
 psychoneuroimmunology
 -1
-forearm
+numeric function
 -1
 Yahoo
 Merold
+-1
+Q2620083
 -1
 Difficulty
 -1
@@ -857,7 +1392,7 @@ B
 C
 A
 -1
-Q2036672
+Ehrenfeucht conjecture
 -1
 controller
 -1
@@ -874,11 +1409,13 @@ A
 -1
 equivocation
 -1
+AN/ARN-92
+-1
 Process
 -1
 appeal to motive
 -1
-Communication
+computational neuroscience
 -1
 property
 -1
@@ -886,16 +1423,29 @@ chess opening
 -1
 procedure
 -1
+dynatron oscillator
+-1
 vi
 Q2147431324
 -1
 Principle of explosion
 -1
+Kaiser Kroma
+-1
 hardware
 -1
-level ancestor problem
+tell-tale
+Tally light
+stack light
+-1
+transparent latch
+-1
+modifier key
 -1
 ray casting
+-1
+surface-mount technology
+land grid array
 -1
 computer graphics
 3D projection
@@ -906,13 +1456,29 @@ bump mapping
 ray casting
 volume rendering
 -1
-video game terminology
+USART
 -1
 formalized language
 -1
 defun
 -1
+airborne sensor system
+forward looking infrared
+airborne collision avoidance system
+ground proximity warning system
+gun camera
+radar warning receiver
+dipping sonar
+airborne radar
+-1
 hyoglossus
+-1
+Q18435244
+-1
+Sample and hold
+-1
+current source
+iron-hydrogen resistor
 -1
 genetic programming
 PORS
@@ -921,6 +1487,8 @@ upper extremity
 free upper limb
 -1
 thematic analysis
+-1
+AN/AVQ-10 Pave Knife
 -1
 Ă
 A
@@ -935,9 +1503,16 @@ screen buffer
 -1
 Order
 -1
-memory controller
+identity
 -1
 polymorphism
+-1
+logic circuit
+-1
+aircraft navigation device
+Transponder landing system
+radio direction finder
+aircraft landing avionics
 -1
 acknowledgement
 -1
@@ -945,6 +1520,8 @@ information theory
 redundancy
 equivocation
 Communication
+-1
+AN/AAA-4
 -1
 thought
 idea
@@ -964,8 +1541,6 @@ Module pattern
 procedure
 function
 routine
--1
-corporation
 -1
 SS non-commissioned officers of the guard force
 -1
@@ -1016,6 +1591,8 @@ Icelandic alphabet
 B
 A
 -1
+GPS satellite
+-1
 computational sociology
 -1
 coupling object
@@ -1024,8 +1601,366 @@ lingual papilla
 -1
 Pause/Break
 -1
+Adaptronik
+-1
 ISO basic Latin alphabet
 A
+-1
+data structure
+-1
+Fender Wide Range
+-1
+video game terminology
+-1
+government
+-1
+linguistics
+syntax
+-1
+heat spreader
+-1
+neuromorphic circuit
+silicon neuron
+-1
+factual information
+fact
+-1
+computer case screw
+-1
+algorithmics
+algorithm
+numerical analysis
+mathematical optimization
+algorithm design
+algorithmic accountability
+algorithmic transparency
+-1
+traffic
+vehicle
+-1
+Programa
+-1
+JBOB
+-1
+Position
+-1
+Anwar Saifullah Khan
+-1
+Q2023097
+Q13635314
+-1
+technostructure
+-1
+digital electronics
+Q352934
+NMOS logic
+transistor–transistor logic
+PMOS logic
+arithmetic logic unit
+shift register
+time-slot interchange
+-1
+Q53035390
+-1
+clutch
+-1
+for loop
+-1
+C++ concept
+-1
+Abditum mentis
+-1
+Aggregate Method
+-1
+battery management system
+-1
+phase-locked loop
+phase detector
+-1
+multiway switching
+-1
+archetype
+-1
+exact science
+physics
+-1
+Czech alphabet
+B
+C
+A
+-1
+AN/ALQ-109
+-1
+manipulator
+-1
+maximum flow problem
+-1
+programming language
+assignment statement
+operator
+property
+-1
+German alphabet
+A
+-1
+bipolar transistor biasing
+-1
+pose
+-1
+CPU socket
+-1
+electronic circuit
+phase detector
+semiconductor device
+eDRAM
+die
+integrated circuit packaging type
+processor register
+BIU
+electronic component
+integrated circuit
+digital electronics
+analogue electronics
+Terminal
+memristor
+electrical connection
+PCell
+phase-locked loop
+sequential logic
+dynatron oscillator
+Q233037
+electronic oscillator
+multivibrator
+x86_64
+multiway switching
+LC circuit
+voltage divider
+shift register
+battery management system
+Sample and hold
+current source
+bipolar transistor biasing
+processor
+mixed-signal integrated circuit
+Q1725133
+lambda diode
+Q2306992
+logic circuit
+Q2620083
+digital circuit
+computer module
+joule thief
+neuromorphic circuit
+linearizer
+Q18435244
+transparent latch
+Q21011919
+analog electronic circuit
+-1
+host
+database
+-1
+category of being
+category
+-1
+minimum cut
+-1
+chapter
+-1
+list of programming languages for artificial intelligence
+-1
+simulation
+-1
+Software analysis pattern
+-1
+biceps brachii
+long head of the biceps brachii
+short head of the biceps brachii
+-1
+RGB SMD LED
+-1
+tongue
+Tongue muscles
+taste buds
+lingual papilla
+-1
+processor
+processor core
+eDRAM
+CPU cache
+heat spreader
+memory controller
+CPU design
+integrated memory controller
+multi-channel DRAM
+processor register
+BIU
+microprocessor
+central processing unit
+notebook processor
+accelerated processing unit
+floating-point unit
+coprocessor
+vector processor
+Xeon Phi
+Tegra
+physics processing unit
+scalar processor
+baseband processor
+AI_accelerator
+Q20181828
+ThunderX
+-1
+electronic counter-countermeasure
+-1
+software
+computer program
+Software analysis pattern
+software extension
+natural-language user interface
+software feature
+mode
+module
+Settings
+software component
+speller
+class
+video game terminology
+-1
+magnetic anomaly detector
+-1
+computational complexity theory
+complexity class
+-1
+automata theory
+deterministic automaton
+-1
+facility
+-1
+SECD machine
+-1
+problem solving
+compromise
+-1
+base case
+-1
+assignment statement
+-1
+network theory
+-1
+Q2306992
+-1
+English as a second language
+-1
+class
+-1
+African reference alphabet
+B
+C
+A
+-1
+User
+-1
+Device
+-1
+French alphabet
+B
+C
+A
+-1
+artificial intelligence
+machine learning
+connectionism
+cognitive architecture
+Thompson sampling
+MAUT
+image recognition
+KBpedia
+-1
+function
+-1
+state space
+state of system
+-1
+system console
+-1
+bus
+-1
+cassette deck
+Commodore Datasette
+Pioneer CT-W208R
+M-101
+Panasonic RX-1650 LS
+-1
+vehicle
+catalytic converter
+-1
+processor register
+memory buffer register
+memory address register
+program counter
+status register
+segment register
+Time Stamp Counter
+control register
+stack register
+x86 debug register
+shared register
+-1
+nuclear electronics
+-1
+Turkish alphabet
+B
+C
+A
+-1
+ADC
+-1
+Q231727
+-1
+Wire recording
+-1
+IMD3
+-1
+Polish alphabet
+B
+C
+A
+-1
+space bar
+-1
+industrial electronics
+marine electronics
+-1
+chipset
+southbridge
+northbridge
+memory controller
+-1
+sexual characteristics
+-1
+fact
+-1
+forearm
+-1
+software extension
+-1
+Terminal
+-1
+American Dream
+-1
+inertial navigation system
+Advanced Inertial Reference Sphere
+-1
+PVLV
+-1
+Module pattern
+-1
+corporation
+-1
+image
+-1
+USA-266
 -1
 computer science
 algorithm
@@ -1083,206 +2018,12 @@ system administration
 modeling, virtual environments and simulation
 bottleneck
 -1
-data structure
--1
-Fender Wide Range
--1
-USART
--1
-government
--1
-heat spreader
--1
-factual information
-fact
--1
-computer case screw
--1
-algorithmics
-algorithm
-numerical analysis
-mathematical optimization
-algorithm design
-algorithmic accountability
-algorithmic transparency
--1
-traffic
-vehicle
--1
-Programa
--1
-JBOB
--1
-Position
--1
-Anwar Saifullah Khan
--1
-technostructure
--1
-clutch
--1
-for loop
--1
-C++ concept
--1
-Abditum mentis
--1
-Aggregate Method
--1
-archetype
--1
-Czech alphabet
-B
-C
-A
--1
-manipulator
--1
-maximum flow problem
--1
-programming language
-assignment statement
-operator
-property
--1
-German alphabet
-A
--1
-pose
--1
-CPU socket
--1
-host
-database
--1
-category of being
-category
--1
-Hajós conjecture
--1
-chapter
--1
-list of programming languages for artificial intelligence
--1
-simulation
--1
-Software analysis pattern
--1
-OpenAI
-Q21708200856
--1
-tongue
-Tongue muscles
-taste buds
-lingual papilla
--1
-software
-computer program
-Software analysis pattern
-software extension
-natural-language user interface
-software feature
-mode
-module
-Settings
-software component
-speller
-class
-video game terminology
--1
-Sequential analysis
--1
-automata theory
-deterministic automaton
--1
-facility
--1
-philosophical logic
--1
-problem solving
-compromise
--1
-operator
--1
-assignment statement
--1
-network theory
--1
-English as a second language
--1
-class
--1
-African reference alphabet
-B
-C
-A
--1
-User
--1
-Device
--1
-artificial intelligence
-machine learning
-connectionism
-cognitive architecture
-Thompson sampling
-MAUT
-image recognition
-KBpedia
--1
-function
--1
-state space
-state of system
--1
-system console
--1
-bus
--1
-vehicle
-catalytic converter
--1
-Turkish alphabet
-B
-C
-A
--1
-ADC
--1
-Q231727
--1
-Polish alphabet
-B
-C
-A
--1
-space bar
--1
-chipset
-southbridge
-northbridge
-memory controller
--1
-sexual characteristics
--1
-numeric function
--1
-software extension
--1
-American Dream
--1
-PVLV
--1
-Module pattern
--1
-Q12568130
--1
-image
--1
-linguistics
-syntax
--1
 branch
+-1
+mixed-signal integrated circuit
+analog-to-digital converter
+digital-to-analog converter
+Q10397570
 -1
 department
 -1
@@ -1292,14 +2033,21 @@ Dienststellung
 -1
 colon
 -1
-minimum cut
+RP-2 Torii
+-1
+Q12569694
+-1
+tactical avionics
+radar warning receiver
+offensive avionics
+-1
+Hajós conjecture
 -1
 character key
 -1
 computer key
 -1
-computational complexity theory
-complexity class
+Sequential analysis
 -1
 neuroscience
 neuropsychology
@@ -1310,6 +2058,8 @@ neuroinformatics
 neurobiology
 PVLV
 computational neuroscience
+-1
+joule thief
 -1
 chess theory
 chess opening
@@ -1333,7 +2083,11 @@ tab key
 -1
 mask
 -1
-fact
+microelectronics
+-1
+Q13632568
+-1
+Save the Overtime
 -1
 Analog
 -1

@@ -1,0 +1,82 @@
+linguistics
+artificial intelligence
+-1
+artificial entity
+artificial intelligence
+-1
+psychology
+artificial intelligence
+-1
+algorithm
+artificial intelligence
+-1
+philosophy of mind
+artificial intelligence
+-1
+anthropology
+artificial intelligence
+-1
+cognitive science
+artificial intelligence
+-1
+computer science
+artificial intelligence
+artificial intelligence
+-1
+neuroscience
+artificial intelligence
+-1
+formal science
+artificial intelligence
+-1
+artificial intelligence
+ensemble learning
+supervised learning
+Vapnik–Chervonenkis theory
+reinforcement learning
+semi-supervised learning
+unsupervised learning
+inductive transfer
+online machine learning
+Thompson sampling
+lasso
+embedding
+machine learning
+connectionism
+cognitive architecture
+MAUT
+image recognition
+KBpedia
+semi-automatic image recognition
+word embedding
+information theory
+CRIq
+knowledge base
+management information system
+evolutionary algorithm
+Reason maintenance
+metaclass
+natural language processing
+cognitive science
+expert system
+artificial neural network
+decision support system
+computational intelligence
+evolutionary computation
+emergency medical hologram
+knowledge engineering
+heuristic
+artificial general intelligence
+Distributed artificial intelligence
+knowledge representation and reasoning
+self-management
+Applications of artificial intelligence
+symbolic artificial intelligence
+Q16655792
+artificial intelligence in fiction
+artificial empathy
+Explainable AI
+federated learning
+Artificial intelligence in Wikimedia projects
+Artificial Chemist
+-1

@@ -225,7 +225,7 @@ load_graph()
 for x in Graph:
     Graph[x]=list(dict.fromkeys(Graph[x]))
 count=0
-reduce_graph()
+#reduce_graph()
 # for x in Graph:
 #     if len(Graph[x])==1:
 #         for y in Graph[x]:
@@ -244,43 +244,50 @@ for x in Graph:
             target.append(y)
 kg_df = pd.DataFrame({'source':source, 'target':target})
 
-open("sources.txt", 'w').close()
-fout=open("sources.txt","w")
-for x in source:
-    fout.write(x)
-    fout.write("\n")
-templist=[]
-templist.extend(source)
-templist.extend(target)
-open("target.txt", 'w').close()
-fout=open("target.txt","w")
-for x in target:
-    fout.write(x)
-    fout.write("\n")
-
-templist=list(dict.fromkeys(templist))
-open("allnodes.txt", 'w').close()
-fout=open("allnodes.txt","w")
-for x in target:
-    fout.write(x)
-    fout.write("\n")
-
-print(kg_df)
-
-# G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
-# #temp=nx.find_cycle(G)
-# #print(temp)
-# if nx.is_directed_acyclic_graph(G):
-#     G=nx.transitive_reduction(G)
+G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
+#print(G)
+H = G.to_undirected()
+print("Main Concepts.....")
 
 
 
-# plt.figure(figsize=(12,12))
-# pos = nx.spring_layout(G)
-# nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
-# plt.show()
 
-# # # Spectral
-# nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos=nx.spectral_layout(G))
-# plt.title("spectral")
-# plt.show()
+#which subject you want to find
+sub1  = "electronics"
+sub2 =  "computer science"
+
+## which concept you want to find
+concept = "neuroinformatics"
+
+print("main concepts",G[sub1])
+print("main concepts",G[sub2])
+##check if this the main concept in any of the subjects
+is_main = 0
+ans = " "
+for i in G[sub1]:
+    if i == concept:
+        is_main = 1
+        ans = sub1
+if is_main == 1:
+ print(ans)
+
+if is_main == 0:
+    for i in G[sub2]:
+       if i == concept:
+           is_main = 1
+           ans = sub2
+if is_main == 1:
+ print(ans)
+##check how many main concept is this topic related
+count1 = 0
+count2 = 0
+if is_main == 0:
+    for i in G[sub1]:
+        if nx.has_path(G,i,concept):
+            count1 = count1 + 1
+if is_main == 0:
+    for i in G[sub2]:
+        if nx.has_path(G,i,concept):
+            count2 = count2 + 1
+
+print(count1,count2)

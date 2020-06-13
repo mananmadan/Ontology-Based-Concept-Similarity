@@ -225,7 +225,7 @@ load_graph()
 for x in Graph:
     Graph[x]=list(dict.fromkeys(Graph[x]))
 count=0
-reduce_graph()
+#reduce_graph()
 # for x in Graph:
 #     if len(Graph[x])==1:
 #         for y in Graph[x]:
@@ -244,43 +244,9 @@ for x in Graph:
             target.append(y)
 kg_df = pd.DataFrame({'source':source, 'target':target})
 
-open("sources.txt", 'w').close()
-fout=open("sources.txt","w")
-for x in source:
-    fout.write(x)
-    fout.write("\n")
-templist=[]
-templist.extend(source)
-templist.extend(target)
-open("target.txt", 'w').close()
-fout=open("target.txt","w")
-for x in target:
-    fout.write(x)
-    fout.write("\n")
-
-templist=list(dict.fromkeys(templist))
-open("allnodes.txt", 'w').close()
-fout=open("allnodes.txt","w")
-for x in target:
-    fout.write(x)
-    fout.write("\n")
-
-print(kg_df)
-
-# G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
-# #temp=nx.find_cycle(G)
-# #print(temp)
-# if nx.is_directed_acyclic_graph(G):
-#     G=nx.transitive_reduction(G)
-
-
-
-# plt.figure(figsize=(12,12))
-# pos = nx.spring_layout(G)
-# nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
-# plt.show()
-
-# # # Spectral
-# nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos=nx.spectral_layout(G))
-# plt.title("spectral")
-# plt.show()
+G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
+#print(G)
+H = G.to_undirected()
+print("Main Concepts")
+for i in G.neighbours("computer science"):
+ print(i)

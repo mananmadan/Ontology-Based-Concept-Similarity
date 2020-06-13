@@ -7,9 +7,14 @@ import wikipedia
 import networkx as nx
 import matplotlib.pyplot as plt
 Graph={}
-levels=3
+levels=1
 #limit=""
+labels = {}
+appeared = {}
+cncpt_ls  = []
 list_of_nodes=[]
+
+
 
 def get_nodes():
     openfile=open("nodes.txt","r")
@@ -22,8 +27,8 @@ def get_nodes():
         x=re.sub(r"\n","",x)
         list_of_nodes.append(x)
 
-    
-    
+
+
 def id_extractor(search_string):
     #print(type(wikipedia.search(search_string)))
     query=""
@@ -31,7 +36,7 @@ def id_extractor(search_string):
         query = wikipedia.search(search_string)[0]
     except :
         return "-1","-1"
-        
+
     #print(query)
     new_string = ""
     for i in query:
@@ -70,23 +75,23 @@ def id_extractor(search_string):
 def result_gen_children(prop,id):
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
     q="""
-    SELECT ?item ?itemLabel 
+    SELECT ?item ?itemLabel
     WHERE
     {
         ?item wdt:P361?/wdt:P279? wd:Q245652 .
         SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-    } 
+    }
     """
     q=re.sub(r"Q245652",id,q)
     #q=re.sub(r"P361",prop,q)
-    
+
     sparql.setQuery(q)
 
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
     return results
 
-    
+
 def result_gen_parent(prop,id):
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
     q="""
@@ -95,7 +100,7 @@ def result_gen_parent(prop,id):
     {
         wd:Q245652 wdt:P361?/wdt:P279? ?item   .
         SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-    } 
+    }
     """
     q=re.sub(r"Q245652",id,q)
     sparql.setQuery(q)
@@ -108,10 +113,10 @@ def result_gen_parent(prop,id):
 def chilldren(node,id,level):
     if level==levels:
         return
-    
+
     results = result_gen_children("P361",id)
     results_df = pd.io.json.json_normalize(results['results']['bindings'])
-    
+
     if node not in Graph.keys():
         Graph[node]=[]
     if not results_df.empty:
@@ -132,7 +137,7 @@ def parent(node,id,level):
 
     results = result_gen_parent("P361",id)
     results_df = pd.io.json.json_normalize(results['results']['bindings'])
-    
+
     if node not in Graph.keys():
         Graph[node]=[]
     if not results_df.empty:
@@ -166,9 +171,9 @@ def save_graph(filename):
         fout.write("-1\n")
     fout.close()
 
-        
+
 def load_graph():
-    fin=open("graph.txt","r")
+    fin=open("gr2.txt","r")
     lines=fin.readlines()
     is_key=True
     for x in lines:
@@ -200,41 +205,58 @@ def reduce_graph():
                 if x in Graph[y]:
                     Graph[y].remove(x)
                     flag=True
-        
+
 
 
 
 def Graph_gen():
     load_graph()
     for node in list_of_nodes:
-        save_graph("prev_graph.txt")
+        save_graph("prev_gr2.txt")
         id,node=id_extractor(node)
         if id!="-1":
             if node not in Graph:
                 chilldren(node,id,0)
                 parent(node,id,0)
                 #print(Graph)
-                save_graph("graph.txt")
+                save_graph("gr2.txt")
+
+def add_concept(main_concept):
+    f = open("cncp.txt","a")
+    f.write(main_concept)
+    f.write("\n")
+    f.close()
+
+    f = open("cncp.txt","r")
+    for x in f :
+        x = x.replace('\n','')
+        print('x',x)
+        cncpt_ls.append(x)
+        print(x)
+
+def label_w(i,H):
+    templist = []
+    for j in cncpt_ls:
+        ##is there a path between i and j
+       print("source:",i)
+       print("target",j)
+       if nx.has_path(H,i,j):
+           if nx.shortest_path_length(H,i,j)>2:
+              templist.append(j)
+              print("found match,adding")
+    labels[i] = templist
 
 get_nodes()
 list_of_nodes=list(dict.fromkeys(list_of_nodes))
 
-#save_graph("temp.txt")
-#Graph_gen()
+##Graph_gen()
 load_graph()
 for x in Graph:
     Graph[x]=list(dict.fromkeys(Graph[x]))
 count=0
-reduce_graph()
-# for x in Graph:
-#     if len(Graph[x])==1:
-#         for y in Graph[x]:
-#             if y in Graph[x]:
-#                 count+=1
-# print(count)
+
 
 print("***************")
-#print(G)
 source = []
 target = []
 for x in Graph:
@@ -242,45 +264,39 @@ for x in Graph:
         if x!=y:
             source.append(x)
             target.append(y)
+##print("here")
 kg_df = pd.DataFrame({'source':source, 'target':target})
-
-open("sources.txt", 'w').close()
-fout=open("sources.txt","w")
-for x in source:
-    fout.write(x)
-    fout.write("\n")
-templist=[]
-templist.extend(source)
-templist.extend(target)
-open("target.txt", 'w').close()
-fout=open("target.txt","w")
-for x in target:
-    fout.write(x)
-    fout.write("\n")
-
-templist=list(dict.fromkeys(templist))
-open("allnodes.txt", 'w').close()
-fout=open("allnodes.txt","w")
-for x in target:
-    fout.write(x)
-    fout.write("\n")
-
+##print(kg_df)
+G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
+print(len(G))
+##for searching convert into directed Graph
+H = G.to_undirected()
 print(kg_df)
 
-# G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
-# #temp=nx.find_cycle(G)
-# #print(temp)
-# if nx.is_directed_acyclic_graph(G):
-#     G=nx.transitive_reduction(G)
+'''node labelling process'''
+# Load nodes
+# Generate Graph
+# Label nodes
+mn_cncpt = "artificial intelligence"
+subject = "computer science"
+H.add_edge(mn_cncpt,subject)
+##also save grph here
 
+'''main concept '''
+add_concept(mn_cncpt)
+print("mn_cncpt list",cncpt_ls)
+##after this step cncpt list is updated and mn_cncpt is also added to the list to get the ans
+'''Now go to each node and then label it '''
+for i in  H.nodes():
+    label_w(i,H) ## label and write into the file
+    if len(appeared[i]) == 0:
+        appeared[i].append(mn_cncpt)
 
+##what concept do you require
+concept = "machine learning"
+for i in labels[concept]:
+    print(i)##maybe also print the predecessor of i
+for i in appeared[concept]:
+    print(i)##maybe also print the predecessor of i
 
-# plt.figure(figsize=(12,12))
-# pos = nx.spring_layout(G)
-# nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
-# plt.show()
-
-# # # Spectral
-# nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos=nx.spectral_layout(G))
-# plt.title("spectral")
-# plt.show()
+print("done")
