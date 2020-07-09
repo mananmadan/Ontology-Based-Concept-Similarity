@@ -247,6 +247,8 @@ kg_df = pd.DataFrame({'source':source, 'target':target})
 G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
 #print(G)
 H = G.to_undirected()
+print(G["computer science"])
+''''
 print("Main Concepts.....")
 
 
@@ -291,3 +293,19 @@ if is_main == 0:
             count2 = count2 + 1
 
 print(count1,count2)
+'''
+temp_source = []
+temp_target = G["electronics"]
+for i in range(len(temp_target)):
+    temp_source.append("electronics")
+kg_df_neb = pd.DataFrame({'source':temp_source,'target':temp_target})
+temp = nx.from_pandas_edgelist(kg_df_neb, "source", "target",create_using=nx.DiGraph())
+plt.figure(figsize=(12,12))
+pos = nx.spring_layout(temp)
+nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
+plt.show()
+
+# # Spectral
+nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos=nx.spectral_layout(temp))
+plt.title("spectral")
+plt.show()

@@ -9,12 +9,30 @@ import re
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
+import spacy
 from nltk.tokenize import PunktSentenceTokenizer
+nlp = spacy.load('en')
+
+def get_nodes(x):
+    ##openfile=open("nodes.txt","r")
+    ##t=openfile.readlines()
+    ##for x in t:
+        #print(x)
+        try:
+          x=x.encode("utf-8")
+          x=re.sub(r'/[^\s]+','',x)
+          print("removed",x)
+        except:
+          print("not able to do on",x)
+        
+        return x 
+  
+
 pst = PunktSentenceTokenizer()
 openfile = open("data.txt")
 data = openfile.read()
 data=data.decode('utf-8')
-
+rootlist = []
 print (data)
 
 tokenized_sentence = pst.tokenize(data)
@@ -27,6 +45,11 @@ for i in tokenized_sentence:
     chunkParser = nltk.RegexpParser(chunkGram)
     chunked = chunkParser.parse(tagged)
     print(chunked)
+    ##let's also store the roots
+    doc = nlp(i)
+    for tok in doc:
+      if tok.dep_== "ROOT":
+        rootlist.append(tok.text)
     #chunked.draw()
     stringlist.append(chunked.pformat().encode('ascii','ignore'))
   except Exception as e:
@@ -60,14 +83,15 @@ print(listoflist)
 #first n-1 in a list are source and last n-1 are in the target list
 #add them to pandas data frame
 #form the graph
+
 source = []
 target = []
 for i in listoflist:
  temp_source = []
  temp_target = []
  for j in i:
-   temp_source.append(j)
-   temp_target.append(j)
+   temp_source.append(get_nodes(j))
+   temp_target.append(get_nodes(j))
  if len(temp_source)!=0 and len(temp_target)!=0:
   temp_source.pop(len(temp_source)-1)
   temp_target.pop(0)
@@ -131,6 +155,8 @@ for i in unique:
 print("B")
 for i in unique:
   temp_count = 0 
+print(rootlist)
+'''
   for j in final_source:
      if nx.shortest_path_length(G,i,j) == 1:
         temp_count = temp_count + 1
@@ -142,3 +168,4 @@ plt.figure(figsize=(12,12))
 pos = nx.spring_layout(G)
 nx.draw(G, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
 plt.show()
+'''

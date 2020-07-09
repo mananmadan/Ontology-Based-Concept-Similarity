@@ -272,8 +272,8 @@ print(len(G))
 ##for searching convert into directed Graph
 H = G.to_undirected()
 print(kg_df)
-
-'''node labelling process'''
+print(H["computer science"])
+'''node_labelling_process
 # Load nodes
 # Generate Graph
 # Label nodes
@@ -282,11 +282,11 @@ subject = "computer science"
 H.add_edge(mn_cncpt,subject)
 ##also save grph here
 
-'''main concept '''
+
 add_concept(mn_cncpt)
 print("mn_cncpt list",cncpt_ls)
 ##after this step cncpt list is updated and mn_cncpt is also added to the list to get the ans
-'''Now go to each node and then label it '''
+##Now go to each node and then label it
 for i in  H.nodes():
     label_w(i,H) ## label and write into the file
     if len(appeared[i]) == 0:
@@ -298,5 +298,20 @@ for i in labels[concept]:
     print(i)##maybe also print the predecessor of i
 for i in appeared[concept]:
     print(i)##maybe also print the predecessor of i
-
+'''
 print("done")
+temp_source = []
+temp_target = G["computer science"]
+for i in range(len(temp_target)):
+    temp_source.append("computer science")
+kg_df_neb = pd.DataFrame({'source':temp_source,'target':temp_target})
+temp = nx.from_pandas_edgelist(kg_df_neb, "source", "target",create_using=nx.DiGraph())
+plt.figure(figsize=(12,12))
+pos = nx.spring_layout(temp)
+nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
+plt.show()
+
+# # Spectral
+nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos=nx.spectral_layout(temp))
+plt.title("spectral")
+plt.show()
