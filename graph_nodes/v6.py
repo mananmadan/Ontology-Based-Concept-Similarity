@@ -70,12 +70,7 @@ def my_f(query):    #extracting wikipedia tags from a query
     d=d+1
  else:
      return []
- new_list=[]
- for x in list:
-     id,node=id_extractor(x)
-     if (id!="-1"):
-         new_list.append(node)
- return new_list
+ return list
 
 def id_extractor(search_string):
     #print(type(wikipedia.search(search_string)))
@@ -205,14 +200,16 @@ def parent(node,id,level):
     if  len(list_of_query)>0:
         print(level,[node,list_of_query])
         for y in list_of_query:
-            if y not in Graph:
-                Graph[y]=[]
-                if y!=node:
-                    Graph[y].append(node)
-                parent(y,x,level+1)
-            else:
-                if y!=node:
-                    Graph[y].append(node)
+            id,new_node=id_extractor(y)
+            if(id!="-1"):
+                if new_node not in Graph:
+                    Graph[new_node]=[]
+                    if new_node!=node:
+                        Graph[new_node].append(node)
+                    parent(new_node,id,level+1)
+                else:
+                    if new_node!=node:
+                        Graph[new_node].append(node)
             #wikipidea_s(level+1,x)
 
 def save_graph(filename):
