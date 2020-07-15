@@ -1,3 +1,10 @@
+import pysftp as sftp
+import urllib2
+from urllib2 import urlopen
+from cookielib import CookieJar
+import time
+import urllib
+from collections import defaultdict
 from SPARQLWrapper import SPARQLWrapper,JSON
 import pandas as pd
 import re
@@ -5,9 +12,9 @@ from bs4 import BeautifulSoup as bs
 import requests
 import wikipedia
 import networkx as nx
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 Graph={}
-levels=3
+levels=2
 #limit=""
 list_of_nodes=[]
 
@@ -22,7 +29,53 @@ def get_nodes():
         x=re.sub(r"\n","",x)
         list_of_nodes.append(x)
 
+cj = CookieJar()
+opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 
+#login_data = urllib.parse.urlencode({'login' : 'admin', 'pass' : '123'})
+
+opener.addheaders = [('User-agent', 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.27 Safari/537.17')]
+
+#eachthing = wikipedia.page(city_tags[0]['value']).categories
+#print(eachthing)
+
+# for scraping informatin from wikipedia
+
+wikipedia.set_lang("en")
+
+
+
+def my_f(query):    #extracting wikipedia tags from a query
+ #wikiterm = wikipedia.search(query)
+ dx = 0
+ # To eleminate exceptions in wikipedia categories
+ try:
+    page = wikipedia.page(query)
+ except wikipedia.exceptions.DisambiguationError as e:
+  dx=10
+ except wikipedia.exceptions.PageError as e:
+  #print e
+  dx=10
+ if dx == 0:
+  if urllib.urlopen(wikipedia.page(query).url).getcode() == 200 :
+   content = opener.open(wikipedia.page(query).url).read()
+   soup2 = bs(content,'html.parser')
+   cat1 = soup2.find_all("div",{'class':'mw-normal-catlinks'})
+   cat2 = cat1[0].find_all('a')
+   d=0
+   list=[]
+   for i in cat2:
+    if d != 0:
+     list.append(str(i.text.encode('utf8')))
+    d=d+1
+ else:
+     return []
+ new_list=[]
+ for x in list:
+     id,node=id_extractor(x)
+     if (id!="-1"):
+         new_list.append(node)
+ return new_list
 
 def id_extractor(search_string):
     #print(type(wikipedia.search(search_string)))
@@ -118,7 +171,7 @@ def chilldren(node,id,level):
         for x,y in zip(results_df["item.value"] , results_df["itemLabel.value"] ) :
             x=x.encode("utf-8")
             y=y.encode("utf-8")
-            print(y)
+            #print(y)
             x=re.sub(r"http://www.wikidata.org/entity/","",x)
             if y not in Graph[node]:
                 if y!=node:
@@ -132,15 +185,14 @@ def parent(node,id,level):
 
     results = result_gen_parent("P361",id)
     results_df = pd.io.json.json_normalize(results['results']['bindings'])
-
-    if node not in Graph.keys():
         Graph[node]=[]
+        if node not in Graph.keys():
     if not results_df.empty:
         for x,y in zip(results_df["item.value"] , results_df["itemLabel.value"] ) :
             x=x.encode("utf-8")
             y=y.encode("utf-8")
             x=re.sub(r"http://www.wikidata.org/entity/","",x)
-            print(y)
+            #print(y)
             if y not in Graph:
                 Graph[y]=[]
                 if y!=node:
@@ -149,8 +201,19 @@ def parent(node,id,level):
             else:
                 if y!=node:
                     Graph[y].append(node)
-
-
+    list_of_query = my_f(node)
+    if  len(list_of_query)>0:
+        print(level,[node,list_of_query])
+        for y in list_of_query:
+            if y not in Graph:
+                Graph[y]=[]
+                if y!=node:
+                    Graph[y].append(node)
+                parent(y,x,level+1)
+            else:
+                if y!=node:
+                    Graph[y].append(node)
+            #wikipidea_s(level+1,x)
 
 def save_graph(filename):
     open(filename, 'w').close()
@@ -219,93 +282,94 @@ def Graph_gen():
 get_nodes()
 list_of_nodes=list(dict.fromkeys(list_of_nodes))
 
+
 #save_graph("temp.txt")
-#Graph_gen()
-load_graph()
-for x in Graph:
-    Graph[x]=list(dict.fromkeys(Graph[x]))
-count=0
-#reduce_graph()
+Graph_gen()
+# load_graph()
 # for x in Graph:
-#     if len(Graph[x])==1:
-#         for y in Graph[x]:
-#             if y in Graph[x]:
-#                 count+=1
-# print(count)
-
-print("***************")
-#print(G)
-source = []
-target = []
-for x in Graph:
-    for y in Graph[x]:
-        if x!=y:
-            source.append(x)
-            target.append(y)
-kg_df = pd.DataFrame({'source':source, 'target':target})
-
-G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
-#print(G)
-H = G.to_undirected()
-print(G["computer science"])
-''''
-print("Main Concepts.....")
-
-
-
-
-#which subject you want to find
-sub1  = "electronics"
-sub2 =  "computer science"
-
-## which concept you want to find
-concept = "neuroinformatics"
-
-print("main concepts",G[sub1])
-print("main concepts",G[sub2])
-##check if this the main concept in any of the subjects
-is_main = 0
-ans = " "
-for i in G[sub1]:
-    if i == concept:
-        is_main = 1
-        ans = sub1
-if is_main == 1:
- print(ans)
-
-if is_main == 0:
-    for i in G[sub2]:
-       if i == concept:
-           is_main = 1
-           ans = sub2
-if is_main == 1:
- print(ans)
-##check how many main concept is this topic related
-count1 = 0
-count2 = 0
-if is_main == 0:
-    for i in G[sub1]:
-        if nx.has_path(G,i,concept):
-            count1 = count1 + 1
-if is_main == 0:
-    for i in G[sub2]:
-        if nx.has_path(G,i,concept):
-            count2 = count2 + 1
-
-print(count1,count2)
-'''
-temp_source = []
-temp_target = G["electronics"]
-for i in range(len(temp_target)):
-    temp_source.append("electronics")
-kg_df_neb = pd.DataFrame({'source':temp_source,'target':temp_target})
-temp = nx.from_pandas_edgelist(kg_df_neb, "source", "target",create_using=nx.DiGraph())
-plt.figure(figsize=(12,12))
-pos = nx.spring_layout(temp)
-nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
-plt.show()
-
-# # Spectral
-nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos=nx.spectral_layout(temp))
-plt.title("spectral")
-plt.show()
+#     Graph[x]=list(dict.fromkeys(Graph[x]))
+# count=0
+# #reduce_graph()
+# # for x in Graph:
+# #     if len(Graph[x])==1:
+# #         for y in Graph[x]:
+# #             if y in Graph[x]:
+# #                 count+=1
+# # print(count)
+#
+# print("***************")
+# #print(G)
+# source = []
+# target = []
+# for x in Graph:
+#     for y in Graph[x]:
+#         if x!=y:
+#             source.append(x)
+#             target.append(y)
+# kg_df = pd.DataFrame({'source':source, 'target':target})
+#
+# G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
+# #print(G)
+# H = G.to_undirected()
+# print(G["computer science"])
+# ''''
+# print("Main Concepts.....")
+#
+#
+#
+#
+# #which subject you want to find
+# sub1  = "electronics"
+# sub2 =  "computer science"
+#
+# ## which concept you want to find
+# concept = "neuroinformatics"
+#
+# print("main concepts",G[sub1])
+# print("main concepts",G[sub2])
+# ##check if this the main concept in any of the subjects
+# is_main = 0
+# ans = " "
+# for i in G[sub1]:
+#     if i == concept:
+#         is_main = 1
+#         ans = sub1
+# if is_main == 1:
+#  print(ans)
+#
+# if is_main == 0:
+#     for i in G[sub2]:
+#        if i == concept:
+#            is_main = 1
+#            ans = sub2
+# if is_main == 1:
+#  print(ans)
+# ##check how many main concept is this topic related
+# count1 = 0
+# count2 = 0
+# if is_main == 0:
+#     for i in G[sub1]:
+#         if nx.has_path(G,i,concept):
+#             count1 = count1 + 1
+# if is_main == 0:
+#     for i in G[sub2]:
+#         if nx.has_path(G,i,concept):
+#             count2 = count2 + 1
+#
+# print(count1,count2)
+# '''
+# temp_source = []
+# temp_target = G["electronics"]
+# for i in range(len(temp_target)):
+#     temp_source.append("electronics")
+# kg_df_neb = pd.DataFrame({'source':temp_source,'target':temp_target})
+# temp = nx.from_pandas_edgelist(kg_df_neb, "source", "target",create_using=nx.DiGraph())
+# plt.figure(figsize=(12,12))
+# pos = nx.spring_layout(temp)
+# nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
+# plt.show()
+#
+# # # Spectral
+# nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos=nx.spectral_layout(temp))
+# plt.title("spectral")
+# plt.show()
