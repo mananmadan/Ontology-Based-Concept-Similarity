@@ -246,70 +246,32 @@ def label_w(i,H):
               print("found match,adding")
     labels[i] = templist
 
-get_nodes()
 list_of_nodes=list(dict.fromkeys(list_of_nodes))
-
-##Graph_gen()
-load_graph()
-for x in Graph:
-    Graph[x]=list(dict.fromkeys(Graph[x]))
-count=0
-
-
-print("***************")
-source = []
-target = []
-for x in Graph:
-    for y in Graph[x]:
-        if x!=y:
-            source.append(x)
-            target.append(y)
-##print("here")
-kg_df = pd.DataFrame({'source':source, 'target':target})
-##print(kg_df)
-G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
-print(len(G))
-##for searching convert into directed Graph
-H = G.to_undirected()
-print(kg_df)
-print(H["computer science"])
-'''node_labelling_process
-# Load nodes
-# Generate Graph
-# Label nodes
-mn_cncpt = "artificial intelligence"
-subject = "computer science"
-H.add_edge(mn_cncpt,subject)
-##also save grph here
-
-
-add_concept(mn_cncpt)
-print("mn_cncpt list",cncpt_ls)
-##after this step cncpt list is updated and mn_cncpt is also added to the list to get the ans
-##Now go to each node and then label it
-for i in  H.nodes():
-    label_w(i,H) ## label and write into the file
-    if len(appeared[i]) == 0:
-        appeared[i].append(mn_cncpt)
-
-##what concept do you require
-concept = "machine learning"
-for i in labels[concept]:
-    print(i)##maybe also print the predecessor of i
-for i in appeared[concept]:
-    print(i)##maybe also print the predecessor of i
-'''
-print("done")
-temp_source = []
-temp_target = G["computer science"]
-for i in range(len(temp_target)):
-    temp_source.append("computer science")
-kg_df_neb = pd.DataFrame({'source':temp_source,'target':temp_target})
-temp = nx.from_pandas_edgelist(kg_df_neb, "source", "target",create_using=nx.DiGraph())
-plt.figure(figsize=(12,12))
-pos = nx.spring_layout(temp)
-nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
-plt.show()
+def draw():
+ get_nodes()
+ Graph_gen()
+ load_graph()
+ for x in Graph:
+     Graph[x]=list(dict.fromkeys(Graph[x]))
+ count=0
+ source = []
+ target = []
+ for x in Graph:
+     for y in Graph[x]:
+         if x!=y:
+             x = re.sub('[\W_]+', '', x) 
+             y = re.sub('[\W_]+', '', y)
+             source.append(x)
+             target.append(y)
+ kg_df = pd.DataFrame({'source':source, 'target':target})
+ G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
+ H = G.to_undirected()
+ print(kg_df)
+ temp = nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
+ plt.figure(figsize=(12,12))
+ pos = nx.spring_layout(temp)
+ nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, pos = pos)
+ plt.show()
 
 # # Spectral
 '''
@@ -317,3 +279,5 @@ nx.draw(temp, with_labels=True, node_color='skyblue', edge_cmap=plt.cm.Blues, po
 plt.title("spectral")
 plt.show()
 '''
+
+draw()

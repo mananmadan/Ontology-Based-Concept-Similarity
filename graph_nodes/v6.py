@@ -295,7 +295,7 @@ Graph_gen()
 # # print(count)
 #
 # print("***************")
-# #print(G)
+print(G)
 # source = []
 # target = []
 # for x in Graph:

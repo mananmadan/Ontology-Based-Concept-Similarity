@@ -1,2 +1,1 @@
-electronics/NN
-operating system/NN
+Scrum
