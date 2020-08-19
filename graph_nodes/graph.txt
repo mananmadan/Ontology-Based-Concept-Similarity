@@ -12,9 +12,7 @@ Bioelectronics
 -1
 visual culture
 -1
-aircraft weather information system
-airborne weather radar
-airborne lightning detector
+company leader of the guard force (Kompanieführer)
 -1
 device file
 Network block device
@@ -24,7 +22,13 @@ TFS
 -1
 AN/ASQ-91
 -1
-commander of the guard force
+list of software development philosophies
+agile software development
+-1
+Esperanto alphabet
+B
+C
+A
 -1
 mainframe computer
 IEFBR14
@@ -37,6 +41,13 @@ technique
 electronics
 -1
 Step
+-1
+aircraft communications device
+transponder
+airborne data link
+RSIU-4
+Oozel
+R-800
 -1
 mother!
 -1
@@ -54,29 +65,28 @@ chondroglossus
 -1
 @
 -1
-Windows Essentials
-Windows Live Messenger
-Microsoft Silverlight
-Windows Live Writer
-Bing Bar
-Windows Live Mesh
-Windows Live Movie Maker
--1
 Science of Logic
 -1
 logical form
 -1
 Mac OS nanokernel
 -1
-neuro-linguistic programming
-Q2307244
-Q2984926
+Jog
+-1
+computer keyboard
+numeric keypad
+tab key
+Pause/Break
+modifier key
+space bar
+computer key
+character key
 -1
 Control panel
 -1
 styloglossus
 -1
-organizational unit
+equivocation
 -1
 human intelligence
 -1
@@ -91,10 +101,8 @@ RV-C
 expert system
 knowledge base
 -1
-die
--1
-network file system
-DCE Distributed File System
+marine electronics
+marine autopilot
 -1
 domain-specific language
 -1
@@ -102,7 +110,9 @@ analog electronic circuit
 Analog multiplier
 gyrator
 -1
-logical possibility
+loadable kernel module
+NetWare Loadable Module
+Linux kernel module
 -1
 Appearance Manager
 -1
@@ -128,9 +138,9 @@ process
 -1
 NewDos/80
 -1
-software component
+Tape transport
 -1
-root directory
+computational neuroscience
 -1
 black list
 Black Book
@@ -155,36 +165,13 @@ intelligent dance music
 -1
 MAUT
 -1
-disk operating system
-DOS
--1
-Collective operation
--1
 PEPA
 -1
 false alarm
 -1
-iOS
-DFU
-iOS 8
-Messages
-Apple Wallet
-iOS 6
-iOS 5
-iOS 7
-iOS 4
-iPhone OS 2
-iPhone OS 3
-iPhone OS 1
-iOS 9
-tvOS
-iOS 10
-iOS 12
-iOS 13
-iPadOS
-Q96231126
+burn down chart
 -1
-flash file system
+appeal to motive
 -1
 consequent
 -1
@@ -192,10 +179,7 @@ Disadvantaged
 -1
 bump mapping
 -1
-Esperanto alphabet
-B
-C
-A
+commander of the guard force
 -1
 Some Broken Hearts Never Mend
 -1
@@ -206,8 +190,6 @@ organizational subdivision
 Q1681417
 -1
 taste buds
--1
-pharmacoinformatics
 -1
 numeric keypad
 Num lock
@@ -288,9 +270,7 @@ Redox
 OSMC
 Exherbo
 -1
-loadable kernel module
-NetWare Loadable Module
-Linux kernel module
+groups
 -1
 English
 -1
@@ -301,12 +281,11 @@ analog-to-digital converter
 change
 process
 -1
-business process management
-PDCA
+knowledge
 -1
 sign bit
 -1
-modular kernel
+property
 -1
 Communication
 -1
@@ -420,94 +399,8 @@ Q65131200
 family
 man
 -1
-integrated circuit
-semiconductor device
-eDRAM
-die
-integrated circuit packaging type
-southbridge
-northbridge
-memory controller
-microcontroller
-operational amplifier
-chipset
-Field-programmable gate array
-application-specific integrated circuit
-Texas Instruments SN76477
-three-dimensional integrated circuit
-MOS Technology 6522
-system on a chip
-semiconductor memory
-SAE800
-list of sound chips
-mixed-signal integrated circuit
-HCMOS
-video display controller
-Super I/O
-4011
-7404
-7402
-7405
-7406
-7408
-7414
-7432
-Q3183982
-Linear integrated circuit
-PHY
-ULSI
-MOS Technology RRIOT
-lockout chip
-Power management integrated circuit
-Supply voltage supervisor
-ULA
-Pin
-74163
-Intel 80130
-Intel 1103
-4000
-4001
-4015
-4073
-4070
-4023
-4013
-4050
-4049
-4024
-4071
-STM32L151UCY6
-SNES PPU
-AY-3-8700
-MPS-7600-001
-MPS-7600-002
-MPS-7600-003
-MPS-7600-004
-AY-3-8510
-AY-3-8512
-AY-3-8600
-MM-57105N (PAL)
-MM-57186
-AY-3-8550
-TMS-1965N
-AY-3-8610
-AY-3-8760
-TMS-1955
-F-4301
-AY-3-8710
-chiplet
-SN76410N
-NTL-600
-К145ИК17
-C010765
-C010073-3
-C011500-11/C011512-05
-3659-1C/C2566
-3659-3
-C010073-01/C2607
-M-588315
-4007
-4081
+factual reference document
+factual information
 -1
 OpenMandriva
 -1
@@ -536,9 +429,11 @@ SMD
 SMD LED module
 RGB SMD LED
 -1
+agile software development
+-1
 Q10317846
 -1
-IEFBR14
+genioglossus
 -1
 neurobiology
 Neural Darwinism
@@ -562,16 +457,15 @@ inductive reasoning
 -1
 DFU
 -1
-guard troop
-company leader of the guard force (Kompanieführer)
-commander of the guard force
-SS non-commissioned officers of the guard force
+disk operating system
+DOS
 -1
 cross-browser compatibility
 -1
 flag
 -1
-cognitive architecture
+interaction
+coupling object
 -1
 Q233037
 -1
@@ -620,19 +514,16 @@ Thompson sampling
 lasso
 embedding
 -1
-Q12568274
+device mapper
 -1
 Africa Alphabet
 B
 C
 A
 -1
-Chrome OS
-9P
--1
 AmigaOS-like operating system
 -1
-A Virtual File System
+Thread control block
 -1
 theory of computation
 algorithmics
@@ -679,9 +570,9 @@ MPX filter
 predicate logic
 Q1908975
 -1
-social computing
+Q12568274
 -1
-level ancestor problem
+modifier key
 -1
 audio electronics
 Tape transport
@@ -693,8 +584,8 @@ cassette deck
 Q2023097
 Q13632568
 -1
-email address
-@
+reconnaissance pod
+RAPTOR
 -1
 arcade system board
 Namco System 11
@@ -707,7 +598,7 @@ SNK Triple Z80 Based
 Killer Instinct arcade motherboard
 Atari Vector
 -1
-lambda diode
+Software analysis pattern
 -1
 redundancy
 -1
@@ -717,8 +608,7 @@ goal
 -1
 modular programming
 -1
-technology
-technique
+ray casting
 -1
 machine
 clutch
@@ -727,15 +617,15 @@ mechanism
 controller
 mechanical joint
 -1
-free upper limb
-arm
+Binit
 -1
 computer vision
 -1
 Steganographic file system
 -1
-OpenAI
-Q21708200856
+biceps brachii
+long head of the biceps brachii
+short head of the biceps brachii
 -1
 interrogator
 identification friend or foe
@@ -1093,62 +983,14 @@ vanilla kernel
 A
 Begging (song)
 -1
-operating system component
-process control block
-loadable kernel module
-Thread control block
-process management
-Windows Live Messenger
-Microsoft Silverlight
-Windows Live Writer
-Bing Bar
-Windows Live Mesh
-Windows Live Movie Maker
-idle
-Kernel32.dll
-Shell32.dll
-kernel
-system call
-Windows Essentials
-ioctl
-scheduler
-sysctl
-Manager
-standard UNIX utility
-Microsoft Windows component
-file system object
-Windows NT subsystem
+safe mode
+-1
+Q9086151324
+Inferno
 -1
 Lisp
 defun
 Fexpr
--1
-ray tracing
--1
-Abbruchbedingung
--1
-Open Data Web
--1
-ioctl
--1
-plasmonics
--1
-Kuratowski's theorem
--1
-bioinformatics
-PSAM
--1
-endgame
--1
-data
--1
-Q13635314
--1
-subsurface scattering
--1
-man
--1
-modus ponens
 -1
 land grid array
 GPD 554
@@ -1159,20 +1001,54 @@ Socket TR4
 Socket sTRX4
 LGA 2011-v3
 -1
+Abbruchbedingung
+-1
+Open Data Web
+-1
+ioctl
+-1
+computer graphics
+3D projection
+visualization
+ray tracing
+subsurface scattering
+bump mapping
+ray casting
+volume rendering
+-1
+software as a service
+-1
+bioinformatics
+PSAM
+-1
+endgame
+-1
+data
+-1
+tongue
+Tongue muscles
+taste buds
+lingual papilla
+-1
+subsurface scattering
+-1
+man
+-1
+modus ponens
+-1
 AN/APR-25
 -1
 Q8465354
 -1
 blockade
 -1
-LNX-BBC
--1
 camp commandant staff
 -1
 robot
 manipulator
 -1
-hybrid kernel
+network file system
+DCE Distributed File System
 -1
 AN/AAD-14
 -1
@@ -1195,7 +1071,26 @@ Devuan
 -1
 Service desk
 -1
+software
+computer program
+Software analysis pattern
+software extension
+natural-language user interface
+software feature
+mode
+module
+Settings
+software component
+speller
+class
+video game terminology
+system software
+-1
+video game terminology
+-1
 TFS
+-1
+Anwar Saifullah Khan
 -1
 synthetic file system
 -1
@@ -1219,7 +1114,7 @@ KBpedia
 physical science
 physics
 -1
-groups
+Scrum Master
 -1
 aircraft flight control system
 autopilot
@@ -1227,14 +1122,14 @@ fly-by-wire
 -1
 Maneuvering Characteristics Augmentation System
 -1
-Messages
--1
 software feature
 -1
 double colon
 colon
 -1
-Binit
+embedded Linux distribution
+-1
+Analog
 -1
 Object-oriented operating system
 -1
@@ -1244,7 +1139,7 @@ AN/ALQ-125
 -1
 Windows Live Messenger
 -1
-philosophical logic
+SECD machine
 -1
 Q3016108
 -1
@@ -1260,7 +1155,7 @@ CTRON
 -1
 Molinux
 -1
-operator
+product backlog
 -1
 user interface design
 -1
@@ -1286,14 +1181,11 @@ Loader
 -1
 mode
 -1
-marine electronics
-marine autopilot
+die
 -1
 Procedure (disambiguation)
 -1
-SMD LED module
-SMD 5050
-SMD LED 5630
+Sample and hold
 -1
 Thompson sampling
 -1
@@ -1311,9 +1203,10 @@ Flight Management System
 Maneuvering Characteristics Augmentation System
 Central calculator 37
 -1
-Generic function
+drive bay
+backplane
 -1
-DPNR
+operator
 -1
 IT service management
 Service desk
@@ -1324,7 +1217,7 @@ AN/AVQ-26 Pave Tack
 -1
 backplane system
 -1
-instructions per second
+LNX-BBC
 -1
 event
 -1
@@ -1348,22 +1241,17 @@ Microsoft Silverlight
 -1
 quality
 -1
-computer engineering
+Kernel32.dll
 -1
 Kizuna AI
 -1
 volume rendering
 -1
-aircraft communications device
-transponder
-airborne data link
-RSIU-4
-Oozel
-R-800
+logical possibility
 -1
 modeling, virtual environments and simulation
 -1
-Jog
+ray tracing
 -1
 computer hardware
 graphic tablet
@@ -1408,13 +1296,11 @@ software development methodology
 -1
 Extension
 -1
-embedded Linux distribution
--1
-graph algorithm
+ISAC
 -1
 3D Documentation
 -1
-monolithic kernel
+Q2306992
 -1
 Record
 -1
@@ -1427,8 +1313,94 @@ crystal oscillator
 ring oscillator
 Q2880093
 -1
-factual reference document
-factual information
+integrated circuit
+semiconductor device
+eDRAM
+die
+integrated circuit packaging type
+southbridge
+northbridge
+memory controller
+microcontroller
+operational amplifier
+chipset
+Field-programmable gate array
+application-specific integrated circuit
+Texas Instruments SN76477
+three-dimensional integrated circuit
+MOS Technology 6522
+system on a chip
+semiconductor memory
+SAE800
+list of sound chips
+mixed-signal integrated circuit
+HCMOS
+video display controller
+Super I/O
+4011
+7404
+7402
+7405
+7406
+7408
+7414
+7432
+Q3183982
+Linear integrated circuit
+PHY
+ULSI
+MOS Technology RRIOT
+lockout chip
+Power management integrated circuit
+Supply voltage supervisor
+ULA
+Pin
+74163
+Intel 80130
+Intel 1103
+4000
+4001
+4015
+4073
+4070
+4023
+4013
+4050
+4049
+4024
+4071
+STM32L151UCY6
+SNES PPU
+AY-3-8700
+MPS-7600-001
+MPS-7600-002
+MPS-7600-003
+MPS-7600-004
+AY-3-8510
+AY-3-8512
+AY-3-8600
+MM-57105N (PAL)
+MM-57186
+AY-3-8550
+TMS-1965N
+AY-3-8610
+AY-3-8760
+TMS-1955
+F-4301
+AY-3-8710
+chiplet
+SN76410N
+NTL-600
+К145ИК17
+C010765
+C010073-3
+C011500-11/C011512-05
+3659-1C/C2566
+3659-3
+C010073-01/C2607
+M-588315
+4007
+4081
 -1
 Vitalinux
 -1
@@ -1442,19 +1414,13 @@ image recognition
 -1
 eDRAM
 -1
-interaction
-coupling object
--1
-marine autopilot
+cognitive architecture
 -1
 3D texture
 -1
 computer module
 -1
 script
--1
-reconnaissance pod
-RAPTOR
 -1
 natural-language user interface
 speech recognition
@@ -1473,7 +1439,9 @@ Intel HD Audio connector
 -1
 consequence
 -1
-software as a service
+Kuratowski's theorem
+-1
+Gedif
 -1
 network operating system
 -1
@@ -1488,8 +1456,6 @@ Q231727
 USA-242
 -1
 Q65131200
--1
-FlexOS
 -1
 Pan-Nigerian alphabet
 B
@@ -1507,8 +1473,6 @@ memory management subsystem
 LANC
 -1
 USA-248
--1
-eCos
 -1
 repetitive strain injury
 -1
@@ -1532,8 +1496,12 @@ Google
 Dano-Norwegian alphabet
 A
 -1
-applied computer science
-geoinformatics
+motherboard
+chipset
+CPU socket
+voltage regulator module
+USART
+Intel HD Audio connector
 -1
 memristor
 -1
@@ -1541,16 +1509,19 @@ compromise
 Colour of Love
 Tender Heart
 -1
-memory controller
--1
-Tape transport
+identity
 -1
 Maltese alphabet
 B
 -1
 analysis of algorithms
 -1
+Abditum mentis
+-1
 B
+-1
+inertial navigation system
+Advanced Inertial Reference Sphere
 -1
 electronic component
 resistance wire
@@ -1614,6 +1585,8 @@ customer relationship management
 Internet economy
 business process management
 -1
+Save the Overtime
+-1
 Tourette syndrome
 -1
 CPU cache
@@ -1622,8 +1595,7 @@ thematic relation
 -1
 ЦВК
 -1
-database
-data base
+Collective operation
 -1
 Exherbo
 -1
@@ -1639,19 +1611,16 @@ Ubuntu Budgie
 -1
 Begging (song)
 -1
-description logic
+Settings
+-1
+cloning
 -1
 debugging
 tracing
 -1
-Q12568130
+archetype
 -1
-electrical connection
-via
-earthing system
-Chip-On-Board
-Elastomeric connector
-earth ground
+marine autopilot
 -1
 Q1725133
 -1
@@ -1665,6 +1634,8 @@ Field
 -1
 graphic tablet
 -1
+Security-focused operating system
+-1
 List of Value
 -1
 neurochemistry
@@ -1672,9 +1643,13 @@ brain chemistry
 -1
 speller
 -1
+Hajós conjecture
+-1
 knowledge base
 knowledge graph
 Open Data Web
+-1
+Development Team
 -1
 Development
 -1
@@ -1720,8 +1695,6 @@ C++ concept
 C++ reserved word
 Structures in C++
 -1
-ISAC
--1
 Mac OS
 Darwin
 Spotlight
@@ -1737,8 +1710,13 @@ Mac OS nanokernel
 macOS
 Classic Mac OS
 -1
-sequential logic
-Execution unit
+tape recorder
+Tape transport
+pinch roller
+cassette deck
+Reel-to-reel audio tape recording and recorders
+video tape recorder
+Hornyphon
 -1
 Electronic Field Production
 -1
@@ -1759,8 +1737,6 @@ AN/ASW-25
 Google
 Q9366856
 -1
-Kernel32.dll
--1
 A Quiet Place: Part II
 -1
 Q1908975
@@ -1772,8 +1748,7 @@ Hierarchical File System
 General Alphabet of Cameroon Languages
 A
 -1
-lightning detection
-airborne lightning detector
+qualitative property
 -1
 Càtix
 -1
@@ -1798,8 +1773,6 @@ FSF-endorsed operating systems
 physics
 applied physics
 -1
-memory manager
--1
 Q21708200856
 OpenAI
 -1
@@ -1816,10 +1789,11 @@ GPS Week Number Rollover
 -1
 Fexpr
 -1
-shell script
-shebang
+Scrum
 -1
-AN/AVQ-11 Pave Sword
+Tender Heart
+-1
+base case
 -1
 syntax
 thematic relation
@@ -1840,31 +1814,25 @@ consequent
 consequence
 cause
 -1
-knowledge
+business process management
+PDCA
 -1
 infra-red search and track
 AN/AAA-4
 AN/AAD-14
 -1
+Product Owner
+-1
 cross-platform
 cross-browser compatibility
 -1
-genioglossus
+IEFBR14
 -1
 treasury
 -1
-GNU Mach
--1
 exotic operating system
 -1
-graph theory
-Seven Bridges of Königsberg
-Kuratowski's theorem
-network theory
-maximum flow problem
-level ancestor problem
-Hajós conjecture
-graph algorithm
+social computing
 -1
 classical logic
 Law of excluded middle
@@ -1872,8 +1840,31 @@ modus ponens
 -1
 electronic intelligence
 -1
-Q9086151324
-Inferno
+operating system component
+process control block
+loadable kernel module
+Thread control block
+process management
+Windows Live Messenger
+Microsoft Silverlight
+Windows Live Writer
+Bing Bar
+Windows Live Mesh
+Windows Live Movie Maker
+idle
+Kernel32.dll
+Shell32.dll
+kernel
+system call
+Windows Essentials
+ioctl
+scheduler
+sysctl
+Manager
+standard UNIX utility
+Microsoft Windows component
+file system object
+Windows NT subsystem
 -1
 index structure
 -1
@@ -1890,30 +1881,32 @@ Instrument cluster
 -1
 Windows Live Mesh
 -1
-applied physics
-electronics
+catalytic converter
+DPNR
 -1
 kernel panic
 -1
-drive bay
-backplane
+Polish alphabet
+B
+C
+A
 -1
-International Phonetic Alphabet
-Ă
+Generic function
 -1
-communications protocol
-maximum transmission unit
-flag
-Maximum Receive Unit
-acknowledgement
+computer engineering
+-1
+memory manager
 -1
 activity
 technique
 -1
 AmigaDOS
 -1
-embedded operating system
-embedded Linux distribution
+communications protocol
+maximum transmission unit
+flag
+Maximum Receive Unit
+acknowledgement
 -1
 system board
 chipset
@@ -1938,26 +1931,12 @@ modular kernel
 nanokernel
 Unikernel
 -1
-electronic countermeasure
-radar jamming and deception
-AN/ALQ-126
+GNU Mach
 -1
-motherboard
-chipset
-CPU socket
-voltage regulator module
-USART
-Intel HD Audio connector
+applied computer science
+geoinformatics
 -1
 intelligence
--1
-tape recorder
-Tape transport
-pinch roller
-cassette deck
-Reel-to-reel audio tape recording and recorders
-video tape recorder
-Hornyphon
 -1
 module
 -1
@@ -1965,6 +1944,8 @@ Q2307244
 -1
 fact database
 factual information
+-1
+PVLV
 -1
 computer
 computer keyboard
@@ -1985,7 +1966,7 @@ computer memory
 -1
 templated operating system
 -1
-cloning
+description logic
 -1
 system administration
 -1
@@ -1995,6 +1976,14 @@ arm
 forearm
 upper arm
 -1
+central processing unit
+eDRAM
+CPU cache
+heat spreader
+memory controller
+CPU design
+integrated memory controller
+-1
 Nokia X
 -1
 Ability
@@ -2003,11 +1992,13 @@ Breton alphabet
 B
 A
 -1
-qualitative property
+lightning detection
+airborne lightning detector
 -1
 Subfield
 -1
-analogue electronics
+shell script
+shebang
 -1
 Unix
 Unix shell
@@ -2038,39 +2029,23 @@ BSD
 -1
 routine
 -1
-catalytic converter
-DPNR
+applied physics
+electronics
 -1
-computer keyboard
-numeric keypad
-tab key
-Pause/Break
-modifier key
-space bar
-computer key
-character key
+FlexOS
 -1
 C
 -1
-central processing unit
-eDRAM
-CPU cache
-heat spreader
-memory controller
-CPU design
-integrated memory controller
+eCos
 -1
-Settings
--1
-log-structured file system
+embedded operating system
+embedded Linux distribution
 -1
 Unix shell
 Q3264569
 Osh
 -1
-microkernel
-JavaOS
-L4 microkernel family
+openSUSE
 -1
 computer-aided design
 3D Documentation
@@ -2080,8 +2055,6 @@ opposition
 interface
 -1
 Q12572215
--1
-openSUSE
 -1
 Unikernel
 -1
@@ -2116,8 +2089,6 @@ Q10317846
 formalized language
 Alebo
 -1
-Windows Live Writer
--1
 Slovak alphabet
 B
 C
@@ -2129,6 +2100,8 @@ electronic music
 intelligent dance music
 -1
 premise
+-1
+pose
 -1
 Decision
 -1
@@ -2165,7 +2138,7 @@ neuropsychology
 psychoneuroendocrinology
 psychoneuroimmunology
 -1
-numeric function
+forearm
 -1
 Yahoo
 Merold
@@ -2202,9 +2175,6 @@ multi-device file system
 -1
 watchOS
 -1
-system software
-operating system
--1
 modal logic
 logical possibility
 -1
@@ -2224,16 +2194,17 @@ controller
 -1
 Administrationsprogramm (Administration program)
 -1
-company leader of the guard force (Kompanieführer)
+aircraft weather information system
+airborne weather radar
+airborne lightning detector
 -1
 fuzzy logic
 -1
-Finnish alphabet
-B
-C
-A
+neuro-linguistic programming
+Q2307244
+Q2984926
 -1
-equivocation
+organizational unit
 -1
 OS X Yosemite
 -1
@@ -2245,25 +2216,27 @@ mount
 -1
 single-tasking operating system
 -1
-appeal to motive
+flash file system
 -1
 standard UNIX utility
 -1
-computational neuroscience
+pharmacoinformatics
 -1
-property
+modular kernel
 -1
 chess opening
 -1
 procedure
 -1
-GNU variant
-CrunchBang Linux
-blackPanther OS
-Trisquel
-Parabola GNU/Linux-libre
+information theory
+redundancy
+equivocation
+Communication
 -1
 dynatron oscillator
+-1
+International Phonetic Alphabet
+Ă
 -1
 shebang
 -1
@@ -2278,7 +2251,10 @@ Gestalt
 Execve
 Entropy-supplying system calls
 -1
-Principle of explosion
+guard troop
+company leader of the guard force (Kompanieführer)
+commander of the guard force
+SS non-commissioned officers of the guard force
 -1
 Kaiser Kroma
 -1
@@ -2290,33 +2266,35 @@ tell-tale
 Tally light
 stack light
 -1
-Thread control block
+A Virtual File System
 -1
 Record-oriented filesystem
 -1
-transparent latch
+level ancestor problem
 -1
-modifier key
--1
-Tux
--1
-ray casting
+technology
+technique
 -1
 distributed operating system
+-1
+processor register
+memory buffer register
+memory address register
+program counter
+status register
+segment register
+Time Stamp Counter
+control register
+stack register
+x86 debug register
+shared register
 -1
 surface-mount technology
 land grid array
 -1
-computer graphics
-3D projection
-visualization
-ray tracing
-subsurface scattering
-bump mapping
-ray casting
-volume rendering
+plasmonics
 -1
-USART
+log-structured file system
 -1
 formalized language
 -1
@@ -2326,7 +2304,10 @@ Live CD
 Q15881236
 GParted Live
 -1
-defun
+Finnish alphabet
+B
+C
+A
 -1
 airborne sensor system
 forward looking infrared
@@ -2343,7 +2324,9 @@ hyoglossus
 -1
 Q18435244
 -1
-Sample and hold
+SMD LED module
+SMD 5050
+SMD LED 5630
 -1
 current source
 iron-hydrogen resistor
@@ -2356,12 +2339,27 @@ free upper limb
 -1
 thematic analysis
 -1
-AN/AVQ-10 Pave Knife
+iOS
+DFU
+iOS 8
+Messages
+Apple Wallet
+iOS 6
+iOS 5
+iOS 7
+iOS 4
+iPhone OS 2
+iPhone OS 3
+iPhone OS 1
+iOS 9
+tvOS
+iOS 10
+iOS 12
+iOS 13
+iPadOS
+Q96231126
 -1
-safe mode
--1
-Ă
-A
+graph algorithm
 -1
 Capability
 -1
@@ -2375,7 +2373,7 @@ screen buffer
 -1
 Order
 -1
-identity
+memory controller
 -1
 polymorphism
 -1
@@ -2386,14 +2384,17 @@ Transponder landing system
 radio direction finder
 aircraft landing avionics
 -1
-acknowledgement
+database
+data base
 -1
 /dev/null
 -1
-information theory
-redundancy
-equivocation
-Communication
+electrical connection
+via
+earthing system
+Chip-On-Board
+Elastomeric connector
+earth ground
 -1
 AN/AAA-4
 -1
@@ -2419,7 +2420,7 @@ procedure
 function
 routine
 -1
-Android distribution
+corporation
 -1
 SS non-commissioned officers of the guard force
 -1
@@ -2436,9 +2437,15 @@ chapter
 camp commandant staff
 guard troop
 -1
+Sprint
+retrospective
+Stand-up meeting
+-1
 operating system distribution
 Linux distribution
 Android distribution
+-1
+cryptographic file system
 -1
 Merold
 Yahoo
@@ -2447,12 +2454,14 @@ nanokernel
 -1
 Achshalter
 -1
-Tender Heart
+AN/AVQ-11 Pave Sword
 -1
 quantitative easing
 -1
 neuroinformatics
 activation space
+-1
+acknowledgement
 -1
 inference engine
 -1
@@ -2480,6 +2489,9 @@ A
 -1
 GPS satellite
 -1
+software project management
+agile software development
+-1
 computational sociology
 -1
 coupling object
@@ -2495,21 +2507,73 @@ Adaptronik
 ISO basic Latin alphabet
 A
 -1
+computer science
+algorithm
+artificial intelligence
+interface
+simulation
+instructions per second
+computer programming
+business informatics
+bioinformatics
+information theory
+graph theory
+computer graphics
+data structure
+computer-aided design
+neuroscience
+3D texture
+Abbruchbedingung
+analysis of algorithms
+Adaptronik
+Administrationsprogramm (Administration program)
+computer engineering
+applied computer science
+mask
+social computing
+Petri net
+theory of computation
+visual culture
+computational sociology
+feature detection
+index structure
+Internet economy
+IT service management
+pose
+neuroinformatics
+Q2036672
+ISAC
+property
+computer algebra
+theoretical computer science
+polymorphism
+Purely functional
+sign bit
+Binit
+archetype
+ЦВК
+cloning
+Collective operation
+JBOB
+pharmacoinformatics
+List of Value
+PUC
+Q12568130
+system administration
+modeling, virtual environments and simulation
+bottleneck
+-1
 data structure
 -1
 Fender Wide Range
 -1
-video game terminology
+USART
 -1
 government
 -1
-linguistics
-syntax
--1
 heat spreader
 -1
-neuromorphic circuit
-silicon neuron
+Messages
 -1
 factual information
 fact
@@ -2541,7 +2605,7 @@ Position
 -1
 Q16632299
 -1
-Anwar Saifullah Khan
+hybrid kernel
 -1
 SAFS
 -1
@@ -2572,18 +2636,29 @@ for loop
 -1
 C++ concept
 -1
-Abditum mentis
+GNU variant
+CrunchBang Linux
+blackPanther OS
+Trisquel
+Parabola GNU/Linux-libre
 -1
 gnuLinEx
+-1
+function
 -1
 Aggregate Method
 -1
 battery management system
 -1
+Dienststellung
+-1
 supercomputer operating system
 -1
-phase-locked loop
-phase detector
+neuromorphic circuit
+silicon neuron
+-1
+free upper limb
+arm
 -1
 multiway switching
 -1
@@ -2593,7 +2668,13 @@ FreeDOS
 DOS/V
 ZDOS
 -1
-archetype
+Windows Essentials
+Windows Live Messenger
+Microsoft Silverlight
+Windows Live Writer
+Bing Bar
+Windows Live Mesh
+Windows Live Movie Maker
 -1
 exact science
 physics
@@ -2613,15 +2694,13 @@ network scheduler
 -1
 maximum flow problem
 -1
-file system object
-computer file
-directory
-data cluster
-catalog
+RP-2 Torii
 -1
 process control block
 Process control block in Unix
 Task Control Block
+-1
+software component
 -1
 programming language
 assignment statement
@@ -2637,7 +2716,7 @@ multi-tasking operating system
 -1
 bipolar transistor biasing
 -1
-pose
+root directory
 -1
 CPU socket
 -1
@@ -2701,17 +2780,17 @@ chapter
 -1
 list of programming languages for artificial intelligence
 -1
-device mapper
+Principle of explosion
 -1
-Gedif
+Chrome OS
+9P
 -1
 simulation
 -1
-Software analysis pattern
+lambda diode
 -1
-biceps brachii
-long head of the biceps brachii
-short head of the biceps brachii
+OpenAI
+Q21708200856
 -1
 RGB SMD LED
 -1
@@ -2724,10 +2803,16 @@ Hyperdex
 blockchain
 Distributed ledger
 -1
-tongue
-Tongue muscles
-taste buds
-lingual papilla
+Q13635314
+-1
+graph theory
+Seven Bridges of Königsberg
+Kuratowski's theorem
+network theory
+maximum flow problem
+level ancestor problem
+Hajós conjecture
+graph algorithm
 -1
 processor
 processor core
@@ -2758,34 +2843,23 @@ ThunderX
 -1
 electronic counter-countermeasure
 -1
-software
-computer program
-Software analysis pattern
-software extension
-natural-language user interface
-software feature
-mode
-module
-Settings
-software component
-speller
-class
-video game terminology
-system software
+electronic countermeasure
+radar jamming and deception
+AN/ALQ-126
 -1
 magnetic anomaly detector
 -1
-computational complexity theory
-complexity class
+Sequential analysis
 -1
 automata theory
 deterministic automaton
 -1
 facility
 -1
-SECD machine
+philosophical logic
 -1
-cryptographic file system
+system software
+operating system
 -1
 real-time operating system
 eCos
@@ -2800,7 +2874,7 @@ LNX-BBC
 problem solving
 compromise
 -1
-base case
+DPNR
 -1
 assignment statement
 -1
@@ -2808,7 +2882,7 @@ hypervisor
 -1
 network theory
 -1
-Q2306992
+monolithic kernel
 -1
 Journaling file system
 -1
@@ -2825,6 +2899,8 @@ User
 -1
 Device
 -1
+defun
+-1
 French alphabet
 B
 C
@@ -2839,12 +2915,15 @@ MAUT
 image recognition
 KBpedia
 -1
-function
+microkernel
+JavaOS
+L4 microkernel family
 -1
 state space
 state of system
 -1
-Security-focused operating system
+phase-locked loop
+phase detector
 -1
 system console
 -1
@@ -2859,17 +2938,8 @@ Panasonic RX-1650 LS
 vehicle
 catalytic converter
 -1
-processor register
-memory buffer register
-memory address register
-program counter
-status register
-segment register
-Time Stamp Counter
-control register
-stack register
-x86 debug register
-shared register
+sequential logic
+Execution unit
 -1
 nuclear electronics
 -1
@@ -2887,6 +2957,9 @@ taskbar
 Q231727
 -1
 Wire recording
+-1
+Ă
+A
 -1
 operating environment
 -1
@@ -2956,10 +3029,7 @@ exotic operating system
 -1
 IMD3
 -1
-Polish alphabet
-B
-C
-A
+transparent latch
 -1
 space bar
 -1
@@ -2982,34 +3052,33 @@ memory controller
 -1
 sexual characteristics
 -1
-fact
--1
 /dev/random
 -1
 multi-device file system
 -1
-forearm
+numeric function
 -1
 software extension
+-1
+tab key
 -1
 Terminal
 -1
 American Dream
 -1
-inertial navigation system
-Advanced Inertial Reference Sphere
+instructions per second
 -1
 Darwin
 -1
 Character Viewer
 -1
-PVLV
+AN/AVQ-10 Pave Knife
 -1
 OSMC
 -1
 Module pattern
 -1
-corporation
+Q12568130
 -1
 image
 -1
@@ -3017,61 +3086,8 @@ USA-266
 -1
 Sortix
 -1
-computer science
-algorithm
-artificial intelligence
-interface
-simulation
-instructions per second
-computer programming
-business informatics
-bioinformatics
-information theory
-graph theory
-computer graphics
-data structure
-computer-aided design
-neuroscience
-3D texture
-Abbruchbedingung
-analysis of algorithms
-Adaptronik
-Administrationsprogramm (Administration program)
-computer engineering
-applied computer science
-mask
-social computing
-Petri net
-theory of computation
-visual culture
-computational sociology
-feature detection
-index structure
-Internet economy
-IT service management
-pose
-neuroinformatics
-Q2036672
-ISAC
-property
-computer algebra
-theoretical computer science
-polymorphism
-Purely functional
-sign bit
-Binit
-archetype
-ЦВК
-cloning
-Collective operation
-JBOB
-pharmacoinformatics
-List of Value
-PUC
-Q12568130
-system administration
-modeling, virtual environments and simulation
-bottleneck
+linguistics
+syntax
 -1
 branch
 -1
@@ -3086,11 +3102,15 @@ Ubuntu GNOME
 -1
 fork
 -1
-Dienststellung
+Tux
 -1
 colon
 -1
-RP-2 Torii
+file system object
+computer file
+directory
+data cluster
+catalog
 -1
 Q12569694
 -1
@@ -3098,13 +3118,14 @@ tactical avionics
 radar warning receiver
 offensive avionics
 -1
-Hajós conjecture
+Android distribution
 -1
 character key
 -1
 computer key
 -1
-Sequential analysis
+computational complexity theory
+complexity class
 -1
 neuroscience
 neuropsychology
@@ -3117,6 +3138,9 @@ PVLV
 computational neuroscience
 -1
 joule thief
+-1
+email address
+@
 -1
 chess theory
 chess opening
@@ -3136,7 +3160,7 @@ branch
 cloud computing
 software as a service
 -1
-tab key
+Windows Live Writer
 -1
 mask
 -1
@@ -3144,9 +3168,11 @@ microelectronics
 -1
 free operating system
 -1
+sprint backlog
+-1
 Q13632568
 -1
-Save the Overtime
+fact
 -1
 directory
 home directory
@@ -3158,7 +3184,7 @@ mount point
 -1
 IBM AIX
 -1
-Analog
+analogue electronics
 -1
 Internet economy
 -1

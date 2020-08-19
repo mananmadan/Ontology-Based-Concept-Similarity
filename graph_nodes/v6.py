@@ -1,4 +1,3 @@
-import pysftp as sftp
 import urllib2
 from urllib2 import urlopen
 from cookielib import CookieJar
@@ -180,9 +179,9 @@ def parent(node,id,level):
 
     results = result_gen_parent("P361",id)
     results_df = pd.io.json.json_normalize(results['results']['bindings'])
-        Graph[node]=[]
-        if node not in Graph.keys():
-    if not results_df.empty:
+    Graph[node]=[]
+    if node not in Graph.keys():
+     if not results_df.empty:
         for x,y in zip(results_df["item.value"] , results_df["itemLabel.value"] ) :
             x=x.encode("utf-8")
             y=y.encode("utf-8")
@@ -282,78 +281,80 @@ list_of_nodes=list(dict.fromkeys(list_of_nodes))
 
 #save_graph("temp.txt")
 Graph_gen()
-# load_graph()
-# for x in Graph:
-#     Graph[x]=list(dict.fromkeys(Graph[x]))
-# count=0
-# #reduce_graph()
-# # for x in Graph:
-# #     if len(Graph[x])==1:
-# #         for y in Graph[x]:
-# #             if y in Graph[x]:
-# #                 count+=1
-# # print(count)
+load_graph()
+for x in Graph:
+    Graph[x]=list(dict.fromkeys(Graph[x]))
+count=0
+ #reduce_graph()
+for x in Graph:
+     if len(Graph[x])==1:
+         for y in Graph[x]:
+             if y in Graph[x]:
+                 count+=1
+print(count)
 #
 # print("***************")
+source = []
+target = []
+for x in Graph:
+     for y in Graph[x]:
+         if x!=y:
+             source.append(x)
+             target.append(y)
+kg_df = pd.DataFrame({'source':source, 'target':target})
+
+G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
 print(G)
-# source = []
-# target = []
-# for x in Graph:
-#     for y in Graph[x]:
-#         if x!=y:
-#             source.append(x)
-#             target.append(y)
-# kg_df = pd.DataFrame({'source':source, 'target':target})
-#
-# G=nx.from_pandas_edgelist(kg_df, "source", "target",create_using=nx.DiGraph())
-# #print(G)
-# H = G.to_undirected()
-# print(G["computer science"])
-# ''''
-# print("Main Concepts.....")
-#
-#
-#
-#
+H = G.to_undirected()
+print(G["computer science"])
+
+print("Main Concepts.....")
+
+
+
+
 # #which subject you want to find
-# sub1  = "electronics"
-# sub2 =  "computer science"
+sub1  = "electronics"
+sub2 =  "computer science"
 #
 # ## which concept you want to find
-# concept = "neuroinformatics"
+concept = "neuroinformatics"
 #
-# print("main concepts",G[sub1])
-# print("main concepts",G[sub2])
+print("main concepts",G[sub1])
+print("main concepts",G[sub2])
 # ##check if this the main concept in any of the subjects
-# is_main = 0
-# ans = " "
-# for i in G[sub1]:
-#     if i == concept:
-#         is_main = 1
-#         ans = sub1
-# if is_main == 1:
-#  print(ans)
-#
-# if is_main == 0:
-#     for i in G[sub2]:
-#        if i == concept:
-#            is_main = 1
-#            ans = sub2
-# if is_main == 1:
-#  print(ans)
+is_main = 0
+ans = " "
+for i in G[sub1]:
+    if i == concept:
+        is_main = 1
+        ans = sub1
+
+if is_main == 1:
+    print(ans)
+
+if is_main == 0:
+    for i in G[sub2]:
+       if i == concept:
+           is_main = 1
+           ans = sub2
+
+if is_main == 1:
+ print(ans)
 # ##check how many main concept is this topic related
-# count1 = 0
-# count2 = 0
-# if is_main == 0:
-#     for i in G[sub1]:
-#         if nx.has_path(G,i,concept):
-#             count1 = count1 + 1
-# if is_main == 0:
-#     for i in G[sub2]:
-#         if nx.has_path(G,i,concept):
-#             count2 = count2 + 1
-#
-# print(count1,count2)
+
+count1 = 0
+count2 = 0
+if is_main == 0:
+    for i in G[sub1]:
+        if nx.has_path(G,i,concept):
+            count1 = count1 + 1
+if is_main == 0:
+    for i in G[sub2]:
+        if nx.has_path(G,i,concept):
+            count2 = count2 + 1
+
+print(count1,count2)
 # '''
 # temp_source = []
 # temp_target = G["electronics"]
