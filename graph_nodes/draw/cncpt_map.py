@@ -7,6 +7,7 @@ import wikipedia
 import networkx as nx
 import matplotlib.pyplot as plt
 Graph={}
+
 levels=1
 #limit=""
 labels = {}
